@@ -1,0 +1,43 @@
+$light-colors: (
+  primary: hsl(216, 15%, 13%),
+  secondary: hsl(0, 0%, 92%),
+  thirdry: hsl(169, 90%, 8%),
+  bg: rgba(137, 140, 154, 0.349),
+);
+
+@mixin create-color-variables($colors) {
+  @each $name, $color in $colors {
+    #{'--' + $name + '-darker'}: scale-color($color, $lightness: -10%);
+    #{'--' + $name + '-dark'}: scale-color($color, $lightness: -5%);
+    #{'--' + $name}: scale-color($color, $lightness: 0%);
+    #{'--' + $name + '-light'}: scale-color($color, $lightness: 5%);
+    #{'--' + $name + '-lighter'}: scale-color($color, $lightness: 10%);
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
+}
+
+html,
+html[theme='light'] {
+  @include create-color-variables($light-colors);
+}
+
+a {
+  color: var(--primary-darkest);
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
