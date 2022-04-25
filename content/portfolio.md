@@ -1,6 +1,54 @@
 ---
 title: M. Emre Yalçın
 description: 'My portfolio'
+skills: [
+    {
+        name: "Front-end Development",
+        description: "Javascript, Vue or React",
+        value: 8
+    },
+    {
+        name: "Back-end Development",
+        description: "Node.js, RDB, REST API, Firebase",
+        value: 7
+    },
+    {
+        name: "Mobile App Development",
+        description: "Native, hybrid, responsive",
+        value:  6
+    },
+    {
+        name: "Web App Development",
+        description: "SPA, SSR, PWA",
+        value: 9
+    },
+    {
+        name: "Data Science",
+        description: "SQL, R, AI, Excel, RDBMS",
+        value: 4
+    },
+    {
+        name: "UI design/prototyping",
+        description: "XD, Photoshop, Illustrator",
+        value: 5
+    },
+    {
+        name: "DevOps",
+        description: "Git Actions, CI/CD",
+        value: 6
+    },
+    {
+        name: "Cloud",
+        description: "AWS, GCP",
+        value: 4
+    },
+    {
+        name: "Testing",
+        description: "Jest (unit)",
+        value: 3
+    }
+]
+
 ---
 
 ## [Summary](#summary)
@@ -122,6 +170,68 @@ Within 2 years I have learned the things that I need and started to develop a su
 
 My purpose is to create an alternative for micro and macro blog platforms. My main vision is to help people to know themselves better and discuss what matters in a democratic and instructive way.
 
-## [Skills](#skills)
+## [Tech Stack](#tech-stack)
 
-skills
+### Fundamentals
+
+- HTML
+- JavaScript
+- CSS
+- SQL
+
+### Back-end
+
+- Express
+- Firebase
+- Knex
+- PostgreSQL
+- MySQL
+- MongoDB
+- Redis
+
+### Front-end
+
+- Node.js
+- Vue
+- React
+- Nuxt
+- Next
+
+### Mobile development
+
+- Ionic
+- Capacitor
+- React Native
+
+### Virtual Hosting
+
+- Linux
+- PM2
+- PostgreSQL
+- MySQL
+
+### Product Deployment
+
+- AWS
+- Netlify
+- DNS
+
+### Design - Prototyping - Vectors
+
+- Adobe Illustrator
+- Photoshop
+
+### Others
+
+- Onesignal
+- Sentry
+- SendGrid
+
+### İlerlemek istediğim alanlar
+
+- machine learning
+
+### öğrnemek istediğim araçlar
+
+- docker
+- tensorflow

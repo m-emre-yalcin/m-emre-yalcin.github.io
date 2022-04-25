@@ -1,5 +1,25 @@
 <template>
  <div>
+  <div class="update-text">
+   Updated at
+   {{
+    new Date(page.updatedAt).toLocaleDateString('en-US', {
+     day: 'numeric',
+     month: 'long',
+     year: 'numeric',
+    })
+   }}
+   <br />
+   Created by Me
+  </div>
+  <div class="sparks">
+   <span>
+    <div></div>
+    <div></div>
+    <div></div>
+   </span>
+  </div>
+
   <div class="overlay beginning">
    <div class="contact-container card">
     <div class="circle-card">
@@ -19,11 +39,9 @@
       <template v-if="'label' in item">
        <component :is="item.name + 'Icon'" v-if="item.name" />
 
-       <template>
-        <h1 v-if="item.htmltag === 'h1'">{{ item.label }}</h1>
-        <h2 v-else-if="item.htmltag === 'h2'">{{ item.label }}</h2>
-        <span v-else>{{ item.label }}</span>
-       </template>
+       <h1 v-if="item.htmltag === 'h1'">{{ item.label }}</h1>
+       <h2 v-else-if="item.htmltag === 'h2'">{{ item.label }}</h2>
+       <span v-else>{{ item.label }}</span>
       </template>
 
       <template v-else>
@@ -61,40 +79,61 @@
 
      <div class="body">
       <ul class="list">
-       <li><nuxt-link to="#summary">Summary</nuxt-link></li>
-       <li class="col">
-        <nuxt-link to="#work-experience">Work experience</nuxt-link>
-        <ul>
-         <li>Self employed</li>
-         <li>Bontesoft</li>
-         <li>BSM Proje></li>
-         <li>Istanbul Cerrahi Hospital</li>
+       <li
+        v-for="toc in asideList"
+        :key="toc.id"
+        :class="{ col: 'list' in toc }"
+       >
+        <nuxt-link :to="`#${toc.id}`">{{ toc.text }}</nuxt-link>
+
+        <ul v-if="'list' in toc">
+         <li v-for="toc in toc.list" :key="toc.id">
+          <nuxt-link :to="`#${toc.id}`">{{ toc.text }}</nuxt-link>
+         </li>
         </ul>
        </li>
-       <li class="col">
-        <nuxt-link to="#education">Education</nuxt-link>
-        <ul>
-         <li>Sultanahmet Highschool</li>
-         <li>Dogus University</li>
-        </ul>
-       </li>
-       <li class="col">
-        <nuxt-link to="#projects">Projects</nuxt-link>
-        <ul>
-         <li>Mavi</li>
-         <li>Lorinto</li>
-        </ul>
-       </li>
-       <li><nuxt-link to="#skills">Skills</nuxt-link></li>
       </ul>
      </div>
     </aside>
 
-    <main class="card">
-     <nuxt-content v-if="page" :document="page" />
+    <main>
+     <div
+      v-for="doc in contentGroups"
+      :key="doc.body.children[0].props.id"
+      :name="doc.body.children[0].props.id"
+      class="content card custom-scroll"
+     >
+      <nuxt-content :document="doc" />
+     </div>
     </main>
 
-    <aside class="card skills">my skills</aside>
+    <aside class="card skills" style="padding: 1rem">
+     <h2>My Skill</h2>
+     <ul>
+      <li
+       v-for="skill in page.skills"
+       :key="skill.name"
+       :title="`My ${skill.name} skill is ${skill.value} out of 10`"
+      >
+       <div class="name">{{ skill.name }}</div>
+       <div class="progress-track">
+        <div
+         class="bar"
+         :style="{
+          width: (skill.value / 10) * 100 + '%',
+          background: skill.color || '',
+         }"
+        />
+       </div>
+       <div class="description">{{ skill.description }}</div>
+      </li>
+     </ul>
+
+     <small style="font-size: 0.6em">
+      * The values are correlated with my professional experience and the rate
+      of my successful problem solving on the subject
+     </small>
+    </aside>
    </div>
   </div>
  </div>
@@ -151,6 +190,62 @@ export default Vue.extend({
    windowheight: window.innerHeight,
   }
  },
+ computed: {
+  asideList() {
+   const list = []
+   if (this.page) {
+    let i = 0
+    for (const toc of this.page.toc) {
+     if (toc.depth === 2) {
+      list.push(toc)
+
+      if (this.page.toc[i + 1] && this.page.toc[i + 1].depth === 3) {
+       if (!toc.list) toc.list = []
+
+       for (let b = i + 1; b <= this.page.toc.length; b++) {
+        if (this.page.toc[b] && this.page.toc[b].depth === 3) {
+         toc.list.push(this.page.toc[b])
+        } else {
+         break
+        }
+       }
+      }
+     }
+
+     i++
+    }
+   }
+   return list.filter((toc) => toc.depth === 2)
+  },
+  contentGroups() {
+   const groups = []
+
+   if (this.page) {
+    let i = 0
+    for (const child of this.page.body.children) {
+     if (child.tag === 'h2') {
+      groups.push({
+       body: {
+        children: [child],
+        type: 'root',
+       },
+      })
+
+      for (let b = i + 1; b <= this.page.body.children.length; b++) {
+       const child = this.page.body.children[b]
+       if (!child || child.tag === 'h2') break
+
+       groups[groups.length - 1].body.children.push(child)
+      }
+     }
+
+     i++
+    }
+   }
+
+   return groups
+  },
+ },
  head: {
   title: 'M. Emre Yalçın - Portfolio',
  },
@@ -159,7 +254,7 @@ export default Vue.extend({
 
 <style lang="scss">
 .overlay {
- scroll-snap-align: start;
+ z-index: 1;
 
  h1,
  h2,
@@ -189,21 +284,6 @@ export default Vue.extend({
  height: 100vh;
  top: 0;
  left: 0;
- transition-duration: 0.2s;
-
- &::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  filter: blur(5px);
-  transition-duration: 1s;
-
-  background: url(~/assets/images/foggy-forest.jpg) no-repeat left bottom fixed;
-  background-size: cover;
- }
 
  .card {
   color: var(--secondary-lighter);
@@ -218,13 +298,8 @@ export default Vue.extend({
  }
 }
 
-.overlay,
-.overlay::before {
- transition-property: filter;
- transition-timing-function: ease-in;
-}
-
 .overlay.beginning {
+ scroll-snap-align: start;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -340,16 +415,16 @@ export default Vue.extend({
    grid-template-columns: 300px 1fr 300px;
    gap: 1rem;
    padding: 1rem;
-   scroll-snap-align: unset;
    transform: scale(1);
    opacity: 1;
    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 
    main {
-    .nuxt-content-container {
-     h2 {
-      scroll-snap-align: start;
-     }
+    .content {
+     scroll-snap-align: start;
+     margin-bottom: 2rem;
+     height: calc(100vh - 2rem);
+     overflow: auto;
     }
    }
 
@@ -365,7 +440,6 @@ export default Vue.extend({
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     padding-left: 1rem;
 
      .circle-card {
       position: relative;
@@ -458,18 +532,35 @@ export default Vue.extend({
    }
 
    aside.skills {
-    min-height: 200px;
+    ul {
+     li {
+      margin: 1rem 0;
+
+      .name {
+       font-weight: 300;
+      }
+
+      .description {
+       font-weight: 200;
+       font-size: 0.8em;
+      }
+
+      .progress-track {
+       width: 100%;
+       height: 10px;
+
+       .bar {
+        background-color: var(--secondary-darker);
+        height: 100%;
+        border-radius: 2px;
+        margin: 1px 0;
+       }
+      }
+     }
+    }
    }
   }
  }
-
- // &.active {
- //  filter: blur(0px);
- //
- //  &::before {
- //   filter: blur(0px);
- //  }
- // }
 
  &:not(.active) {
   filter: blur(5px);
@@ -504,5 +595,97 @@ export default Vue.extend({
    }
   }
  }
+}
+</style>
+
+<style lang="scss">
+.sparks {
+ pointer-events: none;
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ top: 0;
+ left: 0;
+
+ span {
+  transform: translate(-200px, -200px);
+ }
+ div {
+  position: absolute;
+  filter: blur(140px);
+ }
+ div:nth-child(1) {
+  width: 340px;
+  height: 340px;
+  border-radius: 40% 80% 44% 80%;
+  background-color: red;
+  animation: red-spark 16s infinite;
+  z-index: 0;
+ }
+ div:nth-child(2) {
+  width: 310px;
+  height: 340px;
+  border-radius: 80% 64% 80% 48%;
+  background-color: blue;
+  animation: blue-spark 8s infinite;
+  z-index: 1;
+ }
+ div:nth-child(3) {
+  width: 310px;
+  height: 320px;
+  border-radius: 40% 80% 26% 85%;
+  background-color: green;
+  animation: green-spark 14s infinite;
+  z-index: 0;
+ }
+}
+
+@keyframes red-spark {
+ 0% {
+  transform: rotate(0deg) translate(0px, 0px);
+ }
+ 50% {
+  transform: rotate(180deg) translate(-200px, -50px);
+ }
+ 75% {
+  transform: rotate(270deg) translate(100px, -80px);
+ }
+ 100% {
+  transform: rotate(360deg) translate(0px, 0px);
+ }
+}
+@keyframes blue-spark {
+ 0% {
+  transform: rotate(0deg) translate(0px, 0px);
+ }
+ 50% {
+  transform: rotate(180deg) translate(-80px, -80px);
+ }
+ 100% {
+  transform: rotate(360deg) translate(0px, 0px);
+ }
+}
+@keyframes green-spark {
+ 0% {
+  transform: rotate(0deg) translate(0px, 0px);
+ }
+ 50% {
+  transform: rotate(180deg) translate(100px, 20px);
+ }
+ 100% {
+  transform: rotate(360deg) translate(0px, 0px);
+ }
+}
+
+.update-text {
+ position: fixed;
+ left: 4px;
+ top: 4px;
+ font-size: 0.6em;
+ color: var(--secondary-dark);
+ font-weight: 200;
 }
 </style>

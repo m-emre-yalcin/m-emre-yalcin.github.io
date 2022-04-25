@@ -20,10 +20,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-.base
-// .base::before
-{
- background: url(~/assets/images/foggy-forest.jpg) no-repeat left bottom fixed;
+.base {
+ background: url(https://wallpaperaccess.com/full/295664.jpg) no-repeat center
+  center fixed;
  background-size: cover;
 }
 .base {

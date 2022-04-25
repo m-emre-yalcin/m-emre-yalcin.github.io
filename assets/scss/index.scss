@@ -15,15 +15,18 @@ $light-colors: (
   }
 }
 
-html,
 body {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+  scroll-snap-type: y mandatory;
 }
 
 html,
@@ -40,4 +43,24 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+html {
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+.custom-scroll {
+  &::-webkit-scrollbar-track {
+    background-color: var(--bg);
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 2px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-lighter);
+    border-radius: 2px;
+  }
 }
