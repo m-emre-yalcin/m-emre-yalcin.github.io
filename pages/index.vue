@@ -10,9 +10,9 @@
     })
    }}
    <br />
-   Created by Me
+   Created by {{ page.author }}
   </div>
-  <div class="sparks">
+  <div v-show="false" class="sparks">
    <span>
     <div></div>
     <div></div>
@@ -55,14 +55,14 @@
   </div>
 
   <div
-   class="overlay content"
+   class="overlay content spaces"
    :class="{
     sticky: $store.state.scrollY > windowheight + 10,
-    active: $store.state.scrollY > windowheight - 300,
+    active: $store.state.scrollY > windowheight - 100,
    }"
   >
-   <div class="container spaces">
-    <aside class="card">
+   <div class="container">
+    <aside class="card custom-scroll">
      <div class="head">
       <div class="circle-card">
        <img
@@ -84,7 +84,9 @@
         :key="toc.id"
         :class="{ col: 'list' in toc }"
        >
-        <nuxt-link :to="`#${toc.id}`">{{ toc.text }}</nuxt-link>
+        <nuxt-link :to="getTocPath(toc)">
+         {{ toc.text }}
+        </nuxt-link>
 
         <ul v-if="'list' in toc">
          <li v-for="toc in toc.list" :key="toc.id">
@@ -107,20 +109,24 @@
      </div>
     </main>
 
-    <aside class="card skills" style="padding: 1rem">
-     <h2>My Skill</h2>
+    <aside class="card skills custom-scroll" style="padding: 1rem">
+     <h2>My Skills</h2>
      <ul>
       <li
        v-for="skill in page.skills"
        :key="skill.name"
        :title="`My ${skill.name} skill is ${skill.value} out of 10`"
+       :style="{ opacity: skill.value / 10 }"
       >
        <div class="name">{{ skill.name }}</div>
        <div class="progress-track">
         <div
          class="bar"
          :style="{
-          width: (skill.value / 10) * 100 + '%',
+          width:
+           $store.state.scrollY >= windowheight - 20
+            ? (skill.value / 10) * 100 + '%'
+            : '0%',
           background: skill.color || '',
          }"
         />
@@ -246,6 +252,17 @@ export default Vue.extend({
    return groups
   },
  },
+ methods: {
+  getTocPath(toc: any) {
+   if (toc.depth === 2) {
+    if (this.$route.path === '/' + toc.id) {
+     return '/'
+    }
+    return toc.id
+   }
+   return `#${toc.ic}`
+  },
+ },
  head: {
   title: 'M. Emre Yalçın - Portfolio',
  },
@@ -253,6 +270,18 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+.spaces {
+ margin: 0% 10%;
+ transition: margin 0.25s ease;
+
+ @media screen and (max-width: 1500px) {
+  margin: 0% 5%;
+ }
+ @media screen and (max-width: 1200px) {
+  margin: 0% 0%;
+ }
+}
+
 .overlay {
  z-index: 1;
 
@@ -280,7 +309,7 @@ export default Vue.extend({
 
 .overlay {
  position: relative;
- width: 100%;
+ width: inherit;
  height: 100vh;
  top: 0;
  left: 0;
@@ -292,9 +321,7 @@ export default Vue.extend({
   box-shadow: var(--shadow-lg);
   backdrop-filter: blur(20px);
   transition: backdrop-filter 0.5s ease;
- }
- .spaces {
-  margin: 0 10%;
+  border: 1px solid var(--bg);
  }
 }
 
@@ -306,7 +333,6 @@ export default Vue.extend({
  flex-direction: column;
 
  .contact-container {
-  z-index: 1;
   padding: 2rem;
 
   .circle-card {
@@ -326,7 +352,7 @@ export default Vue.extend({
 
   .navs {
    display: grid;
-   grid-template-columns: repeat(auto-fit, 40px);
+   grid-template-columns: repeat(auto-fit, 50px);
    justify-content: space-between;
    column-gap: 1.5rem;
 
@@ -337,6 +363,7 @@ export default Vue.extend({
 
     &.fullspan {
      grid-column: span 4;
+     font-size: 1rem;
      justify-content: center;
 
      &:nth-child(3) {
@@ -410,9 +437,8 @@ export default Vue.extend({
  &,
  &.active {
   .container {
-   font-size: 1.2rem;
    display: grid;
-   grid-template-columns: 300px 1fr 300px;
+   grid-template-columns: var(--aside-with) 1fr var(--aside-with);
    gap: 1rem;
    padding: 1rem;
    transform: scale(1);
@@ -423,8 +449,63 @@ export default Vue.extend({
     .content {
      scroll-snap-align: start;
      margin-bottom: 2rem;
-     height: calc(100vh - 2rem);
-     overflow: auto;
+     height: calc(100vh - 4rem);
+     overflow: overlay;
+
+     .nuxt-content {
+      h2 {
+       border-bottom: 2px solid var(--bg);
+       padding-bottom: 0.5rem;
+       margin-bottom: 1rem;
+      }
+      h3 {
+       ~ h3 {
+        margin-top: 3rem;
+       }
+      }
+      h3 + ul,
+      h4 + ul {
+       margin-top: 0.15rem;
+       font-size: 0.8rem;
+       display: flex;
+       justify-content: space-between;
+       li {
+        flex: 1;
+        opacity: 0.7;
+        &:nth-child(1) {
+         text-align: left;
+        }
+        &:nth-child(2) {
+         text-align: right;
+        }
+       }
+      }
+      h2#tech-stack ~ ul {
+       justify-content: unset;
+       flex-direction: column;
+       li {
+        text-align: left;
+       }
+      }
+
+      p,
+      ol {
+       font-size: 0.8rem;
+       line-height: 1.2rem;
+      }
+      ol {
+       li {
+        padding: 1rem;
+        border-radius: 8px;
+        &::marker {
+         margin-left: 2rem;
+        }
+        &:hover {
+         background-color: var(--bg-lighter);
+        }
+       }
+      }
+     }
     }
    }
 
@@ -456,7 +537,7 @@ export default Vue.extend({
      }
 
      .namespace {
-      max-width: calc(200px - 4px);
+      max-width: calc(var(--aside-with) - 104px);
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
@@ -467,6 +548,9 @@ export default Vue.extend({
       margin-top: 0.5rem;
       padding-left: 0.5rem;
       white-space: nowrap;
+      @media screen and (max-width: 1500px) {
+       font-size: 1rem;
+      }
      }
     }
 
@@ -487,6 +571,13 @@ export default Vue.extend({
         }
        }
       }
+
+      > li > .nuxt-link-active + ul {
+       line-height: 1rem;
+       opacity: 1;
+       height: max-content;
+       pointer-events: visible;
+      }
      }
 
      ul,
@@ -495,7 +586,7 @@ export default Vue.extend({
       flex-direction: column;
       color: var(--secondary-dark);
 
-      a.nuxt-link-exact-active {
+      a.nuxt-link-active {
        font-weight: 900;
        color: var(--secondary-lighter);
       }
@@ -532,9 +623,19 @@ export default Vue.extend({
    }
 
    aside.skills {
+    overflow-y: overlay;
+    max-height: calc(100vh - 4rem);
+
     ul {
      li {
       margin: 1rem 0;
+      border-bottom: 1px solid var(--bg);
+      padding-bottom: 1rem;
+      transition: opacity 0.25s;
+
+      &:hover {
+       opacity: 1 !important;
+      }
 
       .name {
        font-weight: 300;
@@ -548,12 +649,13 @@ export default Vue.extend({
       .progress-track {
        width: 100%;
        height: 10px;
+       margin: 2px 0;
 
        .bar {
-        background-color: var(--secondary-darker);
+        background-color: var(--secondary-lighter);
         height: 100%;
         border-radius: 2px;
-        margin: 1px 0;
+        transition: width 1s ease-out;
        }
       }
      }
@@ -566,7 +668,8 @@ export default Vue.extend({
   filter: blur(5px);
 
   .container {
-   transform: scale(1.1);
+   transform: scale(1);
+   // transform: scale(1.1);
    opacity: 0;
   }
  }
@@ -580,17 +683,6 @@ export default Vue.extend({
     }
     .namespace {
      border-left: 4px solid transparent;
-    }
-   }
-
-   .body {
-    ul.list {
-     > li > .nuxt-link-exact-active + ul {
-      line-height: 1rem;
-      opacity: 1;
-      height: max-content;
-      pointer-events: visible;
-     }
     }
    }
   }

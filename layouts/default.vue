@@ -21,9 +21,21 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .base {
- background: url(https://wallpaperaccess.com/full/295664.jpg) no-repeat center
-  center fixed;
- background-size: cover;
+ // background: url(https://wallpaperaccess.com/full/295664.jpg) no-repeat center center fixed;
+ background: url(~/assets/images/foggy-forest.jpg) no-repeat center center fixed;
+ animation: bg 100s infinite;
+
+ @keyframes bg {
+  0% {
+   background-size: 100% 100%;
+  }
+  50% {
+   background-size: 120% 120%;
+  }
+  100% {
+   background-size: 100% 100%;
+  }
+ }
 }
 .base {
  position: relative;
