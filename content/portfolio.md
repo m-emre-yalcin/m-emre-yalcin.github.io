@@ -153,7 +153,7 @@ Mavi is born from my social network project "Lorinto". When I was developing my 
 
 You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
 
-[<img src="/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
+[<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
 ### Lorinto - Social Network Project (in development)
 
@@ -165,7 +165,7 @@ Within 2 years I have learned the things that I need and started to develop a su
 
 My purpose is to create an alternative for micro and macro blog platforms. My main vision is to help people to know themselves better and discuss what matters in a democratic and instructive way.
 
-[<img src="/lorinto.svg" alt="Mavi logo" width="200px" />](https://lorinto.com/login)
+[<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
 ## [Tech Stack](#tech-stack)
 
