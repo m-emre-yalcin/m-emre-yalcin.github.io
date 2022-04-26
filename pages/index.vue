@@ -238,8 +238,7 @@ export default Vue.extend({
       // h2
       if (
        contentContainer &&
-       contentContainer.getBoundingClientRect().top >= scrollPaddingTop - 1 && // tolerance
-       contentContainer.getBoundingClientRect().top <= scrollPaddingTop + 1 // tolerance
+       contentContainer.getBoundingClientRect().top === scrollPaddingTop
       ) {
        // update hash
        this.$router.push({ hash: el.id })

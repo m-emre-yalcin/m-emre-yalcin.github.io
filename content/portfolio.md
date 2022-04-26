@@ -48,15 +48,23 @@ skills:
 
 ## [Summary](#summary)
 
+### Work
+
 I usually worked with tiny start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
 
-If you wonder about my works, after some preparation I can share my non-privates.
+If you wonder about my works I can share my non-privates.
+
+### Language
 
 My English may not be perfect, but I believe it's enough for communication.
+
+### Goals and Interests
 
 My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.
 
 I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher :)
+
+### About me
 
 ## [Work Experience](#work-experience)
 
