@@ -20,7 +20,7 @@
    </span>
   </div>
 
-  <div class="overlay beginning">
+  <div id="welcome" class="overlay beginning">
    <div class="contact-container card">
     <div class="circle-card">
      <img
@@ -31,7 +31,7 @@
     </div>
     <div class="navs">
      <nav
-      v-for="item in contact"
+      v-for="item in page.contact"
       :key="item.name"
       :title="item.name || item.label"
       :class="{ fullspan: 'label' in item }"
@@ -57,7 +57,7 @@
   <div
    class="overlay content spaces"
    :class="{
-    sticky: $store.state.scrollY > windowheight + 10,
+    sticky: $store.state.scrollY > windowheight + 16,
     active: $store.state.scrollY > windowheight - 100,
    }"
   >
@@ -72,8 +72,8 @@
        />
       </div>
       <div class="namespace">
-       <h1>M. Emre Yalçın</h1>
-       <h2>Full Stack Developer</h2>
+       <h1>{{ page.author }}</h1>
+       <h2>{{ page.job }}</h2>
       </div>
      </div>
 
@@ -83,14 +83,15 @@
         v-for="toc in asideList"
         :key="toc.id"
         :class="{ col: 'list' in toc }"
+        :title="toc.text"
        >
         <nuxt-link :to="getTocPath(toc)">
          {{ toc.text }}
         </nuxt-link>
 
         <ul v-if="'list' in toc">
-         <li v-for="toc in toc.list" :key="toc.id">
-          <nuxt-link :to="`#${toc.id}`">{{ toc.text }}</nuxt-link>
+         <li v-for="toc in toc.list" :key="toc.id" :title="toc.text">
+          <span>{{ toc.text }}</span>
          </li>
         </ul>
        </li>
@@ -157,44 +158,16 @@ export default Vue.extend({
  },
  async asyncData({ $content }) {
   const page = await $content('portfolio').fetch()
-  const contact = [
-   {
-    label: 'M. Emre Yalçın',
-    htmltag: 'h1',
-   },
-   {
-    label: 'Full Stack Developer',
-    htmltag: 'h2',
-   },
-   {
-    name: 'location',
-    label: 'Istanbul, Turkey',
-    htmltag: 'span',
-   },
-   {
-    name: 'github',
-    link: 'https://github.com/m-emre-yalcin',
-   },
-   {
-    name: 'linkedin',
-    link: 'https://www.linkedin.com/in/m-emre-yalcin/',
-   },
-   {
-    name: 'stackoverflow',
-    link: 'https://stackoverflow.com/users/10639354/m-emre-yalçın',
-   },
-   {
-    name: 'mail',
-    link: 'mailto:emrreyalcin@gmail.com',
-   },
-  ]
 
-  return { contact, page }
+  return { page }
  },
  data() {
   return {
    windowheight: window.innerHeight,
   }
+ },
+ head: {
+  title: 'M. Emre Yalçın - Portfolio',
  },
  computed: {
   asideList() {
@@ -252,19 +225,46 @@ export default Vue.extend({
    return groups
   },
  },
+ mounted() {
+  // scrolling timeout
+  setTimeout(() => {
+   document.addEventListener('scroll', () => {
+    const scrollPaddingTop = 16
+
+    document.querySelectorAll('#welcome, h2[id]').forEach((el) => {
+     if (el.id && this.$route.hash.slice(1) !== el.id) {
+      const contentContainer = document.querySelector<any>(`[name='${el.id}']`)
+
+      // h2
+      if (
+       contentContainer &&
+       contentContainer.getBoundingClientRect().top >= scrollPaddingTop - 1 && // tolerance
+       contentContainer.getBoundingClientRect().top <= scrollPaddingTop + 1 // tolerance
+      ) {
+       // update hash
+       this.$router.push({ hash: el.id })
+      }
+
+      // #welcome
+      else if (el.getBoundingClientRect().top === 0) {
+       // update hash
+       this.$router.push({ hash: el.id })
+      }
+     }
+    })
+   })
+  }, 1000)
+ },
  methods: {
   getTocPath(toc: any) {
    if (toc.depth === 2) {
-    if (this.$route.path === '/' + toc.id) {
-     return '/'
+    if (this.$route.hash === `#${toc.id}`) {
+     return { hash: '' }
     }
-    return toc.id
    }
-   return `#${toc.ic}`
+
+   return { hash: toc.id }
   },
- },
- head: {
-  title: 'M. Emre Yalçın - Portfolio',
  },
 })
 </script>
@@ -454,7 +454,7 @@ export default Vue.extend({
 
      .nuxt-content {
       h2 {
-       border-bottom: 2px solid var(--bg);
+       border-bottom: 1px solid var(--bg);
        padding-bottom: 0.5rem;
        margin-bottom: 1rem;
       }
@@ -493,6 +493,12 @@ export default Vue.extend({
        font-size: 0.8rem;
        line-height: 1.2rem;
       }
+      p {
+       a {
+        font-weight: 900;
+        color: rgb(77, 85, 240);
+       }
+      }
       ol {
        li {
         padding: 1rem;
@@ -503,6 +509,31 @@ export default Vue.extend({
         &:hover {
          background-color: var(--bg-lighter);
         }
+       }
+      }
+      table {
+       border-spacing: 0;
+       border: 1px solid var(--bg);
+       font-size: 1rem;
+       margin: 1rem 0;
+       border-radius: 4px;
+
+       td,
+       th {
+        text-align: left;
+        &:nth-child(n + 2) {
+         border-left: 1px solid var(--bg);
+        }
+       }
+       th {
+        padding: 0.5rem;
+        text-transform: capitalize;
+        font-weight: 900;
+       }
+       td {
+        padding: 0.35rem 0.5rem;
+        border-top: 1px solid var(--bg);
+        color: var(--secondary-darker);
        }
       }
      }
@@ -521,6 +552,8 @@ export default Vue.extend({
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
+     border-bottom: 1px solid var(--bg);
+     padding-bottom: 1rem;
 
      .circle-card {
       position: relative;
@@ -528,6 +561,7 @@ export default Vue.extend({
       height: 200px;
       border-radius: 50%;
       transition: width 0.2s ease, height 0.2s ease;
+      transition-delay: 1s;
 
       img {
        border-radius: 50%;
@@ -543,8 +577,7 @@ export default Vue.extend({
       flex-direction: column;
       flex: 1;
       justify-content: center;
-      border-left: 4px solid var(--secondary-lighter);
-      transition: border-left 0.25s ease;
+      transition-delay: 1s;
       margin-top: 0.5rem;
       padding-left: 0.5rem;
       white-space: nowrap;
@@ -558,16 +591,30 @@ export default Vue.extend({
      padding: 1.2rem;
 
      ul.list {
+      padding-left: 2.25rem;
+
       > li {
        margin-bottom: 0.5rem;
        > ul {
+        display: grid;
         line-height: -0rem;
         height: 0;
         opacity: 0;
         pointer-events: none;
         transition: line-height 0.5s ease;
+        position: relative;
         > li {
          margin-bottom: 0.25rem;
+         white-space: nowrap;
+         overflow-x: auto;
+         &::-webkit-scrollbar-track {
+          width: 0;
+          height: 0;
+         }
+         &::-webkit-scrollbar {
+          width: 0;
+          height: 0;
+         }
         }
        }
       }
@@ -586,12 +633,18 @@ export default Vue.extend({
       flex-direction: column;
       color: var(--secondary-dark);
 
+      a {
+       border-left: 2px solid transparent;
+       padding: 0.25rem 0.25rem 0.25rem 1rem;
+       text-align: left;
+      }
+
       a.nuxt-link-active {
        font-weight: 900;
        color: var(--secondary-lighter);
+       border-left: 2px solid var(--secondary);
       }
 
-      a,
       li {
        display: flex;
        justify-content: center;
@@ -602,13 +655,11 @@ export default Vue.extend({
        justify-content: center;
        align-items: flex-start;
        padding: 0;
-       > a {
-        padding: 0.25rem 2rem;
-       }
 
        ul {
         font-size: 0.8rem;
-        padding-left: 0.5rem;
+        margin-top: 0.25rem;
+        padding-left: 1.25rem;
        }
       }
       li.row,
@@ -616,7 +667,6 @@ export default Vue.extend({
        flex-direction: row;
        align-items: center;
        justify-content: flex-start;
-       padding: 0.25rem 2rem;
       }
      }
     }
@@ -669,7 +719,6 @@ export default Vue.extend({
 
   .container {
    transform: scale(1);
-   // transform: scale(1.1);
    opacity: 0;
   }
  }
@@ -680,9 +729,6 @@ export default Vue.extend({
     .circle-card {
      width: 80px;
      height: 80px;
-    }
-    .namespace {
-     border-left: 4px solid transparent;
     }
    }
   }

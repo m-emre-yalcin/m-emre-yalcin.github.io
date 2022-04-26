@@ -1,55 +1,49 @@
 ---
 title: M. Emre Yalçın Portfolio
 author: M. Emre Yalçın
+job: Software Engineer
 description: 'My portfolio'
-skills: [
+contact:
+  [
+    { label: 'M. Emre Yalçın', htmltag: 'h1' },
+    { label: 'Full Stack Developer', htmltag: 'h2' },
+    { name: 'location', label: 'Istanbul, Turkey', htmltag: 'span' },
+    { name: 'github', link: 'https://github.com/m-emre-yalcin' },
+    { name: 'linkedin', link: 'https://www.linkedin.com/in/m-emre-yalcin/' },
     {
-        name: "Front-end Development",
-        description: "Javascript, Vue or React",
-        value: 8,
+      name: 'stackoverflow',
+      link: 'https://stackoverflow.com/users/10639354/m-emre-yalçın',
+    },
+    { name: 'mail', link: 'mailto:emrreyalcin@gmail.com' },
+  ]
+skills:
+  [
+    {
+      name: 'Front-end Development',
+      description: 'Javascript, Vue or React',
+      value: 8,
     },
     {
-        name: "Back-end Development",
-        description: "Node.js, RDB, REST API, Firebase",
-        value: 7,
+      name: 'Back-end Development',
+      description: 'Node.js, RDB, REST API, Firebase',
+      value: 7,
     },
     {
-        name: "Mobile App Development",
-        description: "Native, hybrid, responsive",
-        value:  6
+      name: 'Mobile App Development',
+      description: 'Native, hybrid, responsive',
+      value: 6,
     },
+    { name: 'Web App Development', description: 'SPA, SSR, PWA', value: 9 },
+    { name: 'Data Science', description: 'SQL, R, AI, Excel, RDBMS', value: 4 },
     {
-        name: "Web App Development",
-        description: "SPA, SSR, PWA",
-        value: 9
+      name: 'UI design/prototyping',
+      description: 'XD, Photoshop, Illustrator',
+      value: 5,
     },
-    {
-        name: "Data Science",
-        description: "SQL, R, AI, Excel, RDBMS",
-        value: 4
-    },
-    {
-        name: "UI design/prototyping",
-        description: "XD, Photoshop, Illustrator",
-        value: 5
-    },
-    {
-        name: "DevOps",
-        description: "Git Actions, CI/CD",
-        value: 6
-    },
-    {
-        name: "Cloud",
-        description: "AWS, GCP",
-        value: 4
-    },
-    {
-        name: "Testing",
-        description: "Jest (unit)",
-        value: 3
-    }
-]
-
+    { name: 'DevOps', description: 'Git Actions, CI/CD', value: 6 },
+    { name: 'Cloud', description: 'AWS, GCP', value: 4 },
+    { name: 'Testing', description: 'Jest (unit)', value: 3 },
+  ]
 ---
 
 ## [Summary](#summary)
@@ -66,7 +60,7 @@ I love programming and creating new frameworks but I am also interested in writi
 
 ## [Work Experience](#work-experience)
 
-### [Self Employed - Full-stack Developer](#self-employed)
+### Self Employed - Full-stack Developer
 
 - February 2021 - February 2022
 - Turkey - Istanbul/Balat
@@ -82,14 +76,14 @@ I completed a lot of projects successfully. These are respectively:
 6. Estefulya - A Business website. I created the digital existence of Estefulya. I did the design (I didn't design the illustrations but changed their original forms), development, SEO, Netlify CMS & Jamstack setup, creating emails, implementing analytic tools, and configuring business tools (google my business, google search console, google maps)
 7. Basic Level Liquor Store website & admin dashboard - I write in Vue, I used Vuetify for the dashboard
 
-### [Bontesoft - Front-end, Full-stack developer](#bontesoft)
+### Bontesoft - Front-end, Full-stack developer
 
 - February 2020 - February 2021
 - Turkey - Istanbul/Beşiktaş
 
 This was a tiny start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
 
-### [BSM Teknik Proje LTD - Web Developer](#bsmproje)
+### BSM Teknik Proje LTD - Web Developer
 
 - June 2019 - December 2019
 - Turkey - Istanbul/Şişli
@@ -103,7 +97,7 @@ I designed promotional things for the company (1). I wrote useful programs for i
 3. the website that I've built
 4. a comprehensive excel program for the potential gain/expense balance tracing and for detailed business planning with the insight reports
 
-### [Istanbul Cerrahi Hospital - IT Intern](#istanbul-cerrahi-hospital)
+### Istanbul Cerrahi Hospital - IT Intern
 
 - August 2016 - August 2017
 - Turkey - Istanbul/Nişantaşı
@@ -119,7 +113,7 @@ personnel for the manager.
 
 ## [Education](#education)
 
-### [Sultanahmet Vocational and Technical Anatolian High School](#sultanahmet-school)
+### Sultanahmet Vocational and Technical Anatolian High School
 
 #### Information Technologies
 
@@ -134,7 +128,7 @@ I developed more than 20 websites in my 3rd and 4th grades. Most of them are my 
 
 **Activities and societies**: I joined the theatre club and played the sultan's right hand
 
-### [Doğuş University](#dogus-university)
+### Doğuş University
 
 #### Software Engineering 3th Grade
 
@@ -147,17 +141,19 @@ In the beginning, I hadn't many the fundamentals of geometry, math, and science 
 
 ## [Projects](#projects)
 
-### [Mavi - Open-source Project (in development)](#mavi)
+### Mavi - Open-source Project (in development)
 
 Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 
-Mavi is born from my social network project "Lorinto". When I was developing my project's API, I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
+Mavi is born from my social network project "Lorinto". When I was developing my project's [API](https://api.lorinto.com), I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
 
-You can visit my social network platforms' API and the Web to see what Mavi can offer.
+You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
 
-### [Lorinto - Social Network Project (in development)](#lorinto)
+[<img src="/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
-I wanted to develop something that current social blog platforms don't have and I believe Lorinto is going to be "one"
+### Lorinto - Social Network Project (in development)
+
+I wanted to develop something that current social blog platforms don't have and I believe [Lorinto](https://lorinto.com/login) is going to be "one"
 
 I was seeking a purpose back in 2019 November, and after dedicated work, I found it! Then I started to plan and develop. But I was technically inefficient and didn't have any developer friends to work with so there were too many gaps to fill.
 
@@ -165,88 +161,91 @@ Within 2 years I have learned the things that I need and started to develop a su
 
 My purpose is to create an alternative for micro and macro blog platforms. My main vision is to help people to know themselves better and discuss what matters in a democratic and instructive way.
 
+[<img src="/lorinto.svg" alt="Mavi logo" width="200px" />](https://lorinto.com/login)
+
 ## [Tech Stack](#tech-stack)
 
 ### Fundamentals
 
-- HTML
-- JavaScript
-- CSS
-- SQL
-
-### Back-end
-
-- Express
-- Firebase
-- Knex
-- PostgreSQL
-- MySQL
-- MongoDB
-- Redis
+| Language | Comment                                                                                                                     |
+| -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| HTML     | I can use it in a semantic way if required                                                                                  |
+| CSS      | I can create complex UIs with my eyes closed!                                                                               |
+| JS       | I always working with Javascript and I can create literally anything with it. Though, can't say I know everything about it. |
+| SQL      | I can bring the data you need, the time depends on the problem's complexity                                                 |
 
 ### Front-end
 
-- Node.js
-- Vue
-- React
-- Nuxt
-- Next
+| Tool  | Comment                                                           |
+| ----- | ----------------------------------------------------------------- |
+| Vue   | I haven't used Vue3. I know Vue2 and a lot of time-saving modules |
+| React | I haven't used professionally but I feel comfortable by using     |
+| Nuxt  |                                                                   |
+| Next  |                                                                   |
+
+### Back-end
+
+| Tool       | Comment |
+| ---------- | ------- |
+| Node.js    |         |
+| Express    |         |
+| Firebase   |         |
+| Knex       |         |
+| PostgreSQL |         |
+| MySQL      |         |
+| MongoDB    |         |
+| Redis      |         |
 
 ### Mobile development
 
-- Ionic
-- Capacitor
-- React Native
+| Tool         | Comment |
+| ------------ | ------- |
+| Ionic        |         |
+| Capacitor    |         |
+| React Native |         |
 
 ### Virtual Hosting
 
-- Linux
-- PM2
-- PostgreSQL
-- MySQL
+| Tool       | Comment |
+| ---------- | ------- |
+| Linux      |         |
+| PM2        |         |
+| PostgreSQL |         |
+| MySQL      |         |
 
-### Product Deployment
+### Product Deployment (DevOps)
 
-- AWS
-- Netlify
-- DNS
+| Tool        | Comment |
+| ----------- | ------- |
+| AWS         |         |
+| Netlify     |         |
+| DNS         |         |
+| Git Actions |         |
 
 ### Design - Prototyping - Vectors
 
-- Adobe Illustrator
-- Photoshop
+| Tool              | Comment                                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- |
+| Photoshop         | I can remove background objects or make teeth whiter. But importantly I can design web/mobile app prototypes. |
+| Adobe Illustrator |                                                                                                               |
+| XD                |                                                                                                               |
 
-### Others
+### Other Tools
 
 - Onesignal
 - Sentry
 - SendGrid
+- Excel
+- Unity3D
 
-### İlerlemek istediğim alanlar
+### Tools I want to learn in the near future
 
-- machine learning
+- Docker
+- Tensorflow
 
-### öğrnemek istediğim araçlar
+### Subjects I want to specialize in the long term
 
-- docker
-- tensorflow
-
-
-<!-- SKILLS
-Vue
-I haven't used Vue3 but I know Vue2 and a lot of its useful modules
-React
-I haven't used it professionally but I feel comfortable by using it
-Javascript
-I always working with Javascript and I can create literally anything
-with it. Though, can't say I know everything about it.
-CSS
-I can write CSS and create what you need with my eyes closed
-SQL
-I can bring the data you need, the time depends on the problem's
-complexity
-Photoshop
-I can remove background objects or make teeth whiter. But
-importantly I can design web/mobile app prototypes.
-Excel
-I can build a complex excel program that works like a web app -->
+- Artificial Intelligence
+- Game Development
+- Business Development
+- Investment
