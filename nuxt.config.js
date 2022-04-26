@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cv',
+    title: 'M. Emre Yalcin - Portfolio',
     htmlAttrs: {
       lang: 'en',
     },

@@ -6,7 +6,7 @@ description: 'My portfolio'
 contact:
   [
     { label: 'M. Emre Yalçın', htmltag: 'h1' },
-    { label: 'Full Stack Developer', htmltag: 'h2' },
+    { label: 'Software Engineer', htmltag: 'h2' },
     { name: 'location', label: 'Istanbul, Turkey', htmltag: 'span' },
     { name: 'github', link: 'https://github.com/m-emre-yalcin' },
     { name: 'linkedin', link: 'https://www.linkedin.com/in/m-emre-yalcin/' },
@@ -46,9 +46,13 @@ skills:
   ]
 ---
 
-## [Summary](#summary)
+## [Start](#start)
 
-### Work
+Hi, I'm Emre
+
+I develop softwares and want to make reality better by doing it. Thank you for taking the time to read my resume.
+
+### Summary
 
 I usually worked with tiny start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
 
@@ -56,15 +60,7 @@ If you wonder about my works I can share my non-privates.
 
 ### Language
 
-My English may not be perfect, but I believe it's enough for communication.
-
-### Goals and Interests
-
-My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.
-
-I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher :)
-
-### About me
+My English is not perfect, but I believe it's decent for communication.
 
 ## [Work Experience](#work-experience)
 
@@ -257,3 +253,16 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 - Game Development
 - Business Development
 - Investment
+
+## [About Me](#about-me)
+
+What do i like most
+what i dont like
+what is the things that i value most
+that are my defects
+
+### Goals and Interests
+
+My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.
+
+I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher :)

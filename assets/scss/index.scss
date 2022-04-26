@@ -38,7 +38,7 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-  scroll-padding-top: 15px;
+  scroll-padding-top: 16px;
   ::selection {
     background-color: var(--secondary-lighter);
     color: var(--primary-darker);
