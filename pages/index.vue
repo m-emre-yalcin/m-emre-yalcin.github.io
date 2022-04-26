@@ -454,8 +454,9 @@ export default Vue.extend({
     .content {
      scroll-snap-align: start;
      margin-bottom: 2rem;
-     height: calc(100vh - 4rem);
+     height: calc(100vh - 2rem);
      overflow: overlay;
+     box-sizing: border-box;
 
      .nuxt-content {
       h2 {
