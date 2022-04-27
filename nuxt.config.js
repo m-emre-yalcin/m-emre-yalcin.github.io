@@ -14,9 +14,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My portfolio' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'og:image', content: 'https://github.com/m-emre-yalcin/m-emre-yalcin.github.io/blob/main/assets/images/foggy-forest.png?raw=true' }
+      { name: 'og:type', content: 'website' },
+      { name: 'description', property: 'og:description', content: 'My portfolio' },
+      { name: 'image', property: 'og:image', content: 'https://github.com/m-emre-yalcin/m-emre-yalcin.github.io/blob/main/assets/images/foggy-forest.png?raw=true' },
+      { name: 'author', content: 'M. Emre Yalcin' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
