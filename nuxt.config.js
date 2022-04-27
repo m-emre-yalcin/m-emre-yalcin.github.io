@@ -17,7 +17,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'type', property: 'og:type', content: 'website' },
       { name: 'description', property: 'og:description', content: 'My portfolio' },
-      { name: 'image', property: 'og:image', content: 'https://github.com/m-emre-yalcin/m-emre-yalcin.github.io/blob/main/assets/images/foggy-forest.png?raw=true' },
+      { name: 'image', property: 'og:image', content: 'https://m-emre-yalcin.github.io/foggy-forest.png' },
       { name: 'author', content: 'M. Emre Yalcin' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

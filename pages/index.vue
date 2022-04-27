@@ -235,7 +235,7 @@ export default Vue.extend({
   // scrolling timeout
   setTimeout(() => {
    document.addEventListener('scroll', () => {
-    const scrollPaddingTop = 16
+    const scrollPaddingTop = 15.5
 
     document.querySelectorAll('#welcome, h2[id]').forEach((el) => {
      if (el.id && this.$route.hash.slice(1) !== el.id) {
@@ -244,7 +244,8 @@ export default Vue.extend({
       // h2
       if (
        contentContainer &&
-       contentContainer.getBoundingClientRect().top === scrollPaddingTop
+       contentContainer.getBoundingClientRect().top >= scrollPaddingTop &&
+       contentContainer.getBoundingClientRect().top <= scrollPaddingTop + 0.5
       ) {
        // update hash
        this.$router.push({ hash: el.id })
@@ -451,12 +452,14 @@ export default Vue.extend({
    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 
    main {
+    display: grid;
+    gap: 1rem;
+
     .content {
      scroll-snap-align: start;
-     margin-bottom: 2rem;
-     height: calc(100vh - 2rem);
+     margin: 0;
+     height: calc(100vh - 4rem - 0.5px);
      overflow: overlay;
-     box-sizing: border-box;
 
      .nuxt-content {
       h2 {
@@ -507,7 +510,7 @@ export default Vue.extend({
 
       p,
       ol {
-       font-size: 0.8rem;
+       font-size: 1rem;
        line-height: 1.2rem;
       }
       p,
