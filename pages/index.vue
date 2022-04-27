@@ -52,6 +52,11 @@
      </nav>
     </div>
    </div>
+
+   <div class="scroll-indicator" @click="$router.push('#start')">
+    <span>Scroll Down</span>
+    <scrollIcon />
+   </div>
   </div>
 
   <div
@@ -63,7 +68,7 @@
   >
    <div class="container">
     <aside class="card custom-scroll">
-     <div class="head">
+     <nuxt-link class="head" to="/">
       <div class="circle-card">
        <img
         src="~assets/images/mehmet-emre-yalcin.jpg"
@@ -75,7 +80,7 @@
        <h1>{{ page.author }}</h1>
        <h2>{{ page.job }}</h2>
       </div>
-     </div>
+     </nuxt-link>
 
      <div class="body">
       <ul class="list">
@@ -163,6 +168,7 @@ export default Vue.extend({
   stackoverflowIcon: require('../assets/icons/stackoverflow.svg?inline'),
   mailIcon: require('../assets/icons/mail.svg?inline'),
   locationIcon: require('../assets/icons/map-pin.svg?inline'),
+  scrollIcon: require('../assets/icons/scroll-down.svg?inline'),
  },
  async asyncData({ $content }) {
   const page = await $content('portfolio').fetch()
@@ -235,26 +241,27 @@ export default Vue.extend({
   // scrolling timeout
   setTimeout(() => {
    document.addEventListener('scroll', () => {
-    const scrollPaddingTop = 15.5
+    const scrollPaddingTop = 16
 
     document.querySelectorAll('#welcome, h2[id]').forEach((el) => {
      if (el.id && this.$route.hash.slice(1) !== el.id) {
       const contentContainer = document.querySelector<any>(`[name='${el.id}']`)
 
       // h2
-      if (
-       contentContainer &&
-       contentContainer.getBoundingClientRect().top >= scrollPaddingTop &&
-       contentContainer.getBoundingClientRect().top <= scrollPaddingTop + 0.5
-      ) {
-       // update hash
-       this.$router.push({ hash: el.id })
+      if (contentContainer) {
+       // fix scroll bug
+       contentContainer.scrollTo({ top: 0 })
+
+       if (contentContainer.getBoundingClientRect().top === scrollPaddingTop) {
+        // update hash
+        this.$router.replace({ hash: el.id })
+       }
       }
 
       // #welcome
       else if (el.getBoundingClientRect().top === 0) {
        // update hash
-       this.$router.push({ hash: el.id })
+       this.$router.replace({ hash: el.id })
       }
      }
     })
@@ -458,7 +465,7 @@ export default Vue.extend({
     .content {
      scroll-snap-align: start;
      margin: 0;
-     height: calc(100vh - 4rem - 0.5px);
+     height: var(--main-container-height);
      overflow: overlay;
 
      .nuxt-content {
@@ -572,6 +579,7 @@ export default Vue.extend({
     height: max-content;
     padding: 2rem 0;
     min-height: 300px;
+    max-height: var(--main-container-height);
 
     .head {
      display: flex;
@@ -587,7 +595,6 @@ export default Vue.extend({
       height: 200px;
       border-radius: 50%;
       transition: width 0.2s ease, height 0.2s ease;
-      transition-delay: 1s;
 
       img {
        border-radius: 50%;
@@ -603,7 +610,6 @@ export default Vue.extend({
       flex-direction: column;
       flex: 1;
       justify-content: center;
-      transition-delay: 1s;
       margin-top: 0.5rem;
       padding-left: 0.5rem;
       white-space: nowrap;
@@ -700,7 +706,6 @@ export default Vue.extend({
 
    aside.skills {
     overflow-y: overlay;
-    max-height: calc(100vh - 4rem);
 
     ul {
      li {
@@ -851,5 +856,27 @@ export default Vue.extend({
  font-size: 0.6em;
  color: var(--secondary-dark);
  font-weight: 200;
+}
+.scroll-indicator {
+ margin-inline: auto;
+ color: var(--secondary);
+ position: absolute;
+ bottom: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ opacity: 0.4;
+ cursor: pointer;
+ z-index: 100;
+ transition: opacity 0.2s ease;
+ font-size: 0.8rem;
+ &:hover {
+  opacity: 1;
+ }
+
+ svg {
+  fill: var(--secondary);
+  width: 80px;
+ }
 }
 </style>

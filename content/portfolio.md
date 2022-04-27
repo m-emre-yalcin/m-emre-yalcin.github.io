@@ -148,7 +148,7 @@ In the beginning, I hadn't many the fundamentals of geometry, math, and science 
 
 ### Mavi - Open-source Project (in development)
 
-Visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
+Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
 
 Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 

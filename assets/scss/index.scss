@@ -23,6 +23,7 @@ body {
   --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
   --aside-with: 350px;
+  --main-container-height: calc(100vh - 4rem - 2px);
 
   @media screen and (max-width: 1400px) {
     --aside-with: 300px;
