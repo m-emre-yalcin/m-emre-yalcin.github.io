@@ -486,11 +486,22 @@ export default Vue.extend({
         }
        }
       }
-      h2#tech-stack ~ ul {
+      h2#skill-details ~ ul {
        justify-content: unset;
        flex-direction: column;
+       margin-top: 0.5rem;
+       line-height: 1rem;
        li {
         text-align: left;
+       }
+      }
+      hr {
+       height: 0px;
+       border: none;
+       border-bottom: 1px solid var(--bg);
+       margin-top: 1rem;
+       + h3 {
+        margin-top: 1rem;
        }
       }
 
@@ -499,7 +510,10 @@ export default Vue.extend({
        font-size: 0.8rem;
        line-height: 1.2rem;
       }
-      p {
+      p,
+      table,
+      ul,
+      ol {
        a {
         font-weight: 900;
         color: rgb(77, 85, 240);
@@ -540,6 +554,9 @@ export default Vue.extend({
         padding: 0.35rem 0.5rem;
         border-top: 1px solid var(--bg);
         color: var(--secondary-darker);
+       }
+       img {
+        border-radius: 8px;
        }
       }
      }
