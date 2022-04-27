@@ -199,6 +199,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 | Firebase | I used Realtime DB, Firestore, Hosting, Functions                |
 | Knex     | I can use SQL query builder and make things easier and readable. |
 | Database | I had experiences with PostgreSQL, MySql, SQLite, MongoDB, Redis |
+| Nginx    | I can use it for load balancing, proxy redirections, etc.        |
 
 ### Mobile App Development
 
@@ -277,7 +278,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I am still a student at the Dogus University 3rh grade. I am not a good student and my grades are terrible. I am living in the Istanbul Balat district. I usually spend my time on the computer with my gigs/side projects and, sometimes riding a motorcycle around Istanbul. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active, I am so bored with my life and I want to change that.
+I am still a student at the Dogus University 3rh grade. I am not a good student and my grades are wretched. I am living in the Istanbul Balat district. I usually spend my time on the computer with my gigs/side projects and, sometimes riding a motorcycle around Istanbul. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active, I am so bored with my life and I want to change that.
 
 ### My strong and weak sides
 
@@ -285,7 +286,7 @@ I am still a student at the Dogus University 3rh grade. I am not a good student 
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | I am a hard worker                                                                                        | I give attention to the detail and waste valuable time                                                   |
 | I am open to new experiences                                                                              | I have a tendency to be introverted                                                                      |
-| I finish what I started                                                                                   | I am stubborn                                                                                            |
+| I finish what I started                                                                                   | I am stubborn with that                                                                                  |
 | I'm an agreeable person and a good listener                                                               | I am not good at explaining things simply                                                                |
 | I am honest                                                                                               | I am too honest                                                                                          |
 | I don't stop learning                                                                                     | My good habits are not staying stable                                                                    |
