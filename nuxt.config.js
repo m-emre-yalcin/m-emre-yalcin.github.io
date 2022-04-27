@@ -15,7 +15,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'og:type', content: 'website' },
+      { name: 'type', property: 'og:type', content: 'website' },
       { name: 'description', property: 'og:description', content: 'My portfolio' },
       { name: 'image', property: 'og:image', content: 'https://github.com/m-emre-yalcin/m-emre-yalcin.github.io/blob/main/assets/images/foggy-forest.png?raw=true' },
       { name: 'author', content: 'M. Emre Yalcin' },
