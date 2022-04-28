@@ -278,26 +278,49 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I am living in the Istanbul Balat district. I am still a student at the Dogus University 3rh grade. I always worked all through my college life. I usually spend my time on the computer with my gigs or side projects and, sometimes riding a motorcycle around Istanbul other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I hope that will change.
+I was born in February 1999 in Istanbul/Fatih. I am living on the European side of Istanbul. I'm a little bit of a short guy with the long hair.
 
-I don't like advertising myself as someone I'm not. Below, I did show some of my personality traits and be upfront. I hope some of them don't scare you.
+### Beginning of my journey
 
-### My strong and weak sides
+I met the digital world with video games when I was 12. I was creating custom race maps, changing some in-game models (like cars) or textures (like uniforms, faces, roads) by using a special program and photoshop for the GTA SA.
+
+Later on, I decided to develop my own games with my low-quality laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't this efficient).
+
+I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
+
+### Education
+
+At my vocational high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL.
+
+At my university, I learned the foundations of software engineering and some popular languages that I am not using practically.
+
+### Current Life
+
+- 2021 - 2022
+
+I am a student at the Dogus University 3rh grade. I always worked all through my college life. I usually spare my time with my gigs or side projects and, sometimes ride my motorcycle around Istanbul, other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I'm hoping that will change.
+
+### Strong and weak sides
+
+I don't like promoting myself as someone I'm not. Below, I did show some of my personality traits that you should know and I've been outspoken.
 
 | <img height="140px" alt="bob good side" src="https://m-emre-yalcin.github.io/bob-1.png"                /> | <img height="140px" alt="bob bad side" src="https://m-emre-yalcin.github.io/bob-2.png"                /> |
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| I complete my work right on time with the specified requirements.                                         | I give attention to the detail and waste valuable time                                                   |
+| I complete my work right on time with the specified requirements                                          | I give attention to the detail and waste valuable time                                                   |
 | I am open to new experiences                                                                              | I have a tendency to be introverted                                                                      |
 | I finish what I started                                                                                   | I am stubborn with that                                                                                  |
 | I'm an agreeable person and a good listener                                                               | I am not good at explaining something simply                                                             |
-| I am honest                                                                                               | I am too honest                                                                                          |
 | I don't stop learning                                                                                     | My good habits are not staying stable                                                                    |
 | I want to change the world                                                                                | I get **too** excited in public speaking                                                                 |
 
-I value being optimistic, keeping my promises, not being so selfish, and not being too lazy.
+You should also know that I am really willing to overcome my weak sides🙂
+
+### Values
+
+I value friendship, being helpful, being optimistic, keeping my promises, and not being selfish.
 
 ### Goals and Interests
 
 My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.
 
-I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher.🙂
+I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher🙂
