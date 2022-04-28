@@ -278,7 +278,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I am living in the Istanbul Balat district. I am still a student at the Dogus University 3rh grade. I always worked all through my college life. Also, I do care about my grades and completing my school successfully. I usually spend my time on the computer with my gigs or side projects and, sometimes riding a motorcycle around Istanbul other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I hope that will change.
+I am living in the Istanbul Balat district. I am still a student at the Dogus University 3rh grade. I always worked all through my college life. I usually spend my time on the computer with my gigs or side projects and, sometimes riding a motorcycle around Istanbul other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I hope that will change.
 
 I don't like advertising myself as someone I'm not. Below, I did show some of my personality traits and be upfront. I hope some of them don't scare you.
 
