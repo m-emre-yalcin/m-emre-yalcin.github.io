@@ -278,15 +278,15 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I am still a student at the Dogus University 3rh grade. I always worked all through my college life. I do care about my grades and try hard to complete my school successfully. I am living in the Istanbul Balat district. I usually spend my time on the computer with my gigs or side projects and, sometimes riding a motorcycle around Istanbul other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I hope that will change.
+I am living in the Istanbul Balat district. I am still a student at the Dogus University 3rh grade. I always worked all through my college life. Also, I do care about my grades and completing my school successfully. I usually spend my time on the computer with my gigs or side projects and, sometimes riding a motorcycle around Istanbul other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I hope that will change.
 
-Below, I did show some of my personality traits and be upfront. I hope that doesn't scare you, I dont like advertising myself like I'm not.
+I don't like advertising myself as someone I'm not. Below, I did show some of my personality traits and be upfront. I hope some of them don't scare you.
 
 ### My strong and weak sides
 
 | <img height="140px" alt="bob good side" src="https://m-emre-yalcin.github.io/bob-1.png"                /> | <img height="140px" alt="bob bad side" src="https://m-emre-yalcin.github.io/bob-2.png"                /> |
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| I complete my works right on time with the specified requirements.                                        | I give attention to the detail and waste valuable time                                                   |
+| I complete my work right on time with the specified requirements.                                         | I give attention to the detail and waste valuable time                                                   |
 | I am open to new experiences                                                                              | I have a tendency to be introverted                                                                      |
 | I finish what I started                                                                                   | I am stubborn with that                                                                                  |
 | I'm an agreeable person and a good listener                                                               | I am not good at explaining something simply                                                             |
