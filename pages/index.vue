@@ -344,6 +344,7 @@ export default Vue.extend({
 }
 .preview-container {
  position: fixed;
+ box-sizing: border-box;
  top: 0;
  left: 0;
  width: 100%;
@@ -359,7 +360,7 @@ export default Vue.extend({
  overflow: hidden;
  cursor: pointer;
  img {
-  width: auto;
+  width: inherit;
   height: auto;
   border-radius: 8px;
   box-shadow: var(--shadow-lg);
