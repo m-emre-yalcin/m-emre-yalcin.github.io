@@ -278,15 +278,14 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I was born in February 1999 in Istanbul/Fatih. I am living on the European side of Istanbul. I'm a little bit of a short guy with long hair.
+I was born in Istanbul in 27 February 1999. I am living on the European side of Istanbul. I'm a little bit of a short guy with long hair.
+I am a student at the Dogus University 3rh grade. I always worked all through my college life.
 
-### Beginning of my journey
+### Current Life
 
-I met the digital world with video games when I was 12. I was creating custom race maps, changing some in-game models (like cars) or textures (like uniforms, faces, roads) by using a special program and photoshop for the GTA SA.
+- 2021 - 2022
 
-Later on, I decided to develop my own games with my low-quality laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't this efficient).
-
-I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
+I usually spare my time with my gigs or side projects and, sometimes ride my motorcycle around Istanbul, other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life and hoping to change that.
 
 ### Education
 
@@ -294,11 +293,13 @@ At my vocational high school, I specialized in web development. I learned HTML, 
 
 At my university, I learned the foundations of software engineering and some popular languages that I am not using practically.
 
-### Current Life
+### Beginning of my journey
 
-- 2021 - 2022
+I met the digital world through video games when I was 12. I was creating custom race maps, changing some in-game models (like cars) or textures (like uniforms, faces, roads) by using a special editor and photoshop for the GTA San Andreas.
 
-I am a student at the Dogus University 3rh grade. I always worked all through my college life. I usually spare my time with my gigs or side projects and, sometimes ride my motorcycle around Istanbul, other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life. I'm hoping that will change.
+Later on, I decided to develop my own games with unity3D on my wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't this efficient).
+
+I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
 
 ### Strong and weak sides
 
