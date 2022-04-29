@@ -57,9 +57,7 @@ I develop softwares and want to contribute to people's life by doing it. Thank y
 
 I usually worked with tiny start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
 
----
-
-If you wonder about my works I can share my non-privates.
+> If you wonder about my works I can share my non-privates.
 
 ## [Work Experience](#work-experience)
 
@@ -186,6 +184,8 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 [<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
 ## [Skill Details](#skill-details)
+
+I am not constrained by the tools. I always learn new things easily because they all have similar learning curves (frameworks, libraries, modules). And, I am also kind of creative in design.
 
 ### Fundamentals
 

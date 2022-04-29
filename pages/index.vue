@@ -524,7 +524,7 @@ export default Vue.extend({
       p,
       ol {
        font-size: 1rem;
-       line-height: 1.2rem;
+       line-height: 1.3rem;
       }
       p,
       table,
