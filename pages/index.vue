@@ -360,7 +360,12 @@ export default Vue.extend({
  overflow: hidden;
  cursor: pointer;
  img {
-  width: inherit;
+  min-width: 320px;
+  max-width: auto;
+  width: auto;
+  @media screen and (max-width: 1000px) {
+   width: inherit;
+  }
   height: auto;
   border-radius: 8px;
   box-shadow: var(--shadow-lg);
