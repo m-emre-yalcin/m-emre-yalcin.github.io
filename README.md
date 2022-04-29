@@ -285,7 +285,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 - I always worked all through my college life.
 - I am a little bit of an introverted person.
 - I usually spare my time with my gigs or side projects.
-- I like riding motorcycle.
+- I like riding a motorcycle.
 - I like trying to learn or produce new thoughts.
 - I like playing electro guitar but I am terrible at it.
 - Nowadays I am so bored with my life and hoping to change that.
@@ -317,11 +317,11 @@ I value friendship, being helpful, being optimistic, keeping my promises, and no
 
 ### Beginning of my journey
 
-I met the digital world through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a special editor and photoshop for the GTA San Andreas.
+I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a map editor and photoshop for GTA San Andreas.
 
-Later on, I decided to develop my own games with Unity3D on my wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't efficient as today).
+Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time, translation wasn't efficient as today.
 
-I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
+I had loved game development too much. I had learned the basics of C#/Javascript. You can see one of my childhood works on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video😅
 
 ### Goals and Interests
 
