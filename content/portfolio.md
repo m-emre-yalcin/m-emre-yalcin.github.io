@@ -161,9 +161,9 @@ In the beginning, I hadn't many the fundamentals of geometry, math, and science 
 
 ### Mavi - Open-source Project (in development)
 
-Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
-
-Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
+> Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
+>
+> Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
 
 Mavi is born from my social network project "Lorinto". When I was developing my project's [API](https://api.lorinto.com), I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
 
@@ -185,7 +185,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [Skill Details](#skill-details)
 
-I am not constrained by the tools. I always learn new things easily because they all have similar learning curves (frameworks, libraries, modules). And, I am also kind of creative in design.
+I am not constrained by the tools (when I say tools I mean languages, frameworks, programs, modules, etc.). I always learn new tools easily because they all have similar learning curves. And, I am also creative in designing.
 
 ### Fundamentals
 
