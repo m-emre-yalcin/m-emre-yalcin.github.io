@@ -319,7 +319,7 @@ I value friendship, being helpful, being optimistic, keeping my promises, and no
 
 I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a map editor and photoshop for GTA San Andreas.
 
-Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time, translation wasn't efficient as today.
+Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time, translation wasn't efficient as today. But I still kept going.
 
 I had loved game development too much. I had learned the basics of C#/Javascript. You can see one of my childhood works on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video😅
 
