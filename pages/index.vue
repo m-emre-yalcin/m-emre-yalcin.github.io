@@ -266,6 +266,18 @@ export default Vue.extend({
      }
     })
    })
+
+   document
+    .querySelector<any>('[id*="showcase"]')
+    .addEventListener('click', (img: any) => {
+     const el = document.createElement('div')
+     el.classList.add('preview-container')
+     el.innerHTML = img.target.outerHTML
+     el.addEventListener('click', (el: any) => {
+      el.target.remove()
+     })
+     document.body.before(el)
+    })
   }, 1000)
  },
  methods: {
@@ -306,6 +318,7 @@ export default Vue.extend({
  h6 {
   margin: 0;
   padding: 0;
+  font-weight: 900;
  }
 
  .namespace,
@@ -317,6 +330,40 @@ export default Vue.extend({
    font-size: 1em;
    font-weight: 300;
   }
+ }
+}
+[id*='showcase'] {
+ border-radius: 8px;
+ width: 220px;
+ max-width: auto;
+ cursor: pointer;
+
+ &:hover {
+  opacity: 1;
+ }
+}
+.preview-container {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(0, 0, 0, 0.5);
+ z-index: 2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 1rem;
+ margin: 0;
+ overflow: hidden;
+ cursor: pointer;
+ img {
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
  }
 }
 
@@ -539,6 +586,7 @@ export default Vue.extend({
        margin: 0 2rem;
        padding-left: 1rem;
        opacity: 0.7;
+       transition: opacity 0.25s ease;
       }
 
       p,

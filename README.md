@@ -120,31 +120,32 @@ I designed promotional things for the company (1). I wrote useful programs for i
 - August 2016 - August 2017
 - Turkey - Istanbul/Nişantaşı
 
-A Private Hospital in Istanbul/Nişantaşı. Worked here to complete my
-vocational school' internship program. Tbh, I didn't do anything
-about web development here. I mainly worked on excel programs
-which taught me the fundamentals of data structures, data
-collection, and data processing. Even though I am an intern I did a
-good job and helped the technical service department to increase
-efficiency in logistics and inventory management, and I became key
-personnel for the manager.
+A Private Hospital in Istanbul/Nişantaşı. Worked here to complete my vocational school' internship program. Tbh, I didn't do anything about web development here. I mainly worked on excel programs which taught me the fundamentals of data structures, data collection, and data processing. Even though I am an intern I did a good job and helped the technical service department to increase efficiency in logistics and inventory management, and I became key personnel for the manager.
 
 ## [Education](#education)
 
-### Sultanahmet Vocational and Technical Anatolian High School
+### Sultanahmet Vocational High School
 
 #### Information Technologies
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
+> At my high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL as well as computer hardwares.
+
 Here, I met with web technologies.
 
-Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But I started to like making web applications as well.
+Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But I had started to like making web applications as well.
 
 I developed more than 20 websites in my 3rd and 4th grades. Most of them are my classmates' and other class students' project homework. I earned a fair amount from each student :) I developed some websites in Adobe Flash (which is a deprecated technology now) but in most of them, I used HTML, CSS, and JS.
 
-**Activities and societies**: I joined the theatre club and played the sultan's right hand
+#### Activities and societies
+
+I joined the theatre club and played the sultan's right hand.
+
+Here is one of my cool pictures back then😅
+
+> <img id="showcase" src="sultanahmet-theatre.jpg" />
 
 ### Doğuş University
 
@@ -152,6 +153,8 @@ I developed more than 20 websites in my 3rd and 4th grades. Most of them are my 
 
 - August 2019 - Current
 - Turkey - Istanbul/Acıbadem
+
+> At my university, I learned/learning the foundations of software engineering. Also I've learned the basics of C++, Java, Python and R.
 
 After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to start studying for a college exam by taking a serious time.
 
@@ -167,7 +170,7 @@ In the beginning, I hadn't many the fundamentals of geometry, math, and science 
 
 Mavi is born from my social network project "Lorinto". When I was developing my project's [API](https://api.lorinto.com), I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
 
-You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
+You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com/login) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
 
 [<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
@@ -185,16 +188,17 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [Skill Details](#skill-details)
 
-I am not constrained by the tools (when I say tools I mean languages, frameworks, programs, modules, etc.). I always learn new tools easily because they all have similar learning curves. And, I am also creative in designing.
+You should know that I am not constrained by the tools (when I say tools I mean languages, frameworks, programs, modules, etc.). I always learn new tools easily because they all have similar learning curves. And, I am also creative in designing.
 
 ### Fundamentals
 
-| Language | Comment                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------- |
-| HTML     | I can use it in a semantic way.                                                                                             |
-| CSS      | I can create complex UIs with my eyes closed!                                                                               |
-| JS       | I always working with Javascript and I can create literally anything with it. Though, can't say I know everything about it. |
-| SQL      | I can bring the data you need, the time depends on the problem's complexity.                                                |
+| Language | Comment                                                                       |
+| -------- | ----------------------------------------------------------------------------- |
+| HTML     | I can use it in a semantic way.                                               |
+| CSS      | I can create complex UIs with my eyes closed!                                 |
+| JS       | I always working with Javascript and I can create literally anything with it. |
+| TS       | I can use Typescript when its required.                                       |
+| SQL      | I can bring the data you need, the time depends on the problem's complexity.  |
 
 ### Front-end
 
@@ -209,7 +213,7 @@ I am not constrained by the tools (when I say tools I mean languages, frameworks
 
 | Tool      | Comment                                                          |
 | --------- | ---------------------------------------------------------------- |
-| Node.js   | I can create single threaded back-end applications with it.      |
+| Node.js   | I can create single threaded back-end applications.              |
 | Express   | I used **express** to create APIs in my professional gigs.       |
 | Firebase  | I used Realtime DB, Firestore, Hosting, Functions                |
 | Knex      | I can use SQL query builder and make things easier and readable. |
@@ -223,7 +227,7 @@ I am not constrained by the tools (when I say tools I mean languages, frameworks
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ionic        | I have acquaintance with its environment. I hadn't a chance to specialize but I can create hybrid apps with it.                                                                                                                                                              |
 | Capacitor    | I can convert a responsive web app into the hybrid app and put it in on app store just like I did in my [Economics Dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) gig.                                                   |
-| React Native | I did learn this recently by practicing on my simple to-do app called [Notez](https://github.com/m-emre-yalcin/notez) and I loved using it! I have acquaintance with the **expo** environment as well as the native environment. I feel confident in using **react-native**. |
+| React-Native | I did learn this recently by practicing on my simple to-do app called [Notez](https://github.com/m-emre-yalcin/notez) and I loved using it! I have acquaintance with the **expo** environment as well as the native environment. I feel confident in using **react-native**. |
 
 ### Data Science
 
@@ -290,7 +294,7 @@ I am not constrained by the tools (when I say tools I mean languages, frameworks
 
 ### Languages I've used in the college
 
-- C++, Java, Ptyhon, R, Javascript
+- C++, Java, Python, R, Javascript
 
 ## [About Me](#about-me)
 
@@ -306,11 +310,11 @@ I always worked all through my college life.
 
 I am a little bit of an introverted person.
 
-I usually spare my time with my gigs or side projects.
+I usually spare my time for my gigs or side projects.
 
 I like riding a motorcycle.
 
-I like trying to learn or produce new thoughts.
+I like learning and producing new thoughts.
 
 I like playing electro guitar but I am terrible at it.
 
@@ -318,11 +322,7 @@ Nowadays I am so bored with my life and hoping to change that.
 
 My English is not perfect, but I believe it's decent for communication.
 
-### Education
-
-At my vocational high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL.
-
-At my university, I learned/learning the foundations of software engineering and some popular languages that I am not using practically.
+<br>
 
 ### Strong and weak sides
 
@@ -347,7 +347,7 @@ I value friendship, being helpful, being optimistic, keeping my promises, and no
 
 I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a map editor and photoshop for GTA San Andreas.
 
-Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time, translation wasn't efficient as today. But I still kept going.
+Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time translation wasn't efficient as today. But I still kept going.
 
 I had loved game development too much. I had learned the basics of C#/Javascript. You can see one of my childhood works on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video😅
 
