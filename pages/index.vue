@@ -514,6 +514,12 @@ export default Vue.extend({
         margin-top: 1rem;
        }
       }
+      blockquote {
+       border-left: 2px solid var(--bg);
+       margin: 0 2rem;
+       padding-left: 1rem;
+       opacity: 0.7;
+      }
 
       p,
       ol {

@@ -51,17 +51,15 @@ skills:
 
 Hi, I'm Emre
 
-I develop softwares and want to make reality better by doing it. Thank you for taking the time to read my resume.
+I develop softwares and want to contribute to people's life by doing it. Thank you for taking the time to read my resume🙂
 
 ### Summary
 
 I usually worked with tiny start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
 
+---
+
 If you wonder about my works I can share my non-privates.
-
-### Language
-
-My English is not perfect, but I believe it's decent for communication.
 
 ## [Work Experience](#work-experience)
 
@@ -87,6 +85,23 @@ I completed a lot of projects successfully. These are respectively:
 - Turkey - Istanbul/Beşiktaş
 
 This was a tiny start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
+
+---
+
+> I had actually started as an intern here. It was my first year in college but I also wanted to sharpen my developer skills. So I've started to work here. The first project I worked on was a complicated front-end application. I had become responsible for the whole front end because resources weren't enough. But I was believing myself and worked so hard without even looking at the clock. After I completed the project successfully, I was promoted to front-end developer.
+
+The works I did in my front-end role:
+
+1. I maintained the company's existing SaaS. The front-end codes I've worked on were legacy codes. I usually wrote CSS and JS.
+2. I built the interactive interface of an e-commerce website by working with the designer.
+3. I built a landing page for a bank.
+
+The works I've completed in my full-stack role:
+
+1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. I did the design, front-end, and back-end development.
+2. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS using Strapi.
+3. An MVP mobile app for cooking recipes. I used Vue to create the UI and built the API and CMS using Strapi
+4. Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. One time I solved a complicated SQL problem that was there for years.
 
 ### BSM Teknik Proje LTD - Web Developer
 
@@ -192,14 +207,15 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ### Back-end
 
-| Tool     | Comment                                                          |
-| -------- | ---------------------------------------------------------------- |
-| Node.js  | I can create single threaded back-end applications with it.      |
-| Express  | I used **express** to create APIs in my professional gigs.       |
-| Firebase | I used Realtime DB, Firestore, Hosting, Functions                |
-| Knex     | I can use SQL query builder and make things easier and readable. |
-| Database | I had experiences with PostgreSQL, MySql, SQLite, MongoDB, Redis |
-| Nginx    | I can use it for load balancing, proxy redirections, etc.        |
+| Tool      | Comment                                                          |
+| --------- | ---------------------------------------------------------------- |
+| Node.js   | I can create single threaded back-end applications with it.      |
+| Express   | I used **express** to create APIs in my professional gigs.       |
+| Firebase  | I used Realtime DB, Firestore, Hosting, Functions                |
+| Knex      | I can use SQL query builder and make things easier and readable. |
+| Websocket | I can implement realtime communication channel with Socket.io    |
+| Database  | I had experiences with PostgreSQL, MySql, SQLite, MongoDB, Redis |
+| Nginx     | I can use it for load balancing, proxy redirections, etc.        |
 
 ### Mobile App Development
 
@@ -236,8 +252,8 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 | PM2     | I can run many instances on a virtual machine and monitor resource usage, error logs, etc.                                                                   |
 | DNS     | I can manage complicated DNS configurations.                                                                                                                 |
 | Netlify | For easy continuous delivery with the JAMstack workflow. I can also generate CMS without a Node instance by using [Netlify CMS](https://www.netlifycms.org/) |
-| AWS     | I managed EC2, S3, and RDB cloud services.                                                                                                                   |
-| GCP     | I managed Map API, Map customization and Firebase services.                                                                                                  |
+| AWS     | I have used EC2, S3, and RDS cloud services.                                                                                                                 |
+| GCP     | I have used Map API, Map customization and Firebase services.                                                                                                |
 
 ### Other Tools
 
@@ -272,23 +288,35 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 - Business Development
 - Investment
 
-### Languages I've used in the collage
+### Languages I've used in the college
 
 - C++, Java, Ptyhon, R, Javascript
 
 ## [About Me](#about-me)
 
-- I was born in Istanbul in 27 February 1999.
-- I am living on the European side of Istanbul.
-- I am a little bit of a short guy with long hair.
-- I am a student at the Dogus University 3rh grade.
-- I always worked all through my college life.
-- I am a little bit of an introverted person.
-- I usually spare my time with my gigs or side projects.
-- I like riding a motorcycle.
-- I like trying to learn or produce new thoughts.
-- I like playing electro guitar but I am terrible at it.
-- Nowadays I am so bored with my life and hoping to change that.
+I was born in Istanbul in 27 February 1999.
+
+I am living on the European side of Istanbul.
+
+I am a little bit of a short guy with long hair.
+
+I am a student at the Dogus University 3rh grade.
+
+I always worked all through my college life.
+
+I am a little bit of an introverted person.
+
+I usually spare my time with my gigs or side projects.
+
+I like riding a motorcycle.
+
+I like trying to learn or produce new thoughts.
+
+I like playing electro guitar but I am terrible at it.
+
+Nowadays I am so bored with my life and hoping to change that.
+
+My English is not perfect, but I believe it's decent for communication.
 
 ### Education
 
