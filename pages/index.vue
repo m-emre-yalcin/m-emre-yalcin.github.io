@@ -401,9 +401,18 @@ export default Vue.extend({
  align-items: center;
  justify-content: center;
  flex-direction: column;
+ @media screen and (max-width: 800px) {
+  justify-content: flex-start;
+ }
 
  .contact-container {
   padding: 2rem;
+  @media screen and (max-width: 800px) {
+   width: -webkit-fill-available;
+   border: unset;
+   box-shadow: unset;
+   height: var(--main-container-height);
+  }
 
   .circle-card {
    position: relative;
@@ -967,6 +976,8 @@ export default Vue.extend({
  z-index: 100;
  transition: opacity 0.2s ease;
  font-size: 0.8rem;
+ margin-top: 1rem;
+
  &:hover {
   opacity: 1;
  }

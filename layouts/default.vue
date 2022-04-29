@@ -27,6 +27,7 @@ export default Vue.extend({
 
  @media screen and (max-width: 1000px) {
   animation: unset;
+  background-attachment: fixed;
   background-size: cover;
  }
 
