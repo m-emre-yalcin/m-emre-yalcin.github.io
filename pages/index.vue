@@ -335,6 +335,10 @@ export default Vue.extend({
   backdrop-filter: blur(20px);
   transition: backdrop-filter 0.5s ease;
   border: 1px solid var(--bg);
+
+  @media screen and (max-width: 1000px) {
+   padding: 4rem 1rem;
+  }
  }
 }
 
@@ -458,9 +462,25 @@ export default Vue.extend({
    opacity: 1;
    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 
+   @media screen and (max-width: 1000px) {
+    padding: 0;
+    grid-template-columns: 1fr;
+    --aside-with: auto;
+    --main-container-height: 100%;
+
+    .card {
+     border-radius: 0;
+     border: unset;
+     box-shadow: unset;
+    }
+   }
+
    main {
     display: grid;
     gap: 1rem;
+    @media screen and (max-width: 1000px) {
+     gap: 0;
+    }
 
     .content {
      scroll-snap-align: start;
@@ -586,6 +606,21 @@ export default Vue.extend({
     padding: 2rem 0;
     min-height: 300px;
     max-height: var(--main-container-height);
+
+    @media screen and (max-width: 1000px) {
+     position: static;
+     min-height: var(--main-container-height);
+     scroll-snap-align: start;
+
+     .head {
+      padding-left: 4rem;
+
+      .circle-card {
+       width: 80px !important;
+       height: 80px !important;
+      }
+     }
+    }
 
     .head {
      display: flex;
@@ -763,9 +798,11 @@ export default Vue.extend({
  &.active.sticky {
   .container {
    .head {
-    .circle-card {
-     width: 80px;
-     height: 80px;
+    @media screen and (min-width: 1000px) {
+     .circle-card {
+      width: 80px;
+      height: 80px;
+     }
     }
    }
   }
