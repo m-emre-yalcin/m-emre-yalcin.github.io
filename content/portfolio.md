@@ -345,7 +345,7 @@ I value friendship, being helpful, being optimistic, keeping my promises, and no
 
 ### Beginning of my journey
 
-I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a map editor and photoshop for GTA San Andreas.
+I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models or textures by using a map editor and photoshop for GTA San Andreas.
 
 Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time translation wasn't efficient as today. But I still kept going.
 
