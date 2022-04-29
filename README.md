@@ -74,7 +74,7 @@ I completed a lot of projects successfully. These are respectively:
 3. An Admin dashboard related to my second gig. It visualizes incoming data from the mobile app. I developed it in Vue & Nuxt. Also, I used Google Maps API to customize the map.
 4. [Carbon Calculator](http://calculator.sour.studio) web app. I wrote it in Vue and created the design but not the icons or background images.
 5. Blog website and CMS dashboard (private app). I used Vue & Nuxt and worked heavily on the SEO side. I Implemented the AMP feature to the SSR web app which was so tricky. And also I implemented another important SEO feature on the SSR: An API gate that generates a dynamic sitemap xml file according to all blog data.
-6. [Estefulya](https://estefulya.com) - A Business website. I created the digital existence of Estefulya. I did the design (I didn't design the illustrations but changed their original forms), development, SEO, Netlify CMS & Jamstack setup, creating emails, implementing analytic tools, and configuring business tools (google my business, google search console, google maps)
+6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design (I didn't design the illustrations but changed their original forms), development, SEO, Netlify CMS & Jamstack setup, creating emails, implementing analytic tools, and configuring business tools (google my business, google search console, google maps)
 7. [Basic Level Liquor Store](https://onlinetekelortakoy.netlify.app) website & admin dashboard - I write in Vue, I used Vuetify for the dashboard
 
 ### Bontesoft - Front-end, Full-stack developer
