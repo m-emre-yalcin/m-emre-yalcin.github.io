@@ -127,7 +127,7 @@ personnel for the manager.
 
 Here, I met with web technologies.
 
-Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in unity3d. I was hoping here to learn enough programming to build my dream games. But I started to like making web applications as well.
+Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But I started to like making web applications as well.
 
 I developed more than 20 websites in my 3rd and 4th grades. Most of them are my classmates' and other class students' project homework. I earned a fair amount from each student :) I developed some websites in Adobe Flash (which is a deprecated technology now) but in most of them, I used HTML, CSS, and JS.
 
@@ -278,32 +278,27 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I was born in Istanbul in 27 February 1999. I am living on the European side of Istanbul. I'm a little bit of a short guy with long hair.
-I am a student at the Dogus University 3rh grade. I always worked all through my college life.
-
-### Current Life
-
-- 2021 - 2022
-
-I usually spare my time with my gigs or side projects and, sometimes ride my motorcycle around Istanbul, other times trying to learn or produce new thoughts. I like playing electro guitar but I am terrible at it. Nowadays I am not socially active and I am so bored with my life and hoping to change that.
+- I was born in Istanbul in 27 February 1999.
+- I am living on the European side of Istanbul.
+- I am a little bit of a short guy with long hair.
+- I am a student at the Dogus University 3rh grade.
+- I always worked all through my college life.
+- I am a little bit of an introverted person.
+- I usually spare my time with my gigs or side projects.
+- I like riding motorcycle.
+- I like trying to learn or produce new thoughts.
+- I like playing electro guitar but I am terrible at it.
+- Nowadays I am so bored with my life and hoping to change that.
 
 ### Education
 
 At my vocational high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL.
 
-At my university, I learned the foundations of software engineering and some popular languages that I am not using practically.
-
-### Beginning of my journey
-
-I met the digital world through video games when I was 12. I was creating custom race maps, changing some in-game models (like cars) or textures (like uniforms, faces, roads) by using a special editor and photoshop for the GTA San Andreas.
-
-Later on, I decided to develop my own games with unity3D on my wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't this efficient).
-
-I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
+At my university, I learned/learning the foundations of software engineering and some popular languages that I am not using practically.
 
 ### Strong and weak sides
 
-I don't like promoting myself as someone I'm not. Below, I did show some of my personality traits that you should know and I've been outspoken.
+I don't like promoting myself as someone I'm not. Below, I did share some of my personality traits that you should know and I've been outspoken.
 
 | <img height="140px" alt="bob good side" src="https://m-emre-yalcin.github.io/bob-1.png"                /> | <img height="140px" alt="bob bad side" src="https://m-emre-yalcin.github.io/bob-2.png"                /> |
 | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -319,6 +314,14 @@ You should also know that I am really willing to overcome my weak sides🙂
 ### Values
 
 I value friendship, being helpful, being optimistic, keeping my promises, and not being selfish.
+
+### Beginning of my journey
+
+I met the digital world through video games when I was 12. I was creating custom race maps, changing some in-game models (like vehicles) or textures (like uniforms, faces, roads) by using a special editor and photoshop for the GTA San Andreas.
+
+Later on, I decided to develop my own games with Unity3D on my wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. But I tried hard to make games by reading the documents with the help of google translate (at that time, translation wasn't efficient as today).
+
+I loved game development too much and learned the basics of C#/Javascript. You can see one of my work on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of the copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video 😅
 
 ### Goals and Interests
 
