@@ -278,7 +278,7 @@ My purpose is to create an alternative for micro and macro blog platforms. My ma
 
 ## [About Me](#about-me)
 
-I was born in February 1999 in Istanbul/Fatih. I am living on the European side of Istanbul. I'm a little bit of a short guy with the long hair.
+I was born in February 1999 in Istanbul/Fatih. I am living on the European side of Istanbul. I'm a little bit of a short guy with long hair.
 
 ### Beginning of my journey
 
