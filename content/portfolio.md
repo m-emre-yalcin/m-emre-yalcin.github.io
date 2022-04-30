@@ -55,7 +55,7 @@ I develop softwares and want to contribute to people's life by doing it. Thank y
 
 ### Summary
 
-I usually worked with tiny start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
+I usually worked with start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
 
 > If you wonder about my works I can share my non-privates.
 
