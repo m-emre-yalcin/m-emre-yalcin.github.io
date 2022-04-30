@@ -87,7 +87,7 @@ The works I did in my full-stack role
    1. I developed in Vue & Nuxt and Firebase services
    2. I worked heavily on the SEO side
    3. I implemented the AMP feature to the SSR web app which was so tricky
-6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design _(I didn't design the illustrations but changed their original forms)_, development, SEO, CMS with JAMstack setup, emails setups, implementing analytic tools, and configuring business tools.
+6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design _(I didn't design the illustrations but changed their original forms)_, development, SEO, CMS with JAMstack setup, email setups, implementing analytic tools, and configuring business tools.
 7. [Basic Level Liquor Store](https://onlinetekelortakoy.netlify.app) website & admin dashboard - I write in Vue, I used Vuetify for the dashboard
 </details>
 
@@ -98,7 +98,7 @@ Outside of my gigs, I wasn't idle. I was learning new technologies and working o
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Beşiktaş
 
-This was start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
+This was a start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
 
 <details>
 <summary>
@@ -135,7 +135,7 @@ This was a newly founded company in the construction area. I was there from the 
 The works I did in my web developer role
 </summary>
 
-1. I designed their logos. I designed promotional stuff like brochures, business cards, email templates.
+1. I designed their logos. I designed promotional stuff like brochures, business cards, and email templates.
 2. I wrote an admin panel that was able to send offering mails according to your stocks and convert them into billings if they are approved. (JQuery and PHP)
 3. I created their [website](http://bsmproje.com/) and I wrote the whole content for the website as much as I can.
 4. I created a comprehensive excel program for the potential gain/expense balance tracing and for detailed business planning with the insight reports.
@@ -163,7 +163,7 @@ I worked here to complete my vocational school' internship program. To be honest
 
 <details>
 <summary>
-  At my high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL as well as computer hardwares.
+  At my high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL as well as computer hardware.
 </summary>
 
 Here, I met with web technologies.
@@ -191,7 +191,7 @@ Here is one of my cool pictures back then😅
 
 <details>
 <summary>
-  At my university, I learned/learning the foundations of software engineering. Also I've learned the basics of C++, Java, Python and R.
+  At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
 </summary>
 
 After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to start studying for a college exam by taking a serious time.
