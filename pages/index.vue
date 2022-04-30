@@ -603,7 +603,19 @@ export default Vue.extend({
        opacity: 0.7;
        transition: opacity 0.25s ease;
       }
+      i,
+      em {
+       opacity: 0.5;
+      }
 
+      details {
+       margin: 1rem 0;
+       summary {
+        cursor: pointer;
+       }
+      }
+
+      details,
       p,
       ol {
        font-size: 1rem;

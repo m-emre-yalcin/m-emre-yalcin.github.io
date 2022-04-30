@@ -63,64 +63,94 @@ I usually worked with tiny start-ups and became a little bit of everything besid
 
 ### Self Employed - Full-stack Developer
 
-- February 2021 - February 2022
+- February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
 
-I developed products for individuals or companies as a freelancer.
-I completed a lot of projects successfully. These are respectively:
+I developed products for individuals or companies as a freelancer and I've completed a lot of projects successfully.
 
-1. [Economics dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) app (original name is Ekonomi sözlüğü). I did design, development, deployment, and publishing. I used Vue for the UI and capacitor to convert it into a hybrid app. Also, I used Ps and Ai in the design process. I published this hybrid app on the apple store and google play.
-2. A Mobile flutter app that I did maintenance on. This was a private app that interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. I learned flutter basics with a Bluetooth module, fixed some tiny bugs, and improved the data structures.
-3. An Admin dashboard related to my second gig. It visualizes incoming data from the mobile app. I developed it in Vue & Nuxt. Also, I used Google Maps API to customize the map.
-4. [Carbon Calculator](http://calculator.sour.studio) web app. I wrote it in Vue and created the design but not the icons or background images.
-5. Blog website and CMS dashboard (private app). I used Vue & Nuxt and worked heavily on the SEO side. I Implemented the AMP feature to the SSR web app which was so tricky. And also I implemented another important SEO feature on the SSR: An API gate that generates a dynamic sitemap xml file according to all blog data.
-6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design (I didn't design the illustrations but changed their original forms), development, SEO, Netlify CMS & Jamstack setup, creating emails, implementing analytic tools, and configuring business tools (google my business, google search console, google maps)
+<details>
+<summary>
+The works I did in my full-stack role
+</summary>
+
+1. [Economics dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) app. I did design, development, deployment, and publishing.
+   1. I used Vue for the UI and Strapi for the API.
+   2. I used capacitor to convert it into a hybrid app
+   3. I used Ps and Ai in the design process
+   4. I published this hybrid app on the apple store and google play
+2. A Mobile Flutter app that I did maintenance on. This was a private app that interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. I learned flutter basics with a Bluetooth module, fixed some tiny bugs, and improved the data structures.
+3. An Admin dashboard related to my second gig. It visualizes incoming data from the mobile app.
+   1. I developed in Vue & Nuxt and Firebase services
+   2. I used Google Maps API to customize the map
+4. [Carbon Calculator](http://calculator.sour.studio) web app. I wrote it in Vue and created the design _but not the icons or background images_.
+5. A Private Blog website and CMS dashboard.
+   1. I developed in Vue & Nuxt and Firebase services
+   2. I worked heavily on the SEO side
+   3. I implemented the AMP feature to the SSR web app which was so tricky
+6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design _(I didn't design the illustrations but changed their original forms)_, development, SEO, CMS with JAMstack setup, emails setups, implementing analytic tools, and configuring business tools.
 7. [Basic Level Liquor Store](https://onlinetekelortakoy.netlify.app) website & admin dashboard - I write in Vue, I used Vuetify for the dashboard
+</details>
+
+Outside of my gigs, I wasn't idle. I was learning new technologies and working on my open-source and side projects.
 
 ### Bontesoft - Front-end, Full-stack developer
 
-- February 2020 - February 2021
+- February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Beşiktaş
 
-This was a tiny start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
+This was start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
 
----
-
-> I had actually started as an intern here. It was my first year in college but I also wanted to sharpen my developer skills. So I've started to work here. The first project I worked on was a complicated front-end application. I had become responsible for the whole front end because resources weren't enough. But I was believing myself and worked so hard without even looking at the clock. After I completed the project successfully, I was promoted to front-end developer.
-
-The works I did in my front-end role:
+<details>
+<summary>
+The works I did in my front-end role
+</summary>
 
 1. I maintained the company's existing SaaS. The front-end codes I've worked on were legacy codes. I usually wrote CSS and JS.
 2. I built the interactive interface of an e-commerce website by working with the designer.
 3. I built a landing page for a bank.
+</details>
 
-The works I've completed in my full-stack role:
+<details>
+<summary>
+The works I did in my full-stack role
+</summary>
 
-1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. I did the design, front-end, and back-end development.
-2. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS using Strapi.
-3. An MVP mobile app for cooking recipes. I used Vue to create the UI and built the API and CMS using Strapi
-4. Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. One time I solved a complicated SQL problem that was there for years.
+1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. _design, front-end, and back-end development_
+1. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. _I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS by using Strapi._
+1. An MVP mobile web app for cooking recipes. _I used Vue to create the UI, and built the API and CMS by using Strapi_
+
+Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. One time I solved a complicated SQL problem that was there for years.
+
+</details>
 
 ### BSM Teknik Proje LTD - Web Developer
 
-- June 2019 - December 2019
+- June 2019 - December 2019 _7 months_
 - Turkey - Istanbul/Şişli
 
-This was a newly founded company in the construction area. I was there from the very beginning and it was my first real full-time job. My work was versatile. Sometimes I could be a programmer, a designer, or a copywriter, and sometimes an accounter.
+This was a newly founded company in the construction area. I was there from the very beginning and my work was versatile. I had done programming, designing, copywriting, and sometimes social media editor.
 
-I designed promotional things for the company (1). I wrote useful programs for improving the company's workflow of my own will (2). I designed and developed their website. I even wrote the whole content for the website as much as I could (3). And one more thing (4). These were my first real-world experiences.
+<details>
+<summary>
+The works I did in my web developer role
+</summary>
 
-1. brochures, business cards, and the logo.
-2. a program sending offering mails according to your stocks and converting them into billings if it's approved. (with jquery lib. & PHP lang.)
-3. the website that I've built: [bsmproje.com](http://bsmproje.com/)
-4. a comprehensive excel program for the potential gain/expense balance tracing and for detailed business planning with the insight reports
+1. I designed their logos. I designed promotional stuff like brochures, business cards, email templates.
+2. I wrote an admin panel that was able to send offering mails according to your stocks and convert them into billings if they are approved. (JQuery and PHP)
+3. I created their [website](http://bsmproje.com/) and I wrote the whole content for the website as much as I can.
+4. I created a comprehensive excel program for the potential gain/expense balance tracing and for detailed business planning with the insight reports.
+</details>
+
+> Later, I had to leave because I wanted to focus on programming.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
-- August 2016 - August 2017
+- August 2016 - August 2017 _12 months_
 - Turkey - Istanbul/Nişantaşı
 
-A Private Hospital in Istanbul/Nişantaşı. Worked here to complete my vocational school' internship program. Tbh, I didn't do anything about web development here. I mainly worked on excel programs which taught me the fundamentals of data structures, data collection, and data processing. Even though I am an intern I did a good job and helped the technical service department to increase efficiency in logistics and inventory management, and I became key personnel for the manager.
+I worked here to complete my vocational school' internship program. To be honest, I didn't do anything about web development here. I mainly worked on excel programs which taught me the fundamentals of data structures, data collection, and data processing.
+
+> Even though I am an intern I did a good job and helped the technical service department to increase efficiency in logistics and inventory management, and I became key personnel for the manager.
 
 ## [Education](#education)
 
@@ -131,7 +161,10 @@ A Private Hospital in Istanbul/Nişantaşı. Worked here to complete my vocation
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
-> At my high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL as well as computer hardwares.
+<details>
+<summary>
+  At my high school, I specialized in web development. I learned HTML, CSS, Javascript, PHP, MSSQL as well as computer hardwares.
+</summary>
 
 Here, I met with web technologies.
 
@@ -147,22 +180,51 @@ Here is one of my cool pictures back then😅
 
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
 
+</details>
+
 ### Doğuş University
 
-#### Software Engineering 3th Grade
+#### Software Engineering
 
-- August 2019 - Current
+- August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-> At my university, I learned/learning the foundations of software engineering. Also I've learned the basics of C++, Java, Python and R.
+<details>
+<summary>
+  At my university, I learned/learning the foundations of software engineering. Also I've learned the basics of C++, Java, Python and R.
+</summary>
 
 After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to start studying for a college exam by taking a serious time.
 
 In the beginning, I hadn't many the fundamentals of geometry, math, and science because I graduated from a vocational school, but I learned a good degree from all, and after the exam, I was accepted here.
 
+</details>
+
 ## [Projects](#projects)
 
-### Mavi - Open-source Project (in development)
+### Lorinto - Social Network Project
+
+- 2019 November - Present
+
+[<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
+
+I wanted to develop something that current social blog platforms don't have and I hope [Lorinto](https://lorinto.com/login) is going to be an alternative to Elon Musk's Twitter in the future🙂
+
+I started Lorinto back in 2019 November. But I was technically inefficient in the back-end development and I didn't have any developer friends to work with so there were too many gaps to fill.
+
+Within 2 years I have learned the things that I need and started to develop a superior version. The platform is still in development and I am working every day to make my vision come to life.
+
+My purpose is to create an alternative for micro/macro blog platforms. My main vision is:
+
+1. to help people to know themselves better
+2. to help them to find friends who have the same personal values as them
+3. discuss what matters in a democratic and instructive way
+
+### Mavi - Open-source Project
+
+- 2021 November - Present
+
+[<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
 > Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 >
@@ -171,20 +233,6 @@ In the beginning, I hadn't many the fundamentals of geometry, math, and science 
 Mavi is born from my social network project "Lorinto". When I was developing my project's [API](https://api.lorinto.com), I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
 
 You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com/login) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
-
-[<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
-
-### Lorinto - Social Network Project (in development)
-
-I wanted to develop something that current social blog platforms don't have and I believe [Lorinto](https://lorinto.com/login) is going to be "one"
-
-I was seeking a purpose back in 2019 November, and after dedicated work, I found it! Then I started to plan and develop. But I was technically inefficient and didn't have any developer friends to work with so there were too many gaps to fill.
-
-Within 2 years I have learned the things that I need and started to develop a superior version. The platform is still in development and there are so many things to do!
-
-My purpose is to create an alternative for micro and macro blog platforms. My main vision is to help people to know themselves better and discuss what matters in a democratic and instructive way.
-
-[<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
 ## [Skill Details](#skill-details)
 
@@ -318,8 +366,6 @@ I like learning and producing new thoughts.
 
 I like playing electro guitar but I am terrible at it.
 
-Nowadays I am so bored with my life and hoping to change that.
-
 My English is not perfect, but I believe it's decent for communication.
 
 <br>
@@ -345,14 +391,20 @@ I value friendship, being helpful, being optimistic, keeping my promises, and no
 
 ### Beginning of my journey
 
-I met with software through video games when I was 12. I was creating custom race maps, changing some in-game models or textures by using a map editor and photoshop for GTA San Andreas.
-
+<details>
+<summary>I met with software through video games when I was 12. </summary>
+I was creating custom race maps, changing some in-game models or textures by using a map editor and photoshop for GTA San Andreas.
 Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time translation wasn't efficient as today. But I still kept going.
 
 I had loved game development too much. I had learned the basics of C#/Javascript. You can see one of my childhood works on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video😅
 
+</details>
+
 ### Goals and Interests
 
-My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.
+<details>
+<summary>My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.</summary>
 
 I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher🙂
+
+</details>
