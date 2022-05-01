@@ -35,13 +35,17 @@ skills:
       value: 6,
     },
     { name: 'Web App Development', description: 'SPA, SSR, PWA', value: 9 },
-    { name: 'Data Science', description: 'SQL, AI, Excel, RDBMS', value: 4 },
+    {
+      name: 'Data Science',
+      description: 'SQL, NoSQL, RDBMS, Excel, AI',
+      value: 6,
+    },
     {
       name: 'UI design/prototyping',
       description: 'Photoshop, XD, Illustrator',
       value: 5,
     },
-    { name: 'DevOps', description: 'Git Actions, CI/CD', value: 6 },
+    { name: 'DevOps', description: 'Git, CI/CD, PM2, AWS, GCP', value: 5 },
     { name: 'Cloud', description: 'AWS, GCP', value: 3 },
     { name: 'Testing', description: 'Jest (unit)', value: 3 },
   ]
@@ -106,7 +110,7 @@ The works I did in my front-end role
 </summary>
 
 1. I maintained the company's existing SaaS. The front-end codes I've worked on were legacy codes. I usually wrote CSS and JS.
-2. I built the interactive interface of an e-commerce website by working with the designer.
+2. I built the interactive interface of an e-commerce website by working collaboratively with the designer and the back-end developer
 3. I built a landing page for a bank.
 </details>
 
@@ -240,78 +244,78 @@ You should know that I am not constrained by the tools (when I say tools I mean 
 
 ### Fundamentals
 
-| Language | Comment                                                                       |
-| -------- | ----------------------------------------------------------------------------- |
-| HTML     | I can use it in a semantic way.                                               |
-| CSS      | I can create complex UIs with my eyes closed!                                 |
-| JS       | I always working with Javascript and I can create literally anything with it. |
-| TS       | I can use Typescript when its required.                                       |
-| SQL      | I can bring the data you need, the time depends on the problem's complexity.  |
+| Language | Rating | Comment                                                                       |
+| -------- | ------ | ----------------------------------------------------------------------------- |
+| HTML     | 9.5    | I can use it in a semantic way.                                               |
+| CSS      | 9.5    | I can create complex UIs with my eyes closed!                                 |
+| JS       | 9.5    | I always working with Javascript and I can create literally anything with it. |
+| TS       | 8      | I can use Typescript when its required.                                       |
+| SQL      | 8      | I can bring the data you need, the time depends on the problem's complexity.  |
 
 ### Front-end
 
-| Tool  | Comment                                                                                                                                                                                                                                                 |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vue   | I haven't used Vue3. I know Vue2 and a lot of time-saving modules.                                                                                                                                                                                      |
-| React | I haven't used it professionally but I feel comfortable using.                                                                                                                                                                                          |
-| Nuxt  | Nuxt making things faster, convenient, and more robust. I always used Nuxt for my professional web app gigs.                                                                                                                                            |
-| Next  | I haven't used it professionally and am not specialized as Nuxt but feel confident in using it. I used it in one of my open-source projects to develop an admin [interface (not completed)](https://github.com/m-emre-yalcin/mavi/tree/main/interface). |
+| Tool  | Rating | Comment                                                                                                                                                                                                                                                 |
+| ----- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Vue   | 9      | I haven't used Vue3. I know Vue2 and a lot of time-saving modules.                                                                                                                                                                                      |
+| React | 6      | I haven't used it professionally but I feel comfortable using.                                                                                                                                                                                          |
+| Nuxt  | 9.5    | Nuxt making things faster, convenient, and more robust. I always used Nuxt for my professional web app gigs.                                                                                                                                            |
+| Next  | 8      | I haven't used it professionally and am not specialized as Nuxt but feel confident in using it. I used it in one of my open-source projects to develop an admin [interface (not completed)](https://github.com/m-emre-yalcin/mavi/tree/main/interface). |
 
 ### Back-end
 
-| Tool      | Comment                                                          |
-| --------- | ---------------------------------------------------------------- |
-| Node.js   | I can create single threaded back-end applications.              |
-| Express   | I used **express** to create APIs in my professional gigs.       |
-| Firebase  | I used Realtime DB, Firestore, Hosting, Functions                |
-| Knex      | I can use SQL query builder and make things easier and readable. |
-| Websocket | I can implement realtime communication channel with Socket.io    |
-| Database  | I had experiences with PostgreSQL, MySql, SQLite, MongoDB, Redis |
-| Nginx     | I can use it for load balancing, proxy redirections, etc.        |
+| Tool      | Rating | Comment                                                          |
+| --------- | ------ | ---------------------------------------------------------------- |
+| Node.js   | 6      | I can create single threaded back-end applications.              |
+| Express   | 8      | I used **express** to create APIs in my professional gigs.       |
+| Firebase  | 8      | I used Realtime DB, Firestore, Hosting, Functions                |
+| Knex      | 9.5    | I can use SQL query builder and make things easier and readable. |
+| Websocket | 8      | I can implement realtime communication channel with Socket.io    |
+| Database  | 8      | I had experiences with PostgreSQL, MySql, SQLite, MongoDB, Redis |
+| Nginx     | 6      | I can use it for load balancing, proxy redirections, etc.        |
 
 ### Mobile App Development
 
-| Tool         | Comment                                                                                                                                                                                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ionic        | I have acquaintance with its environment. I hadn't a chance to specialize but I can create hybrid apps with it.                                                                                                                                                              |
-| Capacitor    | I can convert a responsive web app into the hybrid app and put it in on app store just like I did in my [Economics Dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) gig.                                                   |
-| React-Native | I did learn this recently by practicing on my simple to-do app called [Notez](https://github.com/m-emre-yalcin/notez) and I loved using it! I have acquaintance with the **expo** environment as well as the native environment. I feel confident in using **react-native**. |
+| Tool         | Rating | Comment                                                                                                                                                                                                                                                                      |
+| ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ionic        | 5      | I have acquaintance with its environment. I hadn't a chance to specialize but I can create hybrid apps with it.                                                                                                                                                              |
+| React-Native | 6      | I did learn this recently by practicing on my simple to-do app called [Notez](https://github.com/m-emre-yalcin/notez) and I loved using it! I have acquaintance with the **expo** environment as well as the native environment. I feel confident in using **react-native**. |
+| Responsive   | 9.5    | I can make responsive web apps. Then I can convert into the hybrid app and put it in on app store just like I did in my [Economics Dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) gig.                                   |
 
 ### Data Science
 
-| Tool  | Comment                                                                                                                                                                                       |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL   | I love writing SQL and solving complicated problems. I am not an expert though.                                                                                                               |
-| NoSQL | I have experience working with **Firebase's** Firestore and Realtime Database, and I have used their latest compound version. I've used **MongoDB** and **Redis** before but not specialized. |
-| RDBMS | (For MySql, PostgreSql) I can manage your relational database management systems via GUI or CLI. I am not an expert though.                                                                   |
-| Excel | I can create complex excel worksheets that works like a web app. I can Illustrate important data, cleanse inputs, process inputs, and so on...                                                |
-| AI    | I know how it works with some of its algorithms: Apriori, FP Growth... But still, I have no practical usage. Would love to extend my AI skills at some point in my career.                    |
+| Tool  | Rating | Comment                                                                                                                                                                                       |
+| ----- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SQL   | 8      | I love writing SQL and solving complicated problems. I am not an expert though.                                                                                                               |
+| NoSQL | 7      | I have experience working with **Firebase's** Firestore and Realtime Database, and I have used their latest compound version. I've used **MongoDB** and **Redis** before but not specialized. |
+| RDBMS | 7      | (For MySql, PostgreSql, MSSql) I can manage your relational database management systems.                                                                                                      |
+| Excel | 9.5    | I can create complex excel worksheets that works like a web app. I can Illustrate important data, cleanse inputs, process inputs, and so on...                                                |
+| AI    | 3      | I know how it works with some of its algorithms: Apriori, FP Growth... But still, I have no practical usage. Would love to extend my AI skills at some point in my career.                    |
 
 ### UI design/prototyping
 
-| Tool              | Comment                                                                                                              |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Adobe Photoshop   | I can remove background objects or make teeth whiter. But importantly I can design static web/mobile app prototypes. |
-| Adobe XD          | I can create interactive prototypes by importing them from the Photoshop workspace. Not an expert though.            |
-| Adobe Illustrator | I can only convert pixel images into vectors and make small edits on vectors.                                        |
+| Tool              | Rating | Comment                                                                                                              |
+| ----------------- | ------ | -------------------------------------------------------------------------------------------------------------------- |
+| Adobe Photoshop   | 8      | I can remove background objects or make teeth whiter. But importantly I can design static web/mobile app prototypes. |
+| Adobe XD          | 4      | I can create interactive prototypes by importing them from the Photoshop workspace.                                  |
+| Adobe Illustrator | 5      | I can only convert pixel images into vectors and make small edits on vectors.                                        |
 
 ### DevOps
 
-| Tool    | Comment                                                                                                                                                      |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Git     | I am efficient on git, also I can integrate CI/CD automation whether manually or using Git Actions.                                                          |
-| Linux   | I am not a Linux expert but I can navigate my way for solving problems.                                                                                      |
-| PM2     | I can run many instances on a virtual machine and monitor resource usage, error logs, etc.                                                                   |
-| DNS     | I can manage complicated DNS configurations.                                                                                                                 |
-| Netlify | For easy continuous delivery with the JAMstack workflow. I can also generate CMS without a Node instance by using [Netlify CMS](https://www.netlifycms.org/) |
-| AWS     | I have used EC2, S3, and RDS cloud services.                                                                                                                 |
-| GCP     | I have used Map API, Map customization and Firebase services.                                                                                                |
+| Tool  | Rating | Comment                                                                                             |
+| ----- | ------ | --------------------------------------------------------------------------------------------------- |
+| Git   | 7.5    | I am efficient on git, also I can integrate CI/CD automation whether manually or using Git Actions. |
+| Linux | 7      | I am not a Linux expert but I can navigate my way for solving problems.                             |
+| PM2   | 8      | I can run many instances on a virtual machine and monitor resource usage, error logs, etc.          |
+| AWS   | 3      | I have used EC2, S3, and RDS cloud services.                                                        |
+| GCP   | 2      | I have used Map API, Map customization and Firebase services.                                       |
 
 ### Other Tools
 
 - Jest (Unit Testing)
 - Onesignal
 - Sentry
+- Netlify
+- DNS management
 - SendGrid
 - Excel
 - Unity3D
