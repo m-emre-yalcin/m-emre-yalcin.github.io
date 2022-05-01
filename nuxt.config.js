@@ -21,6 +21,10 @@ export default {
       { property: 'og:image', content: 'https://m-emre-yalcin.github.io/foggy-forest.png' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-EG0E2MFJ5K", async: true },
+      { src: "~/static/ga.js" }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -44,10 +48,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
-    ['@nuxtjs/google-analytics', {
-      id: 'G-EG0E2MFJ5K'
-    }]
+    '@nuxt/content'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
