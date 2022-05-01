@@ -23,7 +23,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       { src: "https://www.googletagmanager.com/gtag/js?id=G-EG0E2MFJ5K", async: true },
-      { src: "~/static/ga.js" }
+      { src: "/ga.js" }
     ]
   },
 
