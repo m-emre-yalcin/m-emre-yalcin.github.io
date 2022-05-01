@@ -39,6 +39,9 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/svg',
+    ['@nuxtjs/google-analytics', {
+      id: 'G-EG0E2MFJ5K'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
