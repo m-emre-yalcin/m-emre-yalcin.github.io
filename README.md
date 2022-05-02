@@ -123,7 +123,7 @@ The works I did in my full-stack role
 1. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. _I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS by using Strapi._
 1. An MVP mobile web app for cooking recipes. _I used Vue to create the UI, and built the API and CMS by using Strapi_
 
-Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. One time I solved a complicated SQL problem that was there for years.
+Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
 
 </details>
 
