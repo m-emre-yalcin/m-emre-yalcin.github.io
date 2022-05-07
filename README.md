@@ -169,7 +169,7 @@ I worked here to complete my vocational school' internship program. To be honest
 
 Here, I met with web technologies.
 
-Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But I had started to like making web applications as well.
+Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But later, I started to like making web applications as well.
 
 I developed more than 20 websites for my classmates' and other class students' vocational homework projects in 3th and 4th grade. I earned a fair amount from each fellow :) I developed some of the websites in Adobe Flash (which is a deprecated technology now) but in most projects, I used HTML,
 CSS, and JS.
