@@ -183,9 +183,9 @@ Within 2 years I have learned the things that I need and started to develop a su
 
 My purpose is to create an alternative for micro/macro blog platforms. My main vision is:
 
-1. to help people to know themselves better
-2. to help them to find friends who have the same personal values as them
-3. discuss what matters in a democratic and instructive way
+1. A democratic discussion platform
+2. Helping people to know themselves better
+3. Helping them to find good friends who have the similar personal values as them
 
 ### Mavi - Open-source Project
 
