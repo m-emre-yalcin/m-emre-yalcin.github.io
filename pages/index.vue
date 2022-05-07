@@ -24,7 +24,7 @@
       <div class="contact-container card">
         <div class="circle-card">
           <img
-            src="~assets/images/mehmet-emre-yalcin.jpg"
+            src="~assets/images/mehmet-emre-yalcin.jpg?inline"
             title="M. Emre Yalcin"
             alt="M. Emre Yalcin"
           />
@@ -37,7 +37,7 @@
             :class="{ fullspan: 'label' in item }"
           >
             <template v-if="'label' in item">
-              <component :is="item.name + 'Icon'" v-if="item.name" />
+              <component :is="'icn-' + item.name" v-if="item.name" />
 
               <h1 v-if="item.htmltag === 'h1'">{{ item.label }}</h1>
               <h2 v-else-if="item.htmltag === 'h2'">{{ item.label }}</h2>
@@ -46,7 +46,7 @@
 
             <template v-else>
               <a :href="item.link" target="_blank">
-                <component :is="item.name + 'Icon'" />
+                <component :is="'icn-' + item.name" />
               </a>
             </template>
           </nav>
@@ -55,7 +55,7 @@
 
       <div class="scroll-indicator" @click="$router.push('#start')">
         <span>Scroll Down</span>
-        <scrollIcon />
+        <icn-scroll-down />
       </div>
     </div>
 
@@ -71,7 +71,7 @@
           <nuxt-link class="head" to="/">
             <div class="circle-card">
               <img
-                src="~assets/images/mehmet-emre-yalcin.jpg"
+                src="~assets/images/mehmet-emre-yalcin.jpg?inline"
                 title="M. Emre Yalcin"
                 alt="M. Emre Yalcin"
               />
@@ -117,11 +117,16 @@
 
         <aside class="card skills custom-scroll" style="padding: 1rem">
           <h2>My Skills</h2>
-          <ul>
+          <ul class="skills">
             <li
-              v-for="skill in page.skills"
+              v-for="skill in mySkills"
               :key="skill.name"
-              :title="`My ${skill.name} skill is ${skill.value} out of 10`"
+              :title="`My ${skill.name} skill is ${skill.value} out of 10
+              \n${skill.subset
+                .map((sub) => {
+                  return `${sub.name}: ${sub.value}`
+                })
+                .join('\n')}`"
               :style="{ opacity: skill.value / 10 }"
             >
               <div class="name">{{ skill.name }}</div>
@@ -137,7 +142,9 @@
                   }"
                 />
               </div>
-              <div class="description">{{ skill.description }}</div>
+              <div class="description">
+                {{ skill.description | limit(48) }}
+              </div>
             </li>
           </ul>
 
@@ -151,29 +158,24 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 
-// Add below code sample to your component
-declare module 'vue/types/vue' {
-  interface Vue {
-    page: any
-  }
-}
-
 export default Vue.extend({
-  components: {
-    githubIcon: require('../assets/icons/github.svg?inline'),
-    linkedinIcon: require('../assets/icons/linkedin.svg?inline'),
-    stackoverflowIcon: require('../assets/icons/stackoverflow.svg?inline'),
-    mailIcon: require('../assets/icons/mail.svg?inline'),
-    locationIcon: require('../assets/icons/map-pin.svg?inline'),
-    scrollIcon: require('../assets/icons/scroll-down.svg?inline'),
+  filters: {
+    limit: (value, limit) => {
+      if (value.length > limit) {
+        return value.substring(0, limit) + '...'
+      } else {
+        return value
+      }
+    },
   },
   async asyncData({ $content }) {
     const page = await $content('portfolio').fetch()
+    const { skills } = await $content('skills').fetch()
 
-    return { page }
+    return { page, skills }
   },
   data() {
     return {
@@ -196,7 +198,8 @@ export default Vue.extend({
               for (let b = i + 1; b <= this.page.toc.length; b++) {
                 if (this.page.toc[b] && this.page.toc[b].depth === 3) {
                   toc.list.push(this.page.toc[b])
-                } else {
+                }
+                else {
                   break
                 }
               }
@@ -236,6 +239,18 @@ export default Vue.extend({
 
       return groups
     },
+    mySkills() {
+      return this.skills.map((skill) => {
+        if (Array.isArray(skill.subset)) {
+          skill.value = (
+            skill.subset.reduce((a, b) => a + b.value, 0) / skill.subset.length
+          ).toFixed(1)
+          skill.description = skill.subset.map((s) => s.name).join(', ')
+        }
+
+        return skill
+      })
+    },
   },
   mounted() {
     // scrolling timeout
@@ -245,9 +260,7 @@ export default Vue.extend({
 
         document.querySelectorAll('#welcome, h2[id]').forEach((el) => {
           if (el.id && this.$route.hash.slice(1) !== el.id) {
-            const contentContainer = document.querySelector<any>(
-              `[name='${el.id}']`
-            )
+            const contentContainer = document.querySelector(`[name='${el.id}']`)
 
             // h2
             if (contentContainer) {
@@ -273,12 +286,12 @@ export default Vue.extend({
       })
 
       document
-        .querySelector<any>('[id*="showcase"]')
-        .addEventListener('click', (img: any) => {
+        .querySelector('[id*="showcase"]')
+        .addEventListener('click', (img) => {
           const el = document.createElement('div')
           el.classList.add('preview-container')
           el.innerHTML = img.target.outerHTML
-          el.addEventListener('click', (el: any) => {
+          el.addEventListener('click', (el) => {
             el.target.remove()
           })
           document.body.before(el)
@@ -286,7 +299,7 @@ export default Vue.extend({
     }, 1000)
   },
   methods: {
-    getTocPath(toc: any) {
+    getTocPath(toc) {
       if (toc.depth === 2) {
         if (this.$route.hash === `#${toc.id}`) {
           return { hash: '' }
@@ -592,7 +605,6 @@ export default Vue.extend({
               }
             }
             h2#skill-details {
-              
             }
 
             hr {
@@ -619,7 +631,6 @@ export default Vue.extend({
             details {
               margin: 1rem 0;
               summary {
-                
               }
             }
 
@@ -830,38 +841,40 @@ export default Vue.extend({
 
       aside.skills {
         overflow-y: overlay;
+      }
 
-        ul {
-          li {
-            margin: 1rem 0;
-            border-bottom: 1px solid var(--bg);
-            padding-bottom: 1rem;
-            transition: opacity 0.25s;
+      ul.skills {
+        li {
+          margin: 1rem 0;
+          border-bottom: 1px solid var(--bg);
+          padding-bottom: 1rem;
+          transition: opacity 0.25s;
 
-            &:hover {
-              opacity: 1 !important;
-            }
+          &:hover {
+            opacity: 1 !important;
+          }
 
-            .name {
-              font-weight: 300;
-            }
+          .name {
+            font-weight: 300;
+          }
 
-            .description {
-              font-weight: 200;
-              font-size: 0.8em;
-            }
+          .description {
+            font-weight: 200;
+            font-size: 0.6em;
+            margin-top: 4px;
+          }
 
-            .progress-track {
-              width: 100%;
-              height: 10px;
-              margin: 2px 0;
+          .progress-track {
+            width: 100%;
+            height: 10px;
+            margin: 2px 0;
+            background-color: var(--bg-lighter);
 
-              .bar {
-                background-color: var(--secondary-lighter);
-                height: 100%;
-                border-radius: 2px;
-                transition: width 1s ease-out;
-              }
+            .bar {
+              background-color: var(--secondary-lighter);
+              height: 100%;
+              border-radius: 2px;
+              transition: width 1s ease-out;
             }
           }
         }

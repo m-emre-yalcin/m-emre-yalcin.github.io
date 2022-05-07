@@ -42,8 +42,8 @@ export default Vue.extend({
 
 <style lang="scss">
 .base {
-  // background: url(https://wallpaperaccess.com/full/295664.jpg) no-repeat center center fixed;
-  background: url(~/assets/images/foggy-forest.jpg) no-repeat center center
+  // background: url(https://wallpaperaccess.com/full/295664.jpg?inline) no-repeat center center fixed;
+  background: url(~/assets/images/foggy-forest.jpg?inline) no-repeat center center
     fixed;
   animation: bg 100s infinite;
 

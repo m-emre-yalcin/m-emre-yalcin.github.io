@@ -1,0 +1,195 @@
+{
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "subset": [
+        {
+          "name": "Vue",
+          "value": 9
+        },
+        {
+          "name": "React",
+          "value": 6
+        },
+        {
+          "name": "HTML",
+          "value": 9.5
+        },
+        {
+          "name": "CSS",
+          "value": 9.5
+        },
+        {
+          "name": "JavaScript",
+          "value": 9.5
+        },
+        {
+          "name": "TypeScript",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "subset": [
+        {
+          "name": "Node.js",
+          "value": 7
+        },
+        {
+          "name": "Express",
+          "value": 9
+        },
+        {
+          "name": "Firebase",
+          "value": 8
+        },
+        {
+          "name": "Socket.io",
+          "value": 8
+        },
+        {
+          "name": "Knex",
+          "value": 9.5
+        },        
+        {
+          "name": "RDBMS",
+          "value": 7.5
+        },
+        {
+          "name": "Nginx",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "Mobile App Development",
+      "subset": [
+        {
+          "name": "React Native",
+          "value": 6
+        },
+        {
+          "name": "Responsive Web Design",
+          "value": 9,
+          "icon": "css"
+        },
+        {
+          "name": "Ionic",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Web App Development",
+      "subset": [
+        {
+          "name": "Nuxt",
+          "value": 9.5
+        },
+        {
+          "name": "Next",
+          "value": 7.5
+        },
+        {
+          "name": "PWA",
+          "value": 9.5
+        },
+        {
+          "name": "SPA",
+          "value": 9.5,
+          "icon": "default"
+        },
+        {
+          "name": "SSR",
+          "value": 9.5,
+          "icon": "default"
+        }
+      ]
+    },
+    {
+      "name": "Data Science",
+      "subset": [
+        {
+          "name": "SQL",
+          "value": 8
+        },
+        {
+          "name": "NoSQL",
+          "value": 7,
+          "icon": "default"
+        },
+        {
+          "name": "Excel",
+          "value": 9.5
+        },
+        {
+          "name": "AI",
+          "value": 3,
+          "icon": "default"
+        }
+      ]
+    },
+    {
+      "name": "UI Design/Prototyping",
+      "subset": [
+        {
+          "name": "Adobe Photoshop",
+          "value": 7,
+          "icon": "ps"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "value": 4,
+          "icon": "ai"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "subset": [
+        {
+          "name": "Git",
+          "value": 8
+        },
+        {
+          "name": "Git Actions",
+          "value": 9,
+          "icon": "github"
+        },
+        {
+          "name": "Linux",
+          "value": 7
+        },
+        {
+          "name": "PM2",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "subset": [
+        {
+          "name": "AWS",
+          "value": 3
+        },
+        {
+          "name": "GCP",
+          "value": 2,
+          "icon": "google-cloud"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "subset": [
+        {
+          "name": "Jest (unit testing)",
+          "value": 7,
+          "icon": "jest"
+        }
+      ]
+    }
+  ]
+}

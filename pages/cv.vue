@@ -1,7 +1,7 @@
 <template>
  <div>
   <div class="cover-page">
-   <img src="~/assets/images/mehmet-emre-yalcin.jpg" alt="Mehmet Emre Yalçın" />
+   <img src="~/assets/images/mehmet-emre-yalcin.jpg?inline" alt="Mehmet Emre Yalçın" />
   </div>
 
   <nuxt-content :document="page" />
