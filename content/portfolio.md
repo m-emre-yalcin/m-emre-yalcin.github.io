@@ -196,11 +196,7 @@ Here is one of my cool pictures back then😅
   At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
 </summary>
 
-After graduating from high school, I could've started working for a company but I always wanted to
-be a software engineer/game developer so I decided to start studying for a college exam by taking a
-serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because
-I graduated from a vocational school, but I learned a good degree from all, and after the exam, I was
-accepted here.
+After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to study for a college exam by taking a serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because I had a vocational background, but I learned a good degree from all, and after the exam, I was accepted here.
 
 </details>
 
