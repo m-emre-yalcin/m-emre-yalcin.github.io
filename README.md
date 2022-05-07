@@ -252,22 +252,10 @@ You should also know that I am really willing to overcome my weak sides🙂
 
 I value friendship, being helpful, being optimistic, keeping my promises, and not being selfish.
 
-### Beginning of my journey
-
-<details>
-<summary>I met with software through video games when I was 12. </summary>
-I was creating custom race maps, changing some in-game models or textures by using a map editor and photoshop for GTA San Andreas.
-Later on, I had decide to develop my own games with Unity3D on my old wretched laptop. But all the online documents were in English and I wasn't knowledgeable back then. I had tried hard to make games with the help of google translate but at that time translation wasn't efficient as today. But I still kept going.
-
-I had loved game development too much. I had learned the basics of C#/Javascript. You can see one of my childhood works on [youtube](https://www.youtube.com/watch?v=oHWbQTBnVNk&t) (if it is not removed in your area because of copyright reasons.) If you decide to watch it, I suggest you turn down the volume of the video😅
-
 </details>
 
 ### Goals and Interests
 
-<details>
-<summary>My biggest goal is to create a popular software/game that influentially encourages people to be useful individuals for their society and better for the world.</summary>
+My biggest goal is to create a popular software that influentially encourages people to be useful individuals for their society and better for the world.
 
-I love programming and creating new frameworks but I am also interested in writing about existential subjects. Someday, I wish to be remembered as a philosopher🙂
-
-</details>
+I am also interested in reading and writing about existential subjects. Someday I would like to be known as a philosopher🙂
