@@ -638,7 +638,7 @@ export default Vue.extend({
          margin-left: 2rem;
         }
         &:hover {
-         background-color: var(--bg-lighter);
+         background-color: rgba(0, 0, 0, 0.2);
         }
        }
       }

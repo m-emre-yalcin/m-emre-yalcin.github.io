@@ -55,11 +55,12 @@ skills:
 
 Hi, I'm Emre
 
-I develop softwares and want to contribute to people's life by doing it. Thank you for taking the time to read my resume🙂
+I develop software to make a difference in the world. Thank you for taking the time to read my resume🙂
+
 
 ### Summary
 
-I usually worked with start-ups and became a little bit of everything besides being an autodidactic developer. My strongest side is that I love programming and crave to make a difference in the world. And I believe I can contribute to your company's vision.
+I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world.
 
 ## [Work Experience](#work-experience)
 
@@ -72,25 +73,23 @@ I developed products for individuals or companies as a freelancer and I've compl
 
 <details>
 <summary>
-The works I did in my full-stack role
+The work I did in my full-stack role
 </summary>
 
-1. [Economics dictionary](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) app. I did design, development, deployment, and publishing.
-   1. I used Vue for the UI and Strapi for the API.
-   2. I used capacitor to convert it into a hybrid app
-   3. I used Ps and Ai in the design process
-   4. I published this hybrid app on the apple store and google play
-2. A Mobile Flutter app that I did maintenance on. This was a private app that interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. I learned flutter basics with a Bluetooth module, fixed some tiny bugs, and improved the data structures.
-3. An Admin dashboard related to my second gig. It visualizes incoming data from the mobile app.
-   1. I developed in Vue & Nuxt and Firebase services
-   2. I used Google Maps API to customize the map
-4. [Carbon Calculator](http://calculator.sour.studio) web app. I wrote it in Vue and created the design _but not the icons or background images_.
-5. A Private Blog website and CMS dashboard.
-   1. I developed in Vue & Nuxt and Firebase services
-   2. I worked heavily on the SEO side
-   3. I implemented the AMP feature to the SSR web app which was so tricky
-6. [Estefulya](https://www.estefulya.com/) - A Business website. I created the digital existence of Estefulya. I did the design _(I didn't design the illustrations but changed their original forms)_, development, SEO, CMS with JAMstack setup, email setups, implementing analytic tools, and configuring business tools.
-7. [Basic Level Liquor Store](https://onlinetekelortakoy.netlify.app) website & admin dashboard - I write in Vue, I used Vuetify for the dashboard
+1. An [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu). I accomplished the whole process of designing and developing to publishing in a short period of time.
+
+2. A mobile Flutter app that I did maintenance on. This was a private app that interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. I learned flutter basics with a Bluetooth module, fixed some tiny bugs, and improved the data structures.
+
+3. An admin dashboard related to my second gig. It visualizes incoming data from the mobile app.
+
+4. A [carbon calculator](http://calculator.sour.studio) web app that calculates the greenhouse gas impacts of construction activities. I implemented the company's calculation formulas and I created the interface (except for the icons or backgrounds).
+
+5. A private bet blog with a content management system. The system was able to do things that WordPress can't do like managing multiple posts on different tabs at the same time or injecting customizable components into a blog post. Besides that, it was able to generate AMP pages and important SEO features like structured data and sitemap.
+
+6. A business website and CMS. I created the digital existence of [Estefulya](https://www.estefulya.com). I designed their website and logo, and I've spared so much time on SEO and got great metrics. The CMS was Netlify's. There is no back-end and everything was working on the Jamstack workflow. I also helped them with the emails, business analytics, and registering their company on some platforms.
+
+7. A simple [liquor website](https://onlinetekelortakoy.netlify.app)
+
 </details>
 
 Outside of my gigs, I wasn't idle. I was learning new technologies and working on my open-source and side projects.
@@ -104,7 +103,7 @@ This was a start-up company in Istanbul. Here, I maintained the existing SaaS th
 
 <details>
 <summary>
-The works I did in my front-end role
+The work I did in my front-end role
 </summary>
 
 1. I maintained the company's existing SaaS. The front-end codes I've worked on were legacy codes. I usually wrote CSS and JS.
@@ -114,10 +113,10 @@ The works I did in my front-end role
 
 <details>
 <summary>
-The works I did in my full-stack role
+The work I did in my full-stack role
 </summary>
 
-1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. _design, front-end, and back-end development_
+1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. _Design, front-end, and back-end development_
 1. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. _I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS by using Strapi._
 1. An MVP mobile web app for cooking recipes. _I used Vue to create the UI, and built the API and CMS by using Strapi_
 
@@ -134,7 +133,7 @@ This was a newly founded company in the construction area. I was there from the 
 
 <details>
 <summary>
-The works I did in my web developer role
+The work I did in my web developer role
 </summary>
 
 1. I designed their logos. I designed promotional stuff like brochures, business cards, and email templates.
@@ -238,7 +237,7 @@ You can visit my social network platforms' [API](https://api.lorinto.com) and th
 
 ## [Skill Details](#skill-details)
 
-You should know that I am not constrained by the tools (when I say tools I mean languages, frameworks, programs, modules, etc.). I always learn new tools easily because they all have similar learning curves. And, I am also creative in designing.
+I don't feel constrained by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
 
 ### Fundamentals
 
