@@ -20,6 +20,7 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0;
+
   --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.03);
   --aside-with: 350px;
@@ -35,6 +36,7 @@ body {
   @media screen and (max-width: 1200px) {
     font-size: 16px;
   }
+
 }
 
 html {
