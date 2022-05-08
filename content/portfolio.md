@@ -31,7 +31,9 @@ I am an autodidact developer, having taught myself various new technologies whil
 
 ## [Work Experience](#work-experience)
 
-### Self Employed - Full-stack Developer
+### Self Employed
+
+#### Full-stack Developer
 
 - February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
@@ -44,23 +46,20 @@ I developed products for companies as a freelancer and I've completed a lot of p
 </summary>
 
 1. An [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu). I accomplished the whole process of designing and developing to publishing in a short period of time.
-
 2. A mobile Flutter app that I did maintenance on. This was a private app that interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. I learned flutter basics with a Bluetooth module, fixed some tiny bugs, and improved the data structures.
-
 3. An admin dashboard related to my second gig. It visualizes incoming data from the mobile app.
-
 4. A [carbon calculator](http://calculator.sour.studio) web app that calculates the greenhouse gas impacts of construction activities. I implemented the company's calculation formulas and I created the interface.
-
 5. A private bet blog with a content management system. The system was able to do things that WordPress can't do like managing multiple posts on different tabs at the same time or injecting customizable components into a blog post. Besides that, it was able to generate AMP pages and important SEO features like structured data and sitemap.
-
 6. A business website and CMS. I created the digital existence of [Estefulya](https://www.estefulya.com). I designed the website and the logo, and I've spared so much time on SEO and got great metrics. The CMS was Netlify's. There is no back-end and everything is working on the Jamstack workflow. I also helped them with the emails, business analytics, and registering their company on some platforms.
+7. A simple [liquor website](https://onlinetekelortakoy.netlify.app)
 
-<hide>7. A simple [liquor website](https://onlinetekelortakoy.netlify.app)</hide>
 </details>
 
 > Outside of my gigs, I wasn't idle. I was learning new technologies and working on my [open-source](https://github.com/m-emre-yalcin/mavi) and [side project](https://lorinto.com/login).
 
-### Bontesoft - Front-end, Full-stack developer
+### Bontesoft
+
+#### Front-end & Full-stack developer
 
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Besiktas
@@ -91,7 +90,11 @@ The work I did in my full-stack role
 
 > Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
 
-### BSM Teknik Proje LTD - Web Developer
+<hide placeholder="<br/><br/>"></hide>
+
+### BSM Technical Project LTD
+
+#### Web Developer
 
 - June 2019 - December 2019 _7 months_
 - Turkey - Istanbul/Sisli
@@ -116,7 +119,9 @@ The work I did in my web developer role
 
 > Later, I had to leave because I wanted to focus on programming.
 
-### Istanbul Cerrahi Hospital - IT Intern
+### Istanbul Cerrahi Hospital
+
+#### IT Intern
 
 - August 2016 - August 2017 _12 months_
 - Turkey - Istanbul/Nisantası
@@ -146,6 +151,7 @@ After graduating from high school, I could've started working for a company but 
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
+
 Here, I met with web technologies. I learned HTML, CSS, Javascript, C#, PHP, and MSSQL as well as operating systems and computer hardware.
 
 <hide>
@@ -158,11 +164,13 @@ Before I enlisted in this beautiful school, I was trying to comprehend Javascrip
 
 I joined the theatre club and played the sultan's right hand.
 
-<hide>
+<span class="hide">
+
 > Here is one of my cool pictures back then😅
 >
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
-</hide>
+
+</span>
 
 ## [Projects](#projects)
 
@@ -172,7 +180,7 @@ I joined the theatre club and played the sultan's right hand.
 
 [<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
-I wanted to develop something that current social blog platforms don't have and I hope it will have a place in the real world.
+I wanted to develop something that current social blog platforms don't have and I hope Lorinto will have a place in the real world.
 
 ### Mavi - Open-source Project
 
@@ -200,6 +208,7 @@ I was born in Istanbul on 27 February 1999. I am living on the European side of 
 </hide>
 
 <hide>
+
 ### Values
 
 I value friendship, being helpful, being optimistic, keeping my promises, being a reliable person, and not being selfish.
@@ -209,4 +218,5 @@ I value friendship, being helpful, being optimistic, keeping my promises, being 
 My biggest goal is to create a popular software that influentially encourages people to be useful individuals for their society and better for the world.
 
 I am also interested in reading and writing about existential subjects. Someday I would like to be known as a philosopher🙂
+
 <hide>
