@@ -151,6 +151,7 @@ I developed more than 20 websites for my classmates' and other class students' v
 I joined the theatre club and played the sultan's right hand.
 
 > Here is one of my cool pictures back then😅
+> 
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
 
 ## [Projects](#projects)
