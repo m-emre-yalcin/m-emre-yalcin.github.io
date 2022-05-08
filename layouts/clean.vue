@@ -1,16 +1,80 @@
 <template>
   <div class="clean">
+    <header>
+      <a
+        href="https://www.linkedin.com/in/m-emre-yalcin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <icn-linkedin />
+        <span>m-emre-yalcin</span>
+      </a>
+      <a
+        href="https://github.com/m-emre-yalcin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <icn-github />
+        <span>m-emre-yalcin</span>
+      </a>
+      <a
+        href="https://m-emre-yalcin.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <icn-nuxt />
+        <span>website</span>
+      </a>
+    </header>
+
     <nuxt class="a4" />
   </div>
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+$a4-width: 210mm;
+
 .clean {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Philosopher', sans-serif;
+  background-color: white;
+
+  header {
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    width: $a4-width;
+
+    a {
+      display: flex;
+      align-items: center;
+      svg {
+        width: 24px;
+        height: 24px;
+
+        *:not([class*='dontfill']) {
+          fill: black;
+          stroke: white;
+        }
+
+        &[class*='tabler'] {
+          fill: unset;
+          path {
+            fill: unset;
+          }
+        }
+
+        + span {
+          margin-left: 2px;
+        }
+      }
+    }
+  }
 
   .a4 {
-    width: 210mm;
+    width: $a4-width;
     min-height: 297mm;
     background-color: white;
     margin-inline: auto;
@@ -30,6 +94,7 @@
       border-bottom: 1px solid var(--bg);
       padding-bottom: 0.5rem;
       margin-bottom: 1rem;
+      margin-top: 1rem;
     }
     h3 {
       ~ h3 {
@@ -90,15 +155,14 @@
     .details {
       margin: 0.5rem 0;
       summary {
-        padding-left: 0.5rem;
         padding-bottom: 0.5rem;
         font-weight: 900;
         font-size: 0.8rem;
       }
     }
     ol {
+      padding-left: 2ch;
       margin: 0;
-      padding-left: 24px;
       li {
         padding: 0;
         border-radius: 8px;
@@ -125,46 +189,56 @@
       }
     }
 
-    #activities-and-societies ~ blockquote:not(#projects ~ blockquote) {
-      display: none;
-    }
     #activities-and-societies + p {
       margin-top: 0;
     }
 
-    .skill-group {
-      margin-bottom: 1rem;
+    .skills-container {
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .skill-group {
+        background-color: rgba(0, 0, 0, 0.02);
+        padding: 0.5rem;
+        border-radius: 4px;
 
-      .header {
-        font-weight: 600;
-        padding: 0;
-        border-bottom: unset;
-      }
-      .subset {
-        padding: 0.25rem 0;
-        gap: 0.5rem;
-        li.item {
-          svg {
-            width: 24px;
-            height: 24px;
-            margin-bottom: 0.25rem;
+        .header {
+          font-weight: 600;
+          padding: 0;
+          border-bottom: unset;
+        }
+        .subset {
+          grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+          padding: 0.25rem 0;
+          gap: 0.5rem;
 
-            * {
-              fill: black;
+          li.item {
+            &:hover {
+              opacity: 1 !important;
             }
-            [class*='dontfill'] {
-              fill: white;
+
+            svg {
+              width: 24px;
+              height: 24px;
+              margin-bottom: 0.5rem;
+
+              * {
+                fill: black;
+              }
+              [class*='dontfill'] {
+                fill: white;
+              }
             }
-          }
-          .name {
-            font-size: 0.65rem;
-            text-align: center;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 14ch;
-          }
-          .progress-track {
-            height: 5px;
+            .name {
+              font-size: 0.6rem;
+              text-align: center;
+              white-space: nowrap;
+              overflow: hidden;
+              width: 7.5ch;
+            }
+            .progress-track {
+              height: 5px;
+            }
           }
         }
       }

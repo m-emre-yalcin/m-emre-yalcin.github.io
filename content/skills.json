@@ -26,6 +26,11 @@
         {
           "name": "TypeScript",
           "value": 8
+        },
+        {
+          "name": "Jest (unit)",
+          "value": 4,
+          "icon": "jest"
         }
       ]
     },
@@ -59,6 +64,11 @@
         {
           "name": "Nginx",
           "value": 6
+        },
+        {
+          "name": "Jest (unit)",
+          "value": 7.5,
+          "icon": "jest"
         }
       ]
     },
@@ -131,7 +141,7 @@
       ]
     },
     {
-      "name": "UI Design/Prototyping",
+      "name": "UI Design",
       "subset": [
         {
           "name": "Adobe Photoshop",
@@ -180,16 +190,6 @@
           "icon": "google-cloud"
         }
       ]
-    },
-    {
-      "name": "Testing",
-      "subset": [
-        {
-          "name": "Jest (unit testing)",
-          "value": 7,
-          "icon": "jest"
-        }
-      ]
-    }
+    }    
   ]
 }

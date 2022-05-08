@@ -23,11 +23,11 @@ contact:
 
 Hi, I'm Emre
 
-I develop software to make a difference in the world. Thank you for taking the time to read my resume🙂
+I develop software to make a difference in the world. Thank you for taking the time to read my resume.
 
 ### Summary
 
-I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world.
+I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. I believe I can add value to your company in reaching its objectives.
 
 ## [Work Experience](#work-experience)
 
@@ -36,11 +36,11 @@ I am an autodidact developer, having taught myself various new technologies whil
 - February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
 
-I developed products for individuals or companies as a freelancer and I've completed a lot of projects successfully.
+I developed products for companies as a freelancer and I've completed a lot of projects successfully. <hide placeholder="<b>Some of the projects I've worked on:</b>"/>
 
 <details>
 <summary>
-The work I did in my full-stack role
+<hide>The work I did in my full-stack role</hide>
 </summary>
 
 1. An [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu). I accomplished the whole process of designing and developing to publishing in a short period of time.
@@ -49,25 +49,25 @@ The work I did in my full-stack role
 
 3. An admin dashboard related to my second gig. It visualizes incoming data from the mobile app.
 
-4. A [carbon calculator](http://calculator.sour.studio) web app that calculates the greenhouse gas impacts of construction activities. I implemented the company's calculation formulas and I created the interface (except for the icons or backgrounds).
+4. A [carbon calculator](http://calculator.sour.studio) web app that calculates the greenhouse gas impacts of construction activities. I implemented the company's calculation formulas and I created the interface.
 
 5. A private bet blog with a content management system. The system was able to do things that WordPress can't do like managing multiple posts on different tabs at the same time or injecting customizable components into a blog post. Besides that, it was able to generate AMP pages and important SEO features like structured data and sitemap.
 
-6. A business website and CMS. I created the digital existence of [Estefulya](https://www.estefulya.com). I designed their website and logo, and I've spared so much time on SEO and got great metrics. The CMS was Netlify's. There is no back-end and everything was working on the Jamstack workflow. I also helped them with the emails, business analytics, and registering their company on some platforms.
+6. A business website and CMS. I created the digital existence of [Estefulya](https://www.estefulya.com). I designed the website and the logo, and I've spared so much time on SEO and got great metrics. The CMS was Netlify's. There is no back-end and everything is working on the Jamstack workflow. I also helped them with the emails, business analytics, and registering their company on some platforms.
 
-7. A simple [liquor website](https://onlinetekelortakoy.netlify.app)
-
+<hide>7. A simple [liquor website](https://onlinetekelortakoy.netlify.app)</hide>
 </details>
 
-Outside of my gigs, I wasn't idle. I was learning new technologies and working on my open-source and side projects.
+> Outside of my gigs, I wasn't idle. I was learning new technologies and working on my [open-source](https://github.com/m-emre-yalcin/mavi) and [side project](https://lorinto.com/login).
 
 ### Bontesoft - Front-end, Full-stack developer
 
 - February 2020 - February 2021 _12 months_
-- Turkey - Istanbul/Beşiktaş
+- Turkey - Istanbul/Besiktas
 
-This was a start-up company in Istanbul. Here, I maintained the existing SaaS that the company has and developed new front-end applications (usually websites). After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.
+<p><hide>This was a start-up company in Istanbul.</hide>Here, I maintained the existing SaaS that the company has and developed new front-end applications <hide>(usually websites)</hide>. After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.</p>
 
+<hide placeholder="<b>In my front-end role,</b> I maintained the company's existing SaaS. I built an interactive interface for an e-commerce website and I built a landing page for a bank. <b>When I become full-stack</b> I've completed 3 MVP apps. I had always written the interfaces from scratch, exactly as their design. I modeled relational databases and created REST APIs. I implemented RTC and cron schedulers. And more... And more...">
 <details>
 <summary>
 The work I did in my front-end role
@@ -84,19 +84,23 @@ The work I did in my full-stack role
 </summary>
 
 1. An MVP that sends user forms to a company's open applications. Company members were able to see incoming applications in real-time and evaluate them. _Design, front-end, and back-end development_
-1. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. _I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS by using Strapi._
-1. An MVP mobile web app for cooking recipes. _I used Vue to create the UI, and built the API and CMS by using Strapi_
-
-Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
-
+2. An MVP that helps you to manage projects and tasks like Asana, but in a simple form. _I worked with the designer on the UI, created an interactive interface with Vue, and built the API and CMS by using Strapi._
+3. An MVP mobile web app for cooking recipes. _I used Vue to create the UI, and built the API and CMS by using Strapi_
 </details>
+</hide>
+
+> Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
 
 ### BSM Teknik Proje LTD - Web Developer
 
 - June 2019 - December 2019 _7 months_
-- Turkey - Istanbul/Şişli
+- Turkey - Istanbul/Sisli
 
 This was a newly founded company in the construction area. I was there from the very beginning and my work was versatile. I had done programming, designing, copywriting, and sometimes social media editor.
+
+<hide placeholder="
+<b>In my web designer role,</b> I designed their logo, their promotional stuff like brochures, and their business cards. I wrote an admin panel that can send offering emails according to the company's stocks and converts approved offers into billings (JQuery and PHP). I created their <a src='http://bsmproje.com/'>website</a> and I wrote the whole content as I can. And more...
+">
 
 <details>
 <summary>
@@ -108,21 +112,22 @@ The work I did in my web developer role
 3. I created their [website](http://bsmproje.com/) and I wrote the whole content for the website as much as I can.
 4. I created a comprehensive excel program for the potential gain/expense balance tracing and for detailed business planning with the insight reports.
 </details>
+</hide>
 
 > Later, I had to leave because I wanted to focus on programming.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
 - August 2016 - August 2017 _12 months_
-- Turkey - Istanbul/Nişantaşı
+- Turkey - Istanbul/Nisantası
 
-I worked here to complete my vocational school' internship program. To be honest, I didn't do anything about web development here. I mainly worked on excel programs which taught me the fundamentals of data structures, data collection, and data processing.
+I worked here to complete my vocational school' internship program. I mainly worked on excel programs which taught me the fundamentals of data structures, data collection, and data processing.
 
-> Even though I am an intern I did a good job and helped the technical service department to increase efficiency in logistics and inventory management, and I became key personnel for the manager.
+> Besides being a seasonal intern I did a good job and helped the technical service department to increase efficiency in logistics and inventory management, and I had become key personnel for the manager.
 
 ## [Education](#education)
 
-### Doğuş University
+### Doğus University
 
 #### Software Engineering
 
@@ -131,7 +136,9 @@ I worked here to complete my vocational school' internship program. To be honest
 
 At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
 
+<hide>
 After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to study for a college exam by taking a serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because I had a vocational background, but I learned a good degree from all, and after the exam, I was accepted here.
+</hide>
 
 ### Sultanahmet Vocational High School
 
@@ -139,20 +146,23 @@ After graduating from high school, I could've started working for a company but 
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
-
 Here, I met with web technologies. I learned HTML, CSS, Javascript, C#, PHP, and MSSQL as well as operating systems and computer hardware.
 
+<hide>
 Before I enlisted in this beautiful school, I was trying to comprehend Javascript and C# for the game development in Unity3D. Here, I was hoping to learn enough programming so I could build my dream games. But later, I started to like making web applications as well and I was relatively good at it.
+</hide>
 
-I had developed more than 20 websites for my classmates' and other class students' vocational homework projects in my 3rd and 4th grade. For some of the websites, I used Adobe Flash (which is a deprecated technology now) but in most was HTML, CSS, and JS. I had earned a fair amount from each friend and contributed to their grades.
+> I had developed more than 20 websites for my classmates' and other class students' vocational homework projects. I mostly used HTML, CSS, and JS. I had earned a fair amount from each friend and contributed to their grades.
 
 ##### Activities and societies
 
 I joined the theatre club and played the sultan's right hand.
 
+<hide>
 > Here is one of my cool pictures back then😅
-> 
+>
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
+</hide>
 
 ## [Projects](#projects)
 
@@ -162,17 +172,7 @@ I joined the theatre club and played the sultan's right hand.
 
 [<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
-I wanted to develop something that current social blog platforms don't have and I hope [Lorinto](https://lorinto.com/login) is going to be an alternative to Elon Musk's Twitter in the future🙂
-
-I started Lorinto back in 2019 November. But I was technically inefficient in the back-end development and I didn't have any developer friends to work with so there were too many gaps to fill.
-
-Within 2 years I have learned the things that I need and started to develop a superior version. The platform is still in development and I am working every day to make my vision come to life.
-
-My purpose is to create an alternative for micro/macro blog platforms. My main vision is:
-
-1. A democratic discussion platform
-2. Helping people to know themselves better
-3. Helping them to find good friends who have the similar personal values as them
+I wanted to develop something that current social blog platforms don't have and I hope it will have a place in the real world.
 
 ### Mavi - Open-source Project
 
@@ -180,13 +180,9 @@ My purpose is to create an alternative for micro/macro blog platforms. My main v
 
 [<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
-> Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
->
+Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
+
 > Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
-
-Mavi is born from my social network project "Lorinto". When I was developing my project's [API](https://api.lorinto.com), I realized I have some reusable and easy-to-understand patterns in my architecture. So I want it to be open-sourced and shared with the world.
-
-You can visit my social network platforms' [API](https://api.lorinto.com) and the [Web](https://lorinto.com/login) to see what [Mavi](https://github.com/m-emre-yalcin/mavi) can offer.
 
 ## [Skill Details](#skill-details)
 
@@ -194,55 +190,23 @@ I don't feel constrained by tools and welcome using various languages, framework
 
 <skill-details></skill-details>
 
+<hide placeholder="<br><blockquote>The values are correlated with the combination of my professional experience and the rate of my successful problem solving on the subject</blockquote>"></hide>
+
 ## [About Me](#about-me)
 
-I was born in Istanbul in 27 February 1999.
+I was born in Istanbul on 27 February 1999. I am living on the European side of Istanbul, still a student at the Dogus University 3rh grade. I always worked all through my college life but gave the same attention as my work to my classes as well. I like riding a motorcycle, and playing electro guitar (but I am terrible at it). My English is not perfect (I learned it from the internet), but I believe it's decent for communication.
 
-I am living on the European side of Istanbul.
+<hide placeholder="I value friendship, being helpful, being optimistic, keeping my promises, being a reliable person, and not being selfish. <br> My biggest goal is to create a popular software that influentially encourages people to be useful individuals for their society and better for the world.">
+</hide>
 
-I am a little bit of a short guy with long hair.
-
-I am a student at the Dogus University 3rh grade.
-
-I always worked all through my college life.
-
-I am a little bit of an introverted person.
-
-I usually spare my time for my gigs or side projects.
-
-I like riding a motorcycle.
-
-I like learning and producing new thoughts.
-
-I like playing electro guitar but I am terrible at it.
-
-My English is not perfect, but I believe it's decent for communication.
-
-<br>
-
-### Strong and weak sides
-
-I don't like promoting myself as someone I'm not. Below, I did share some of my personality traits that you should know and I've been outspoken.
-
-| <img height="140px" alt="bob good side" src="https://m-emre-yalcin.github.io/bob-1.png"                /> | <img height="140px" alt="bob bad side" src="https://m-emre-yalcin.github.io/bob-2.png"                /> |
-| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| I complete my work right on time with the specified requirements                                          | I give attention to the detail and waste valuable time                                                   |
-| I am open to new experiences                                                                              | I have a tendency to be introverted                                                                      |
-| I finish what I started                                                                                   | I am stubborn with that                                                                                  |
-| I'm an agreeable person and a good listener                                                               | I am not good at explaining something simply                                                             |
-| I don't stop learning                                                                                     | My good habits are not staying stable                                                                    |
-| I want to change the world                                                                                | I get **too** excited in public speaking                                                                 |
-
-You should also know that I am really willing to overcome my weak sides🙂
-
+<hide>
 ### Values
 
-I value friendship, being helpful, being optimistic, keeping my promises, and not being selfish.
-
-</details>
+I value friendship, being helpful, being optimistic, keeping my promises, being a reliable person, and not being selfish.
 
 ### Goals and Interests
 
 My biggest goal is to create a popular software that influentially encourages people to be useful individuals for their society and better for the world.
 
 I am also interested in reading and writing about existential subjects. Someday I would like to be known as a philosopher🙂
+<hide>

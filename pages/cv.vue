@@ -36,17 +36,16 @@ export default Vue.extend({
         const src = img.attributes.getNamedItem('src').value
         const newSrc = src.replace('.svg', '-black.svg')
         img.setAttribute('src', newSrc)
-        
 
         img.parentElement.style = `
             display: inline-flex;
             position: absolute;
-            transform: translate(250px, -60px);
-            width: 100px;
+            transform: translate(300px, -54px);
         `
+        img.style.width = '80px'
 
         if (img.attributes.getNamedItem('alt').value === 'Lorinto logo') {
-          img.parentElement.style.transform = 'translate(290px, -60px)'
+          img.parentElement.style.transform = 'translate(350px, -52px)'
         }
       })
     }, 500)
@@ -56,6 +55,7 @@ export default Vue.extend({
 
 <style lang="scss">
 .cover-page {
-  min-height: 297mm;
+  display: none;
+  // min-height: 297mm;
 }
 </style>
