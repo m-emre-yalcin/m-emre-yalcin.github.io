@@ -140,9 +140,7 @@ After graduating from high school, I could've started working for a company but 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
-At my high school, I specialized in web development. I learned HTML, CSS, Javascript, C#, PHP, MSSQL as well as computer hardware.
-
-Here, I met with web technologies.
+Here, I met with web technologies. I learned HTML, CSS, Javascript, C#, PHP, MSSQL as well as computer hardware.
 
 Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping to learn enough programming in this school to build my dream games. But later, I started to like making web applications as well and I was relatively good at it.
 
