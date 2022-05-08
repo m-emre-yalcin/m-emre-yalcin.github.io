@@ -122,35 +122,6 @@ I worked here to complete my vocational school' internship program. To be honest
 
 ## [Education](#education)
 
-### Sultanahmet Vocational High School
-
-#### Information Technologies
-
-- September 2013 - June 2017
-- Turkey - Istanbul/Sultanahmet
-
-<details>
-<summary>
-  At my high school, I specialized in web development. I learned HTML, CSS, Javascript, C#, PHP, MSSQL as well as computer hardware.
-</summary>
-
-Here, I met with web technologies.
-
-Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping here to learn enough programming to build my dream games. But later, I started to like making web applications as well.
-
-I developed more than 20 websites for my classmates' and other class students' vocational homework projects in 3th and 4th grade. I earned a fair amount from each fellow :) I developed some of the websites in Adobe Flash (which is a deprecated technology now) but in most projects, I used HTML,
-CSS, and JS.
-
-#### Activities and societies
-
-I joined the theatre club and played the sultan's right hand.
-
-Here is one of my cool pictures back then😅
-
-> <img id="showcase" src="sultanahmet-theatre.jpg" />
-
-</details>
-
 ### Doğuş University
 
 #### Software Engineering
@@ -158,14 +129,31 @@ Here is one of my cool pictures back then😅
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-<details>
-<summary>
-  At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
-</summary>
+At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
 
 After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to study for a college exam by taking a serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because I had a vocational background, but I learned a good degree from all, and after the exam, I was accepted here.
 
-</details>
+### Sultanahmet Vocational High School
+
+#### Information Technologies
+
+- September 2013 - June 2017
+- Turkey - Istanbul/Sultanahmet
+
+At my high school, I specialized in web development. I learned HTML, CSS, Javascript, C#, PHP, MSSQL as well as computer hardware.
+
+Here, I met with web technologies.
+
+Before I enlisted in this beautiful school, I was trying to comprehend javascript and c# for the game development in Unity3D. I was hoping to learn enough programming in this school to build my dream games. But later, I started to like making web applications as well and I was relatively good at it.
+
+I developed more than 20 websites for my classmates' and other class students' vocational homework projects in 3th and 4th grade. I earned a fair amount from each fellow :) I developed some of the websites in Adobe Flash (which is a deprecated technology now) but in most projects, I used HTML, CSS, and JS.
+
+##### Activities and societies
+
+I joined the theatre club and played the sultan's right hand.
+
+> Here is one of my cool pictures back then😅
+> <img id="showcase" src="sultanahmet-theatre.jpg" />
 
 ## [Projects](#projects)
 
