@@ -25,7 +25,7 @@
           <icn-github />
           <span>/m-emre-yalcin</span>
         </a>
-        <a href="https://github.com/m-emre-yalcin" target="_blank">
+        <a href="https://stackoverflow.com/users/10639354/m-emre-yalcin" target="_blank">
           <icn-stackoverflow />
           <span>/m-emre-yalcin</span>
         </a>
