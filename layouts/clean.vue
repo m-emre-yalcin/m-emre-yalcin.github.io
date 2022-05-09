@@ -3,42 +3,35 @@
     <header>
       <div class="col">
         <h1>M. Emre Yalcin</h1>
-        <a
-          class="location"
-          target="_blank"
-          href="https://www.google.com/maps/place/Balat,+34087+Fatih%2F%C4%B0stanbul/@41.0291594,28.9444336,16z/data=!3m1!4b1!4m5!3m4!1s0x14caba02c5222d69:0x24ba70e0cfd3483e!8m2!3d41.0292106!4d28.9484978"
-        >
-          Istanbul/Balat
-        </a>
-        <a class="tel" target="_blank" href="tel:+905323459737"
-          >+90 532 345 97 37</a
-        >
+        <span class="location"> Istanbul/Turkey </span>
+        <div class="info">
+          <a href="mailto:emrreyalcin@gmail.com" target="_blank">
+            <icn-mail />
+            <span>emrreyalcin@gmail.com</span>
+          </a>
+          <a class="tel" target="_blank" href="tel:+905323459737">
+            <icn-phone />
+            <span>+90 532 345 97 37</span>
+          </a>
+        </div>
       </div>
 
       <div class="col navs">
-        <a
-          href="https://www.linkedin.com/in/m-emre-yalcin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.linkedin.com/in/m-emre-yalcin" target="_blank">
           <icn-linkedin />
           <span>/in/m-emre-yalcin</span>
         </a>
-        <a
-          href="https://github.com/m-emre-yalcin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com/m-emre-yalcin" target="_blank">
           <icn-github />
           <span>/m-emre-yalcin</span>
         </a>
-        <a
-          href="https://m-emre-yalcin.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <icn-nuxt />
-          <span>website</span>
+        <a href="https://github.com/m-emre-yalcin" target="_blank">
+          <icn-stackoverflow />
+          <span>/m-emre-yalcin</span>
+        </a>
+        <a href="https://m-emre-yalcin.github.io" target="_blank">
+          <icn-web />
+          <span>Website</span>
         </a>
       </div>
     </header>
@@ -64,22 +57,48 @@ $a4-width: 210mm;
     border-bottom: 1px solid black;
 
     .col {
+      line-height: 20px;
+      a span {
+        color: rgb(77, 85, 240);
+      }
       h1 {
         padding: 0;
         margin: 0;
       }
+      .location {
+        opacity: 0.6;
+      }
       .location,
-      .tel {
+      .info {
         font-size: 0.6em;
       }
-      .tel {
-        margin-left: 0.5rem;
+      .info {
+        display: flex;
+        a {
+          display: flex;
+          align-items: center;
+          &:not(:last-child) {
+            margin-right: 0.5rem;
+          }
+        }
+        svg {
+          width: 16px;
+          height: 16px;
+          + span {
+            margin-left: 2px;
+          }
+        }
       }
+    }
+    .col:not(.navs) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     .col.navs {
       display: grid;
       align-items: flex-start;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(2, auto);
       gap: 1rem;
       margin-top: 0.4rem;
 
@@ -87,27 +106,11 @@ $a4-width: 210mm;
         display: grid;
         align-items: center;
         flex-direction: row-reverse;
-        grid-template-columns: 30px 1fr;
+        grid-template-columns: 18px 1fr;
         font-size: 0.8rem;
         svg {
-          width: 32px;
-          height: 32px;
-
-          *:not([class*='dontfill']) {
-            fill: black;
-            stroke: white;
-          }
-
-          &[class*='tabler'] {
-            fill: unset;
-            path {
-              fill: unset;
-            }
-          }
-
-          + span {
-            margin-left: 4px;
-          }
+          width: 16px;
+          height: 16px;
         }
       }
     }

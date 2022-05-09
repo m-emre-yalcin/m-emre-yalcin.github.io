@@ -467,6 +467,7 @@ export default Vue.extend({
 
             svg {
               width: 20px;
+              height: 20px;
             }
           }
         }

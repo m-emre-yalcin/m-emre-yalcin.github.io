@@ -59,14 +59,14 @@ I developed products for companies as a freelancer and I've completed a lot of p
 
 ### Bontesoft
 
-#### Front-end & Full-stack developer
+#### Front-end Intern, Front-end developer, Full-stack developer
 
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Besiktas
 
-<p><hide>This was a start-up company in Istanbul.</hide>Here, I maintained the existing SaaS that the company has and developed new front-end applications <hide>(usually websites)</hide>. After a short period of time, I was promoted to full-stack dev. After promotion, I was heavily working on the MVP apps with the designer, and fulfilling the customers' needs with the product manager.</p>
+> This was a start-up company in Istanbul. Here, I started as an intern but took on too many responsibilities because I love what I am doing and become a front-end developer shortly. I also had a chance to prove my old back-end skills by solving some problems beyond my duties while had completed a couple of front-end projects. A few months later, I become a full-stack developer. After the promotion, I heavily worked on the MVP apps with the designer and fulfilled the customers' needs with the product manager.
 
-<hide placeholder="<b>In my front-end role,</b> I maintained the company's existing SaaS. I built an interactive interface for an e-commerce website and I built a landing page for a bank. <b>When I become full-stack</b> I've completed 3 MVP apps. I had always written the interfaces from scratch, exactly as their design. I modeled relational databases and created REST APIs. I implemented RTC and cron schedulers. And more... And more...">
+<hide placeholder="<b>In my front-end role,</b> I maintained the company's existing SaaS. I built an interactive interface for an e-commerce website and I built a landing page for a bank. <b>When I become full-stack</b> I've completed 3 MVP apps. I had always written the interfaces from scratch, exactly as their design. I modeled relational databases and created REST APIs. I implemented RTC and cron schedulers...">
 <details>
 <summary>
 The work I did in my front-end role
@@ -88,9 +88,9 @@ The work I did in my full-stack role
 </details>
 </hide>
 
-> Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
+Also, when the resources were not enough I was assigned to fix the company's other project tasks. I usually fixed front-end bugs. Once I solved a complicated SQL problem in the company's SaaS. The existing query was so slow and I helped to reduce the response time from ~30 sec to ~5 sec.
 
-<hide placeholder="<br/><br/>"></hide>
+<hide placeholder="<br/>"></hide>
 
 ### BSM Technical Project LTD
 
@@ -102,8 +102,7 @@ The work I did in my full-stack role
 This was a newly founded company in the construction area. I was there from the very beginning and my work was versatile. I had done programming, designing, copywriting, and sometimes social media editor.
 
 <hide placeholder="
-<b>In my web designer role,</b> I designed their logo, their promotional stuff like brochures, and their business cards. I wrote an admin panel that can send offering emails according to the company's stocks and converts approved offers into billings (JQuery and PHP). I created their <a src='http://bsmproje.com/'>website</a> and I wrote the whole content as I can. And more...
-">
+<b>In my web designer role,</b> I designed their logo, their promotional stuff like brochures, and their business cards. I wrote an admin panel that can send offering emails according to the company's stocks and converts approved offers into billings (JQuery and PHP). I created their <a href='http://bsmproje.com/'>website</a> and I wrote the whole content as I can.">
 
 <details>
 <summary>
@@ -117,7 +116,8 @@ The work I did in my web developer role
 </details>
 </hide>
 
-> Later, I had to leave because I wanted to focus on programming.
+> The things I did here had a direct impact on the company's workflow efficiency and finding potential customers.
+> But later, I had to leave because I wanted to focus on programming.
 
 ### Istanbul Cerrahi Hospital
 
@@ -190,7 +190,9 @@ I wanted to develop something that current social blog platforms don't have and 
 
 Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 
+<hide>
 > Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
+</hide>
 
 ## [Skill Details](#skill-details)
 
