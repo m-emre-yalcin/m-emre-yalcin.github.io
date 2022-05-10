@@ -27,7 +27,7 @@ I develop software to make a difference in the world. Thank you for taking the t
 
 ### Summary
 
-I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. I believe I can add value to your company in reaching its objectives.
+I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. <hide>I believe I can add value to your company in reaching its objectives.</hide>
 
 ## [Work Experience](#work-experience)
 
@@ -191,7 +191,7 @@ I wanted to develop something that current social blog platforms don't have and 
 Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 
 <hide>
-> Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.
+<blockquote>Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.</blockquote>
 </hide>
 
 ## [Skill Details](#skill-details)
