@@ -27,7 +27,7 @@ I develop software to make a difference in the world. Thank you for taking the t
 
 ### Summary
 
-I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. <hide>I believe I can add value to your company in reaching its objectives.</hide>
+I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. <hide placeholder="I believe I can add value to your company in reaching its objectives."></hide>
 
 ## [Work Experience](#work-experience)
 
