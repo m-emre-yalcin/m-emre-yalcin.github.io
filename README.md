@@ -142,7 +142,7 @@ I worked here to complete my vocational school' internship program. I mainly wor
 At my university, I learned/learning the foundations of software engineering. Also, I've learned the basics of C++, Java, Python, and R.
 
 <hide>
-After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to study for a college exam by taking a serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because I had a vocational background, but I learned a good degree from all, and after the exam, I was accepted here.
+<blockquote>After graduating from high school, I could've started working for a company but I always wanted to be a software engineer/game developer so I decided to study for a college exam by taking a serious time. In the beginning, I hadn't many the fundamentals of geometry, math, and science because I had a vocational background, but I learned a good degree from all, and after the exam, I was accepted here.</blockquote>
 </hide>
 
 ### Sultanahmet Vocational High School
@@ -166,7 +166,7 @@ I joined the theatre club and played the sultan's right hand.
 
 <span class="hide">
 
-> Here is one of my cool pictures back then😅
+> Here I'm giving advices to the sultan😅
 >
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
 
@@ -191,7 +191,7 @@ I wanted to develop something that current social blog platforms don't have and 
 Create an abstracted and extendible server from one JSON file! This module aims to lift repetitive works that you have made every time building a server from scratch.
 
 <hide>
-<blockquote>Please visit [GitHub](https://github.com/m-emre-yalcin/mavi) to see the project.</blockquote>
+<blockquote>Please visit <a href="https://github.com/m-emre-yalcin/mavi" target="_blank">GitHub</a> to see the project.</blockquote>
 </hide>
 
 ## [Skill Details](#skill-details)
