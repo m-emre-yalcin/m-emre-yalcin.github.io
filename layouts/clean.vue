@@ -25,7 +25,10 @@
           <icn-github />
           <span>/m-emre-yalcin</span>
         </a>
-        <a href="https://stackoverflow.com/users/10639354/m-emre-yalcin" target="_blank">
+        <a
+          href="https://stackoverflow.com/users/10639354/m-emre-yalcin"
+          target="_blank"
+        >
           <icn-stackoverflow />
           <span>/m-emre-yalcin</span>
         </a>
@@ -47,6 +50,8 @@ $a4-width: 210mm;
 .clean {
   font-family: 'Philosopher', sans-serif;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 
   header {
     display: flex;
@@ -60,17 +65,19 @@ $a4-width: 210mm;
       line-height: 20px;
       a span {
         color: rgb(77, 85, 240);
+        font-weight: 600;
+        font-size: 0.7rem;
+        white-space: nowrap;
       }
       h1 {
         padding: 0;
         margin: 0;
+        font-size: 2rem;
       }
       .location {
         opacity: 0.6;
-      }
-      .location,
-      .info {
-        font-size: 0.6em;
+        font-size: .7rem;
+        margin-top: 4px;
       }
       .info {
         display: flex;
@@ -97,8 +104,8 @@ $a4-width: 210mm;
     }
     .col.navs {
       display: grid;
-      align-items: flex-start;
-      grid-template-columns: repeat(2, auto);
+      align-items: flex-end;
+      grid-template-columns: repeat(4, auto);
       gap: 1rem;
       margin-top: 0.4rem;
 
@@ -136,7 +143,7 @@ $a4-width: 210mm;
     h2 {
       border-bottom: 1px solid var(--bg);
       padding-bottom: 0.5rem;
-      margin-top: 2rem;
+      margin-top: 1rem;
       margin-bottom: 0.5rem;
       + h3 {
         margin-top: 1rem;
@@ -144,7 +151,7 @@ $a4-width: 210mm;
     }
     h3 {
       ~ h3:not(h2 + h3) {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
       }
     }
     h3 + ul,
