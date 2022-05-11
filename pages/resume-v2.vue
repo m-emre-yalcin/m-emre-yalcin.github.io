@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="cover-page">
-      <img
-        src="~/assets/images/mehmet-emre-yalcin.jpg?inline"
-        alt="Mehmet Emre Yalçın"
-      />
-    </div>
-
     <nuxt-content :document="page" />
   </div>
 </template>
@@ -25,12 +18,12 @@ export default Vue.extend({
       img.parentElement.style = `
             display: inline-flex;
             position: absolute;
-            transform: translate(300px, -60px);
+            transform: translate(300px, -50px);
         `
       img.style.width = '80px'
 
       if (img.attributes.getNamedItem('alt').value === 'Lorinto logo') {
-        img.parentElement.style.transform = 'translate(350px, -60px)'
+        img.parentElement.style.transform = 'translate(350px, -50px)'
       }
     })
   },
@@ -38,11 +31,33 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-html{
-  font-size: 17px !important;
-}
-.cover-page {  
-  display: none;
-  // min-height: 297mm;
+html {
+  font-size: 21px !important;
+  blockquote {
+    background-color: unset !important;
+    font-style: italic;
+  }
+  p{
+    margin: 8px 0;
+  }
+
+  .clean {
+    header {
+      padding-bottom: 0;
+      border-bottom: unset;
+      .col {
+        line-height: 20px;
+        a span {
+          color: rgb(23, 23, 23);
+          font-weight: 900;
+          font-size: 12px;
+          white-space: nowrap;
+        }
+      }
+      .col.navs {
+        grid-template-columns: repeat(4, auto);
+      }
+    }
+  }
 }
 </style>

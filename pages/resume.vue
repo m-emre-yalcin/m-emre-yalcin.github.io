@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="cover-page">
-      <img
-        src="~/assets/images/mehmet-emre-yalcin.jpg?inline"
-        alt="Mehmet Emre Yalçın"
-      />
-    </div>
-
     <nuxt-content :document="page" />
   </div>
 </template>
@@ -56,10 +49,3 @@ export default Vue.extend({
   },
 })
 </script>
-
-<style lang="scss">
-.cover-page {
-  display: none;
-  // min-height: 297mm;
-}
-</style>

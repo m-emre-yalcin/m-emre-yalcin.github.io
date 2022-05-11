@@ -19,9 +19,21 @@ contact:
   ]
 ---
 
+## [Introduction](#introduction)
+
 Hi, I'm Emre
 
-I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. I believe I can add value to your company in reaching its objectives.
+I love programming and crave to make a difference in the world.
+
+---
+
+I was born in Istanbul on 27 February 1999, I am still a student at the Dogus University 3rh grade, always worked all through my college life.
+
+I value friendship, being helpful, optimistic, and a reliable person.
+
+My biggest goal is to create a popular software that influentially encourages people to be useful individuals for their society and better for the world.
+
+I am also interested in reading and writing about existential subjects. Someday I would like to be known as a philosopher🙂
 
 ## [Work Experience](#work-experience)
 
@@ -79,13 +91,17 @@ Developed more than 20 websites for my classmates' and other class students' voc
 
 **Activities and societies:** Joined the theatre club and played the sultan's right hand.
 
+> Here I'm giving advices to the sultan😅
+>
+> <img id="showcase" src="sultanahmet-theatre.jpg" />
+
 ## [Projects](#projects)
 
 ### Lorinto - Social Network Project
 
 - 2019 November - Present
 
-[<img src="https://m-emre-yalcin.github.io/lorinto-black.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
+[<img src="https://m-emre-yalcin.github.io/lorinto.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
 
 I want to develop something that current social blog platforms don't have and I believe Lorinto will have a place in the real world in the future.
 
@@ -93,7 +109,7 @@ I want to develop something that current social blog platforms don't have and I 
 
 - 2021 November - Present
 
-[<img src="https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
+[<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
 This module aims to lift repetitive works that you have made every time building a server from scratch.
 
@@ -105,8 +121,4 @@ This module aims to lift repetitive works that you have made every time building
 
 I don't feel constrained by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
 
-<skill-details-v2></skill-details-v2>
-
-## [About Me](#about-me)
-
-I was born in Istanbul on 27 February 1999, I am still a student at the Dogus University 3rh grade, always worked all through my college life. I value friendship, being helpful, optimistic, and a reliable person.
+<skill-details></skill-details>

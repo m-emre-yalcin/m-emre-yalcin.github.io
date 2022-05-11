@@ -132,7 +132,7 @@ I worked here to complete my vocational school' internship program. I mainly wor
 
 ## [Education](#education)
 
-### Doğus University
+### Dogus University
 
 #### Software Engineering
 

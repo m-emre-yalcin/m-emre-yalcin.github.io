@@ -19,22 +19,22 @@
       <div class="col navs">
         <a href="https://www.linkedin.com/in/m-emre-yalcin" target="_blank">
           <icn-linkedin />
-          <span>/in/m-emre-yalcin</span>
+          <span>in/m-emre-yalcin</span>
         </a>
         <a href="https://github.com/m-emre-yalcin" target="_blank">
           <icn-github />
-          <span>/m-emre-yalcin</span>
+          <span>m-emre-yalcin</span>
         </a>
         <a
           href="https://stackoverflow.com/users/10639354/m-emre-yalcin"
           target="_blank"
         >
           <icn-stackoverflow />
-          <span>/m-emre-yalcin</span>
+          <span>m-emre-yalcin</span>
         </a>
         <a href="https://m-emre-yalcin.github.io" target="_blank">
           <icn-web />
-          <span>Website</span>
+          <span>my website</span>
         </a>
       </div>
     </header>
@@ -76,8 +76,8 @@ $a4-width: 210mm;
       }
       .location {
         opacity: 0.6;
-        font-size: .7rem;
-        margin-top: 4px;
+        font-size: 12px;
+        margin-top: 6px;
       }
       .info {
         display: flex;
@@ -156,8 +156,8 @@ $a4-width: 210mm;
     }
     h3 + ul,
     h4 + ul {
-      margin-top: 0.15rem;
-      font-size: 0.8rem;
+      margin-top: 0px;
+      font-size: 12px;
       display: flex;
       justify-content: space-between;
       li {

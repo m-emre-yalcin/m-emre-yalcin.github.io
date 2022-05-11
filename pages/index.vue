@@ -172,7 +172,7 @@ export default Vue.extend({
     },
   },
   async asyncData({ $content }) {
-    const page = await $content('portfolio').fetch()
+    const page = await $content('web').fetch()
     const { skills } = await $content('skills').fetch()
 
     return { page, skills }
