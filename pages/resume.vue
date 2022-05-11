@@ -10,7 +10,7 @@ import Vue from 'vue'
 export default Vue.extend({
   layout: 'clean',
   async asyncData({ $content }) {
-    const page = await $content('portfolio').fetch()
+    const page = await $content('portfolio-v2').fetch()
     return { page }
   },
   mounted() {

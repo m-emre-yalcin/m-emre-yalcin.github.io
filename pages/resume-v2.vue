@@ -12,21 +12,7 @@ export default Vue.extend({
   async asyncData({ $content }) {
     const page = await $content('portfolio-v2').fetch()
     return { page }
-  },
-  mounted() {
-    document.querySelectorAll('img[alt*="logo"]').forEach((img) => {
-      img.parentElement.style = `
-            display: inline-flex;
-            position: absolute;
-            transform: translate(300px, -50px);
-        `
-      img.style.width = '80px'
-
-      if (img.attributes.getNamedItem('alt').value === 'Lorinto logo') {
-        img.parentElement.style.transform = 'translate(350px, -50px)'
-      }
-    })
-  },
+  },  
 })
 </script>
 
@@ -37,14 +23,23 @@ html {
     background-color: unset !important;
     font-style: italic;
   }
-  p{
+  p {
     margin: 8px 0;
+  }
+  h3#lorinto-logo---social-network-project a,
+  h3#mavi-logo---open-source-project a {
+    display: flex;
+    align-items: center;
+    img {
+      width: 70px;
+      margin-right: 10px;
+    }
   }
 
   .clean {
     header {
-      padding-bottom: 0;
-      border-bottom: unset;
+      padding-bottom: 2px;
+      border-bottom: 4px solid;
       .col {
         line-height: 20px;
         a span {

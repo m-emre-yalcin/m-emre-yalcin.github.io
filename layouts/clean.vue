@@ -138,20 +138,36 @@ $a4-width: 210mm;
     h5 {
       margin: 0;
       padding: 0;
+      > a:last-child {
+        text-decoration: none;
+        position: relative;
+        &::before {
+          content: '';
+          background: url(~/assets/icons/link.svg?inline) no-repeat;
+          background-size: 16px;
+          background-position: center;
+          width: 16px;
+          height: 16px;
+          display: block;
+          position: absolute;
+          left: -24px;
+          top: 8px;
+        }
+      }
     }
 
     h2 {
       border-bottom: 1px solid var(--bg);
       padding-bottom: 0.5rem;
-      margin-top: 1rem;
+      margin-top: 0.75rem;
       margin-bottom: 0.5rem;
       + h3 {
-        margin-top: 1rem;
+        margin-top: 0.75rem;
       }
     }
     h3 {
       ~ h3:not(h2 + h3) {
-        margin-top: 1rem;
+        margin-top: 0.75rem;
       }
     }
     h3 + ul,

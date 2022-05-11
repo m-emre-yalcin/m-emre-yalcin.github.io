@@ -57,7 +57,7 @@ Developed products for international and local companies as a freelancer. **Some
 
 I maintained the company's existing SaaS, built an interactive interface for an e-commerce website, and a landing page for a bank, and **completed three MVP apps**. I had always **written the interfaces from scratch**, **exactly as their design**, also **modeled relational databases** and created **REST APIs** with **Node.js**, and implemented **RTC** and **cron schedulers** for some projects.
 
-> Got two promotions in a short period by proving my competencies.
+> Got two promotion in a short period of time.
 
 ### BSM Technical Project - Web Developer
 

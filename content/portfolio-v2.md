@@ -45,7 +45,7 @@ Developed products for international and local companies as a freelancer. **Some
 
 I maintained the company's existing SaaS, built an interactive interface for an e-commerce website, and a landing page for a bank, and **completed three MVP apps**. I had always **written the interfaces from scratch**, **exactly as their design**, also **modeled relational databases** and created **REST APIs** with **Node.js**, and implemented **RTC** and **cron schedulers** for some projects.
 
-> Got two promotions in a short period by proving my competencies.
+> Got two promotion in a short period of time.
 
 ### BSM Technical Project - Web Developer
 
@@ -81,19 +81,15 @@ Developed more than 20 websites for my classmates' and other class students' voc
 
 ## [Projects](#projects)
 
-### Lorinto - Social Network Project
+### [![lorinto logo](https://m-emre-yalcin.github.io/lorinto-black.svg) - Social Network Project](https://lorinto.com/login)
 
 - 2019 November - Present
 
-[<img src="https://m-emre-yalcin.github.io/lorinto-black.svg" alt="Lorinto logo" width="200px" />](https://lorinto.com/login)
-
 I want to develop something that current social blog platforms don't have and I believe Lorinto will have a place in the real world in the future.
 
-### Mavi - Open-source Project
+### [![mavi logo](https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg) - Open-source Project](https://github.com/m-emre-yalcin/mavi)
 
 - 2021 November - Present
-
-[<img src="https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
 This module aims to lift repetitive works that you have made every time building a server from scratch.
 
@@ -106,6 +102,11 @@ This module aims to lift repetitive works that you have made every time building
 I don't feel constrained by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
 
 <skill-details-v2></skill-details-v2>
+
+### [Database Certification: MSSQL and SQL](https://m-emre-yalcin.github.io/sql-certificate.pdf)
+
+- Issued Jun 2016 · No Expiration Date · Credential ID **16064320160046422993**
+- ISMEK Institute Istanbul
 
 ## [About Me](#about-me)
 
