@@ -19,9 +19,11 @@ contact:
   ]
 ---
 
+## Introduction
+
 Hi, I'm Emre
 
-I am an autodidact developer, having taught myself various new technologies while frequently working with start-ups. I love programming and crave to make a difference in the world. I believe I can add value to your company in reaching its objectives.
+I am an autodidact developer, having taught myself various new technologies since high school. Because I love programming and crave to make a difference in the world. I usually worked with start-ups and small teams and always strived to be a useful individual. I believe I can add value to your company in reaching its objectives.
 
 ## [Work Experience](#work-experience)
 
@@ -30,38 +32,46 @@ I am an autodidact developer, having taught myself various new technologies whil
 - February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
 
-Developed products for international and local companies as a freelancer. **Some of them are:**
+_Programmed products for international and local companies as a freelancer._
 
-1. A business website and CMS. Created the digital existence of [Estefulya](https://www.estefulya.com), designed the website and the logo, spared extra time on **SEO**, and got great metrics. Everything was working on the **JAMstack** workflow without a back-end.
-2. A [carbon calculator](http://calculator.sour.studio) web app that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and created an interface.
-3. A mobile Flutter app that I did maintenance. The app interacts with noise canceller headphones via Bluetooth and measures environment sound, applying noise reduction if required. Also, a real-time dashboard that can visualize the headphone behaviors.
+>
 
-> Outside of my gigs, was learning new technologies and working on my [open-source](https://github.com/m-emre-yalcin/mavi) and other projects.
+- Designed and built a [business website](https://www.estefulya.com), got great metrics on **SEO**, and everything was working on the **JAMstack** workflow without a back-end instance.
+  - They were able to appear in search results and found new patients with this website.
+- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface.
+- Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applying noise reduction if required.
+  - Developed a **real-time** dashboard that can visualize incoming data and illustrates the headphone behaviors.
+- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu), accomplished the whole process of **designing and developing to publishing** in a short period of time.
+- Learned new technologies to address more projects, and spared my time on developing my [social network platform](https://lorinto.com/login) while idle.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
 
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Besiktas
 
-I maintained the company's existing SaaS, built an interactive interface for an e-commerce website, and a landing page for a bank, and **completed three MVP apps**. I had always **written the interfaces from scratch**, **exactly as their design**, also **modeled relational databases** and created **REST APIs** with **Node.js**, and implemented **RTC** and **cron schedulers** for some projects.
+>
 
-> Got two promotion in a short period of time.
+- Maintained the company's existing SaaS.
+- Built an interactive interface for an e-commerce website, a landing page for a bank.
+- Always **written the interfaces from scratch**, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** with **Node.js**, implemented **RTC** and **cron schedulers**.
+- **Completed three MVP apps** with the designer and fulfilled the customers' needs with the manager.
+- Got two promotion in a short period of time.
 
 ### BSM Technical Project - Web Developer
 
 - June 2019 - December 2019 _7 months_
 - Turkey - Istanbul/Sisli
 
-This was a newly founded company in the construction area. I was there from the very beginning and my work was versatile. I had written an admin panel with **JQuery and PHP** that can send offering mails according to the company's stocks and convert approved offers into billings. I had created their [website](http://bsmproje.com) and written the whole content as I can.
+>
 
-> I had a positive impact on the company's workflow efficiency and finding potential customers.
+- Written an admin panel with **JQuery and PHP** that can send offering emails according to the company's stocks and convert approved offers into billings.
+- Created their [website](http://bsmproje.com).
+- Had an impact on the company's workflow and finding potential clients.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
 - August 2016 - August 2017 _12 months_
 - Turkey - Istanbul/Nisantası
-
-Worked here to complete my school' internship program. Helped the technical service to increase the efficiency in logistics and inventory management with the programs I've developed in excel, and had become key personnel for the manager.
 
 ## [Education](#education)
 
@@ -75,7 +85,7 @@ Worked here to complete my school' internship program. Helped the technical serv
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
-Developed more than 20 websites for my classmates' and other class students' vocational homework projects mostly using HTML, CSS, and JS. Earned a fair amount from each friend and contributed to their grades.
+Developed more than **20 websites** for my classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
 **Activities and societies:** Joined the theatre club and played the sultan's right hand.
 
@@ -85,13 +95,13 @@ Developed more than 20 websites for my classmates' and other class students' voc
 
 - 2019 November - Present
 
-I want to develop something that current social blog platforms don't have and I believe Lorinto will have a place in the real world in the future.
+Developing something that current social blog platforms don't have.
 
 ### [![mavi logo](https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg) - Open-source Project](https://github.com/m-emre-yalcin/mavi)
 
 - 2021 November - Present
 
-This module aims to lift repetitive works that you have made every time building a server from scratch.
+With this module, people can create an API, RDB, and more without even coding.
 
 <hide>
 <blockquote>Please visit <a href="https://github.com/m-emre-yalcin/mavi" target="_blank">GitHub</a> to see the project.</blockquote>
@@ -99,7 +109,7 @@ This module aims to lift repetitive works that you have made every time building
 
 ## [Skill Details](#skill-details)
 
-I don't feel constrained by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
+Not feel constrained by tools, welcomes using various languages, frameworks, programs, and modules, and look forward to growing my skills through purposeful projects.
 
 <skill-details-v2></skill-details-v2>
 

@@ -23,6 +23,19 @@ html {
     background-color: unset !important;
     font-style: italic;
   }
+  blockquote + ul {
+    list-style: disc;
+    padding: 0;
+    margin-left: 1rem;
+    font-size: 18px;
+    li {
+      margin-block: 8px;
+    }
+    ul {
+      list-style: circle;
+      margin-left: 1rem;
+    }
+  }
   p {
     margin: 8px 0;
   }
