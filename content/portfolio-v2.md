@@ -23,7 +23,7 @@ contact:
 
 Hi, I'm Emre
 
-I am an autodidact developer, having taught myself various new technologies since high school. Because I love programming and crave to make a difference in the world. I usually worked with start-ups and small teams and always strived to be a useful individual. I believe I can add value to your company in reaching its objectives.
+I am 23 years old an autodidact developer, having taught myself various new technologies since high school and always worked all through my college life. Because I love programming and crave to make a difference in the world. I usually worked with small teams and always strived to be a useful individual. I value friendship, being helpful, optimistic, and a reliable person.
 
 ## [Work Experience](#work-experience)
 
@@ -32,17 +32,19 @@ I am an autodidact developer, having taught myself various new technologies sinc
 - February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
 
-_Programmed products for international and local companies as a freelancer._
+Programmed products for international and local companies as a freelancer.
 
 >
 
-- Designed and built a [business website](https://www.estefulya.com), got great metrics on **SEO**, and everything was working on the **JAMstack** workflow without a back-end instance.
-  - They were able to appear in search results and found new patients with this website.
-- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface.
+- Designed and built a [business website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to appear in search results and found new clients.
+  - Layout and design had been built on top of the **Nuxt** and written in **SASS** without a UI library.
+  - Used **image optimizer**, **PWA**, **structured data**, and **auto sitemap generator**...
+  - Configured the **JAMstack** workflow which works without a server cluster.
+- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface using vanilla **CSS** and **Vue**.
 - Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applying noise reduction if required.
-  - Developed a **real-time** dashboard that can visualize incoming data and illustrates the headphone behaviors.
-- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu), accomplished the whole process of **designing and developing to publishing** in a short period of time.
-- Learned new technologies to address more projects, and spared my time on developing my [social network platform](https://lorinto.com/login) while idle.
+- Developed a **real-time** dashboard by using **Nuxt** and **Firebase** that can visualize incoming data and illustrates the headphone behaviors from the previous Flutter app.
+- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu), and finalized the whole process of **designing and developing to publishing in a short period of time**.
+- Learned new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects and spare time on constructing a [social network platform](https://lorinto.com/login) while idle.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
 
@@ -65,7 +67,7 @@ _Programmed products for international and local companies as a freelancer._
 >
 
 - Written an admin panel with **JQuery and PHP** that can send offering emails according to the company's stocks and convert approved offers into billings.
-- Created their [website](http://bsmproje.com).
+- Built their [website](http://bsmproje.com) with vanilla CSS and JS.
 - Had an impact on the company's workflow and finding potential clients.
 
 ### Istanbul Cerrahi Hospital - IT Intern
@@ -80,12 +82,14 @@ _Programmed products for international and local companies as a freelancer._
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
+Learned the foundations of software engineering, used various languages (C++, Java, Python, and R), and still a student at the 3rh grade.
+
 ### Sultanahmet Vocational High School - Information Technologies
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
-Developed more than **20 websites** for my classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
+Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
 **Activities and societies:** Joined the theatre club and played the sultan's right hand.
 
@@ -101,15 +105,11 @@ Developing something that current social blog platforms don't have.
 
 - 2021 November - Present
 
-With this module, people can create an API, RDB, and more without even coding.
+Create an **API** and **RDB** with zero coding.
 
-<hide>
-<blockquote>Please visit <a href="https://github.com/m-emre-yalcin/mavi" target="_blank">GitHub</a> to see the project.</blockquote>
-</hide>
+## [Skills](#skills)
 
-## [Skill Details](#skill-details)
-
-Not feel constrained by tools, welcomes using various languages, frameworks, programs, and modules, and look forward to growing my skills through purposeful projects.
+Not feel constrained by tools, welcomes using various languages, frameworks, programs, and modules, and look forward to growing skills through purposeful projects.
 
 <skill-details-v2></skill-details-v2>
 
@@ -117,7 +117,3 @@ Not feel constrained by tools, welcomes using various languages, frameworks, pro
 
 - Issued Jun 2016 · No Expiration Date · Credential ID **16064320160046422993**
 - ISMEK Institute Istanbul
-
-## [About Me](#about-me)
-
-I was born in Istanbul on 27 February 1999, I am still a student at the Dogus University 3rh grade, always worked all through my college life. I value friendship, being helpful, optimistic, and a reliable person.

@@ -34,7 +34,7 @@
         </a>
         <a href="https://m-emre-yalcin.github.io" target="_blank">
           <icn-web />
-          <span>my website</span>
+          <span>website</span>
         </a>
       </div>
     </header>
