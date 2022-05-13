@@ -21,9 +21,7 @@ contact:
 
 ## Introduction
 
-Hi, I'm Emre
-
-I am 23 years old an autodidact developer, having taught myself various new technologies since high school and always worked all through my college life. Because I love programming and crave to make a difference in the world. I usually worked with small teams and always strived to be a useful individual. I value friendship, being helpful, optimistic, and a reliable person.
+23 years old an autodidact developer, knows diverse web technologies since high school and toiled all through college life. Usually worked with small teams and always aspired to be a useful individual. Love programming and crave to make a difference in the world.
 
 ## [Work Experience](#work-experience)
 
@@ -36,15 +34,15 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
-- Designed and built a [business website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to appear in search results and found new clients.
-  - Layout and design had been built on top of the **Nuxt** and written in **SASS** without a UI library.
+- Designed and formed a [business website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to appear in search results and found new clients.
+  - Design and components had been written in **Nuxt**, using **SASS** without a UI library.
   - Used **image optimizer**, **PWA**, **structured data**, and **auto sitemap generator**...
   - Configured the **JAMstack** workflow which works without a server cluster.
-- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface using vanilla **CSS** and **Vue**.
+- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface.
 - Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applying noise reduction if required.
-- Developed a **real-time** dashboard by using **Nuxt** and **Firebase** that can visualize incoming data and illustrates the headphone behaviors from the previous Flutter app.
-- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu), and finalized the whole process of **designing and developing to publishing in a short period of time**.
-- Learned new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects and spare time on constructing a [social network platform](https://lorinto.com/login) while idle.
+- Developed a **real-time** dashboard using **Nuxt** and **Firebase** that can visualize incoming data and illustrates the headphone behaviors from the previous Flutter app.
+- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) from designing to establishing a CMS. published on the **Google Play** and **App Store** and execute the requirements in two weeks as promised.
+- Captured new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects while idle.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
 
@@ -53,11 +51,11 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
-- Maintained the company's existing SaaS.
-- Built an interactive interface for an e-commerce website, a landing page for a bank.
-- Always **written the interfaces from scratch**, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** with **Node.js**, implemented **RTC** and **cron schedulers**.
-- **Completed three MVP apps** with the designer and fulfilled the customers' needs with the manager.
-- Got two promotion in a short period of time.
+- Maintained the company's SaaS. Eliminated bugs and UI issues that affect **customers' experience**.
+- Originated an interface for an e-commerce website, and a landing page for a bank.
+- Written the interfaces from scratch, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** with **Node.js**, implemented **RTC** and **cron schedulers**.
+- **Completed three MVP apps** with the designer and meet the customers' needs with the manager.
+- Got two promotions in a short period of time.
 
 ### BSM Technical Project - Web Developer
 
@@ -66,9 +64,8 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
-- Written an admin panel with **JQuery and PHP** that can send offering emails according to the company's stocks and convert approved offers into billings.
-- Built their [website](http://bsmproje.com) with vanilla CSS and JS.
-- Had an impact on the company's workflow and finding potential clients.
+- Written an admin panel with **JQuery and PHP** that sends offering emails according to the company's inventory. Eliminated the manual processes, kept documents organized, and doubled time efficiency.
+- Constructed the company's [website](http://bsmproje.com) with **Photoshop, vanilla CSS and JS** that had impact on finding more than 10 clients.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
@@ -82,7 +79,7 @@ Programmed products for international and local companies as a freelancer.
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Learned the foundations of software engineering, used various languages (C++, Java, Python, and R), and still a student at the 3rh grade.
+Grasped the software engineering foundations, and used various languages (**C++, Java, Python, PHP, JS, and R**) still a student in the 3rh grade.
 
 ### Sultanahmet Vocational High School - Information Technologies
 
