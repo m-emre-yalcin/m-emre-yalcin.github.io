@@ -64,12 +64,16 @@ Programmed advanced Excel worksheets that helped the team to increase productivi
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Hadn't many the fundamentals of geometry, math, and science because of a vocational background, but learned a good degree from all, and after the exam, was accepted here.
+Grasped the software engineering foundations, and used various languages (C++, Java, Python, PHP, JS, and R) still a student in the 3rh grade.
+
+After high school, hadn't many the fundamentals of geometry, math, and science because of a vocational background, but learned a good degree from all, and after the exam, was accepted here.
 
 ### Sultanahmet Vocational High School - Information Technologies
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
+
+Met with web technologies. Learned HTML, CSS, Javascript, C#, PHP, and MSSQL as well as operating systems and computer hardware.
 
 Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
@@ -99,7 +103,7 @@ Developing something that current social blog platforms don't have.
 
 [<img src="https://m-emre-yalcin.github.io/mavi.svg" alt="Mavi logo" width="200px" />](https://github.com/m-emre-yalcin/mavi)
 
-Create an **API** and **RDB** with zero coding.
+Create an **API** and **RDB** with zero coding. This module aims to lift repetitive development made every time building a server from scratch.
 
 > Please visit [Github](https://github.com/m-emre-yalcin/mavi) to see the project.
 
