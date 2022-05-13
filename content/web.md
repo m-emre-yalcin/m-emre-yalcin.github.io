@@ -55,7 +55,7 @@ Built a website and automation which had an Impact on finding several clients.
 - August 2016 - August 2017 _12 months_
 - Turkey - Istanbul/Nisantası
 
-Programmed advanced Excel worksheets that helped the team to increase productivity.
+Programmed advanced Excel worksheets that helped the team to increase productivity. Became key personnel for the manager.
 
 ## [Education](#education)
 
