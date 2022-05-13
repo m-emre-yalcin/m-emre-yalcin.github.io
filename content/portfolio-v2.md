@@ -27,49 +27,49 @@ contact:
 
 ### Self Employed - Full-stack Developer
 
-- February 2021 - February 2022 _12 months_
+- February 2021 - February 2022
 - Turkey - Istanbul/Balat
 
 Programmed products for international and local companies as a freelancer.
 
 >
 
-- Designed and formed a [business website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to appear in search results and found new clients.
-  - Design and components had been written in **Nuxt**, using **SASS** without a UI library.
-  - Used **image optimizer**, **PWA**, **structured data**, and **auto sitemap generator**...
-  - Configured the **JAMstack** workflow which works without a server cluster.
-- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface.
+- Designed and formed a [clinic website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to find new patients by appearing in relevant search results.
+  - Design and components had been written in **Nuxt**, using **modern CSS** without a UI library.
+  - Configured the **JAMstack** workflow _(which works without a server)_, used **PWA**, **image compressor**, **structured data**, **social meta tags**, and **sitemap generator** to make SEO perfect.
+- Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface with **Vue**.
 - Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applying noise reduction if required.
+  - The actual developer had left the project. Proposed my services, learned Flutter and completed the remaining tasks before the deadline.
 - Developed a **real-time** dashboard using **Nuxt** and **Firebase** that can visualize incoming data and illustrates the headphone behaviors from the previous Flutter app.
-- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) from designing to establishing a CMS. published on the **Google Play** and **App Store** and execute the requirements in two weeks as promised.
+- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) and published it on **Google Play** and **App Store**, established a **CMS**. Executed the requirements in two weeks as promised.
 - Captured new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects while idle.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
 
-- February 2020 - February 2021 _12 months_
+- February 2020 - February 2021
 - Turkey - Istanbul/Besiktas
 
 >
 
-- Maintained the company's SaaS. Eliminated bugs and UI issues that affect **customers' experience**.
+- Maintained the company's SaaS by eliminating bugs and UI issues that affect **customers' experience**.
 - Originated an interface for an e-commerce website, and a landing page for a bank.
-- Written the interfaces from scratch, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** with **Node.js**, implemented **RTC** and **cron schedulers**.
+- Written the interfaces from scratch, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** on **Node.js**, implemented **RTC** and **cron schedulers**.
 - **Completed three MVP apps** with the designer and meet the customers' needs with the manager.
 - Got two promotions in a short period of time.
 
 ### BSM Technical Project - Web Developer
 
-- June 2019 - December 2019 _7 months_
+- June 2019 - December 2019
 - Turkey - Istanbul/Sisli
 
 >
 
-- Written an admin panel with **JQuery and PHP** that sends offering emails according to the company's inventory. Eliminated the manual processes, kept documents organized, and doubled time efficiency.
-- Constructed the company's [website](http://bsmproje.com) with **Photoshop, vanilla CSS and JS** that had impact on finding more than 10 clients.
+- Written an admin panel with **JQuery and PHP** that sends offering emails according to the company's inventory. Eliminated the manual processes, kept documents organized, and doubled productivity.
+- Constructed the company's [website](http://bsmproje.com) with **CSS and JS** that had impact on finding more than 10 clients.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
-- August 2016 - August 2017 _12 months_
+- August 2016 - August 2017
 - Turkey - Istanbul/Nisantası
 
 ## [Education](#education)

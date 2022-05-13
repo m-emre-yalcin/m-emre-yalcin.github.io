@@ -59,6 +59,7 @@ $a4-width: 210mm;
     justify-content: space-between;
     padding: 0.5rem 0;
     width: $a4-width;
+    background-color: white;
     border-bottom: 1px solid black;
 
     .col {

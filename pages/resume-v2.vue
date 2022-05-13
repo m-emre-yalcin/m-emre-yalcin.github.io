@@ -27,7 +27,7 @@ html {
     list-style: disc;
     padding: 0;
     margin-left: 1rem;
-    font-size: 18px;
+    font-size: 17px;
     li {
       margin-block: 8px;
     }
