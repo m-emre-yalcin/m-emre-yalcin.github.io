@@ -39,7 +39,7 @@ Programmed products for international and local companies as a freelancer.
   - Configured the **JAMstack** workflow _(which works without a server)_, used **PWA**, **image compressor**, **structured data**, **social meta tags**, and **sitemap generator** to make SEO perfect.
 - Programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas and designed the interface with **Vue**.
 - Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applying noise reduction if required.
-  - The actual developer had left the project. Proposed my services, learned Flutter and completed the remaining tasks before the deadline.
+  - The actual developer had left the project. Proposed my services, learned Flutter, and completed the remaining tasks before the deadline.
 - Developed a **real-time** dashboard using **Nuxt** and **Firebase** that can visualize incoming data and illustrates the headphone behaviors from the previous Flutter app.
 - Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) and published it on **Google Play** and **App Store**, established a **CMS**. Executed the requirements in two weeks as promised.
 - Captured new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects while idle.
