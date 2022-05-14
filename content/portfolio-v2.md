@@ -21,7 +21,7 @@ contact:
 
 ## Introduction
 
-23 years old an autodidact developer, knows diverse web technologies since high school and toiled all through college life. Usually worked with small teams and always aspired to be a useful individual. Love programming and crave to make a difference in the world.
+23 years old an autodidact developer, knows diverse web technologies since high school and toiled all through college life. Usually worked with small teams and always aspired to be a useful individual. Loves programming and craves to make a difference in the world.
 
 ## [Work Experience](#work-experience)
 
