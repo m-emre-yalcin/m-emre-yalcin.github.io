@@ -9,6 +9,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   layout: 'clean',
+  head: {
+    title: 'M. Emre Yalcin - CV'
+  },
   async asyncData({ $content }) {
     const page = await $content('portfolio-v2').fetch()
     return { page }
