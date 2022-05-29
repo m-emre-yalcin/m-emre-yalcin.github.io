@@ -23,9 +23,7 @@ contact:
 
 Hi, I'm Emre
 
-I am 23 years old an autodidact developer, knowing diverse web technologies since high school and toiled all through my college life. Usually worked with small teams and always aspired to be a useful individual.
-
-I love programming and crave to make a difference in the world. My biggest goal is to create a popular software that influentially encourages people to be a better individual than yesterday.
+I am 23 years old an autodidact software engineer. I have developed web apps since high school and toiled all through my college life. I usually worked with small teams and always aspired to be a helpful individual. I love programming and crave to make a difference in the world.
 
 ## [Work Experience](#work-experience)
 
@@ -34,28 +32,28 @@ I love programming and crave to make a difference in the world. My biggest goal 
 - February 2021 - February 2022 _12 months_
 - Turkey - Istanbul/Balat
 
-Developed products for international and local companies as a freelancer.
+I developed products for international and local companies as a freelancer.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
 
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Besiktas
 
-Overhauled the company's SaaS, developed three MVPs and created a couple of landing pages. Got two promotions in a short period of time.
+I had started as an intern, and become a full-stack in 6 months by getting 2 promotions. I overhauled the company's SaaS, developed three MVPs, created a couple of landing pages...
 
 ### BSM Technical Project - Web Developer
 
 - June 2019 - December 2019 _7 months_
 - Turkey - Istanbul/Sisli
 
-Built a website and automation which had an Impact on finding several clients.
+I built a website and automation, had an impact on finding several clients, and increase work efficiency.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
 - August 2016 - August 2017 _12 months_
 - Turkey - Istanbul/Nisantası
 
-Programmed advanced Excel worksheets that helped the team to increase productivity. Became key personnel for the manager.
+I programmed advanced Excel spreadsheets that helped the team to increase productivity.
 
 ## [Education](#education)
 
@@ -64,24 +62,24 @@ Programmed advanced Excel worksheets that helped the team to increase productivi
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Grasped the software engineering foundations, and used various languages (C++, Java, Python, PHP, JS, and R) still a student in the 3rh grade.
+I grasped the software engineering fundamentals and used various languages (C++, Java, Python, PHP, JS, and R). I am still a student in the 3rd grade.
 
-After high school, hadn't many the fundamentals of geometry, math, and science because of a vocational background, but learned a good degree from all, and after the exam, was accepted here.
+> I hadn't had many of the fundamentals of geometry, mathematics, and science because of my vocational high school background. I spared two years and learned a good degree from all and after the exam, was admitted here.
 
 ### Sultanahmet Vocational High School - Information Technologies
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
 
-Met with web technologies. Learned HTML, CSS, Javascript, C#, PHP, and MSSQL as well as operating systems and computer hardware.
+I met with web technologies. I learned HTML, CSS, Javascript, C#, PHP, and MSSQL as well as operating systems and computer hardware.
 
-Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
+> Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
 #### Activities and societies
 
 Joined the theatre club and played the sultan's right hand.
 
-> Giving advice to the sultan😅
+> I am giving advice to the sultan😅
 >
 > <img id="showcase" src="sultanahmet-theatre.jpg" />
 
@@ -95,7 +93,7 @@ Joined the theatre club and played the sultan's right hand.
 
 Developing something that current social blog platforms don't have.
 
-> [Live page](https://lorinto.com/login)
+<!-- > [Live page](https://lorinto.com/login) -->
 
 ### Mavi - Open-source Project
 
@@ -109,7 +107,7 @@ Create an **API** and **RDB** with zero coding. This module aims to lift repetit
 
 ## [Skill Details](#skill-details)
 
-I don't feel constrained by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
+I don't feel confined by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
 
 <skill-details></skill-details>
 

@@ -21,7 +21,7 @@ contact:
 
 ## Introduction
 
-23 years old an autodidact developer, knows diverse web technologies since high school and toiled all through college life. Usually worked with small teams and always aspired to be a useful individual. Loves programming and craves to make a difference in the world.
+23 years old an autodidact software engineer, developed web apps since high school and toiled all through college life. Usually worked with small teams and always aspired to be a helpful individual. Loves programming and craves to make a difference in the world.
 
 ## [Work Experience](#work-experience)
 
@@ -51,11 +51,11 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
+- Started as an intern, and become a full-stack developer in 6 months by getting 2 promotions.
 - Maintained the company's SaaS by eliminating bugs and UI issues that affect **customers' experience**.
 - Originated an interface for an e-commerce website, and a landing page for a bank.
 - Written the interfaces from scratch, **exactly as their design**, also **modeled relational databases**, and built **REST APIs** on **Node.js**, implemented **RTC** and **cron schedulers**.
-- **Completed three MVP apps** with the designer and meet the customers' needs with the manager.
-- Got two promotions in a short period of time.
+- **Completed three MVP apps** with the designer and meet the customers' needs with the project manager.
 
 ### BSM Technical Project - Web Developer
 
@@ -79,12 +79,16 @@ Programmed products for international and local companies as a freelancer.
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Grasped the software engineering foundations, and used various languages (**C++, Java, Python, PHP, JS, and R**) still a student in the 3rh grade.
+Grasped the software engineering fundamentals and used various languages (**C++, Java, Python, PHP, JS, and R**). Still a student in the 3rh grade.
+
+Hadn't had many of the fundamentals of geometry, mathematics, and science because of vocational high school background. Spared two years and learned a good degree from all and after the exam, was admitted here.
 
 ### Sultanahmet Vocational High School - Information Technologies
 
 - September 2013 - June 2017
 - Turkey - Istanbul/Sultanahmet
+
+Met with web technologies. Learned **HTML, CSS, Javascript, C#, PHP, and MSSQL** as well as **OS** & **hardware**.
 
 Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
@@ -106,7 +110,7 @@ Create an **API** and **RDB** with zero coding.
 
 ## [Skills](#skills)
 
-Not feel constrained by tools, welcomes using various languages, frameworks, programs, and modules, and look forward to growing skills through purposeful projects.
+Doesn't feel confined by tools, welcomes using various languages, frameworks, programs, and modules, and looks forward to growing skills through purposeful projects.
 
 <skill-details-v2></skill-details-v2>
 
