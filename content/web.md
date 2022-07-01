@@ -39,9 +39,9 @@ I developed products for international and local companies as a freelancer.
 - February 2020 - February 2021 _12 months_
 - Turkey - Istanbul/Besiktas
 
-I had started as an intern and became a full-stack in 6 months by getting 2 promotions.
+I started as an intern and became a full-stack in 6 months by getting 2 promotions.
 
-I basically overhauled the company's SaaS, developed three MVPs and created landing pages.
+In a nutshell, I overhauled the company's SaaS, developed three MVPs, and created landing pages.
 
 ### BSM Technical Project - Web Developer
 
