@@ -1,4 +1,4 @@
-if(window.$nuxt.context.isDev === false) {
+if(!window.location.href.includes('localhost')) {
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
