@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{343:function(n,e,t){"use strict";t.r(e);var o={mounted:function(){this.$router.push("/resume-v2")}},d=t(9),component=Object(d.a)(o,undefined,undefined,!1,null,null,null);e.default=component.exports}}]);
