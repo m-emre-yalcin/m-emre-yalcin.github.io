@@ -19,7 +19,7 @@ contact:
   ]
 ---
 
-## Introduction
+<!-- ## Introduction -->
 
 23 years old an autodidact software engineer, developed web apps since high school and toiled all through college life. Usually worked with small teams and always aspired to be a helpful individual. Loves programming and craves to make a difference in the world.
 
@@ -30,18 +30,19 @@ contact:
 - February 2021 - February 2022
 - Turkey - Istanbul/Balat
 
-Programmed products for international and local companies as a freelancer.
+Created software products for international and local companies as a freelancer. Each one is mentioned below.
 
 >
 
-- Designed and built a [clinic website](https://www.estefulya.com), and got a **100% score** on various **SEO** analyses. They were able to find new patients by appearing in relevant search results.
-  - Design and components had been written in **Nuxt**, using **modern CSS** without a UI library.
-  - Configured the **JAMstack** workflow _(which works without a **server**)_, used **PWA**, **image compressor**, **structured data**, **social meta tags**, and **sitemap generator** to make SEO perfect.
-- Formed and programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Implemented the company's calculation formulas, designed the interface, built using **Vue**.
-- Overhauled a mobile **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applies noise reduction if required.
+- Formed and programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Designed the layout, implemented the company's calculation formulas. Used **Vue** and **SCSS**.
+- Designed and built a [clinic website](https://www.estefulya.com), got **100% scores** on various **SEO** analyses. They were able to find new patients by appearing in relevant search results. Used **Nuxt**, and **modern CSS** without a UI library.
+  - Also used **PWA** and client caching strategies, **image compressor**, **structured data**, **sitemap generator** to make SEO perfect.
+- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) and published on **Google Play** and **App Store**, established a **CMS**. Executed the requirements in two weeks as promised. Used **Vue**, **Strapi** and **Capacitor**.
+- Developed a **CMS** and **blog site** from scratch. The CMS was generating customizable server-side rendered blog pages. Used **Nuxt**, **Element UI library**, and **Firebase**.
+  - It had many features; like customizable widgets which used in posts, injecting special codes for each blog post, and many **SEO** features including **AMP**.
+- Overhauled a **Flutter** app that interacts with noise canceller headphones via **Bluetooth** and measures environment sound, applies noise reduction if required. Used **Flutter** and Flutter Blue.
   - The actual developer had been left the project. Proposed my services, learned Flutter, and completed the remaining tasks before the deadline.
-- Developed a **real-time** dashboard using **Nuxt** and **Firebase** for the previous Flutter app that can visualize incoming data and illustrate the headphone behaviors.
-- Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) and published it on **Google Play** and **App Store**, established a **CMS**. Executed the requirements in two weeks as promised.
+- Developed a **real-time** dashboard for the previous Flutter app that can visualize incoming data and illustrate the headphone behaviors. Used **Nuxt**, **SCSS** and **Firebase**.
 - Captured new technologies by [practicing](https://github.com/m-emre-yalcin?tab=repositories&q=study&type=&language=&sort=) to address more projects while idle.
 
 ### Bontesoft - Intern, Front-end, Full-stack developer
@@ -51,7 +52,7 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
-- Started as an intern, and became a full-stack developer in 6 months by getting 2 promotions.
+- Started as an intern, and became a full-stack developer in 6 months by getting **two promotions**.
 - Maintained the company's SaaS by eliminating bugs and UI issues that affect **customers' experience**.
 - Created an interface for an e-commerce website and a landing page for a bank.
 - Wrote the interfaces from scratch **exactly as their design**, also **modeled relational databases**, built **REST APIs** on **Node.js**, implemented **Web RTC** and **cron schedulers**.
@@ -64,8 +65,8 @@ Programmed products for international and local companies as a freelancer.
 
 >
 
-- Wrote an admin panel with **JQuery and PHP** that sends offering emails according to the company's inventory. This eliminated manual processes, kept documents organized, and increased productivity.
-- Constructed the company's [website](http://bsmproje.com) with **CSS and JS** that had an impact on finding more than 10 clients.
+- Constructed the company's [website](http://bsmproje.com) which had an impact on finding several potential clients.
+- Wrote an [admin panel](https://bsmproje.com/cms/admin/index.php) that sends offering emails according to the company's inventory, converts into bills if approved. This eliminated manual processes, kept documents organized, and increased productivity.
 
 ### Istanbul Cerrahi Hospital - IT Intern
 
@@ -79,7 +80,7 @@ Programmed products for international and local companies as a freelancer.
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Grasped the software engineering fundamentals and used various languages (**C++, Java, Python, PHP, JS, and R**), still a student in the 3rh grade.
+Grasped the software engineering fundamentals and used various languages (**C++, Java, Python, PHP, JS, R...**), still a student in the 3rh grade.
 
 After high school, haven't had many of the fundamentals of mathematics and science because of my vocational background. Spared two years and learned a good degree from all and after the exam, was admitted here.
 
