@@ -12,9 +12,9 @@ export default Vue.extend({
   async asyncData({ $content }) {
     const page = await $content('portfolio-v2').fetch()
     return { page }
-  },  
+  },
   head: {
-    title: 'M. Emre Yalcin - CV'
+    title: 'M. Emre Yalcin - CV',
   },
 })
 </script>

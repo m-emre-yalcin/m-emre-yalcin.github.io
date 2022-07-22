@@ -6,6 +6,8 @@
     @mouseup.stop.prevent="customCursorUp"
   >
     <div class="cursor" ref="cursor"></div>
+
+    <preview v-if="$store.state.previewProps" />
     <nuxt />
   </div>
 </template>
@@ -26,7 +28,11 @@ export default Vue.extend({
       this.$refs.cursor.style.left = e.clientX - 16 + 'px'
       this.$refs.cursor.classList.remove('cursor-link')
 
-      if (e.target.tagName === 'A' || e.target.tagName === 'SUMMARY' || e.target.id === 'showcase') {
+      if (
+        e.target.tagName === 'A' ||
+        e.target.tagName === 'SUMMARY' ||
+        e.target.id === 'showcase'
+      ) {
         this.$refs.cursor.classList.add('cursor-link')
       }
     },
@@ -43,8 +49,8 @@ export default Vue.extend({
 <style lang="scss">
 .base {
   // background: url(https://wallpaperaccess.com/full/295664.jpg?inline) no-repeat center center fixed;
-  background: url(~/assets/images/foggy-forest.jpg?inline) no-repeat center center
-    fixed;
+  background: url(~/assets/images/foggy-forest.jpg?inline) no-repeat center
+    center fixed;
   animation: bg 100s infinite;
 
   * {

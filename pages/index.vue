@@ -198,8 +198,7 @@ export default Vue.extend({
               for (let b = i + 1; b <= this.page.toc.length; b++) {
                 if (this.page.toc[b] && this.page.toc[b].depth === 3) {
                   toc.list.push(this.page.toc[b])
-                }
-                else {
+                } else {
                   break
                 }
               }
@@ -284,18 +283,6 @@ export default Vue.extend({
           }
         })
       })
-
-      document
-        .querySelector('[id*="showcase"]')
-        .addEventListener('click', (img) => {
-          const el = document.createElement('div')
-          el.classList.add('preview-container')
-          el.innerHTML = img.target.outerHTML
-          el.addEventListener('click', (el) => {
-            el.target.remove()
-          })
-          document.body.before(el)
-        })
     }, 1000)
   },
   methods: {
@@ -348,44 +335,6 @@ export default Vue.extend({
       font-size: 1em;
       font-weight: 300;
     }
-  }
-}
-[id*='showcase'] {
-  border-radius: 8px;
-  width: 220px;
-  max-width: auto;
-
-  &:hover {
-    opacity: 1;
-  }
-}
-.preview-container {
-  position: fixed;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1rem;
-  margin: 0;
-  overflow: hidden;
-  img {
-    min-width: 320px;
-    max-width: auto;
-    width: auto;
-    @media screen and (max-width: 1000px) {
-      width: inherit;
-    }
-    height: auto;
-    border-radius: 8px;
-    box-shadow: var(--shadow-lg);
-    pointer-events: none;
   }
 }
 
@@ -567,6 +516,9 @@ export default Vue.extend({
           margin: 0;
           height: var(--main-container-height);
           overflow: overlay;
+          @supports not (overflow: overlay) {
+            overflow: auto;
+          }
 
           .nuxt-content {
             h2 {

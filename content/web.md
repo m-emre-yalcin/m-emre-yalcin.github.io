@@ -25,6 +25,10 @@ Hi, I'm Emre
 
 I am 23 years old an autodidact software engineer. I have developed web apps since high school and toiled all through my college life. I usually worked with small teams and always aspired to be a helpful individual. I love programming and crave to make a difference in the world.
 
+### Showcase
+
+<showcase></showcase>
+
 ## [Work Experience](#work-experience)
 
 ### Self Employed - Full-stack Developer
@@ -76,14 +80,6 @@ I grasped the software engineering fundamentals and used various languages (**C+
 I met with web technologies. Learned **HTML, CSS, Javascript, C#, PHP, and MSSQL** as well as **OS** & **hardware**.
 
 > Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
-
-#### Activities and societies
-
-Joined the theatre club and played the sultan's right hand.
-
-> I am giving advice to the sultan😅
->
-> <img id="showcase" src="sultanahmet-theatre.jpg" />
 
 ## [Projects](#projects)
 
