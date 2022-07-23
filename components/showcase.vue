@@ -120,25 +120,78 @@ export default {
           id: 5,
           title: 'Blog Project - CMS',
           date: 'August 2021',
-          images: [],
+          images: [
+            'sc-malta-1.png',
+            'sc-malta-2.png',
+            'sc-malta-3.png',
+            'sc-malta-4.png',
+            'sc-malta-5.png',
+            'sc-malta-6.png',
+            'sc-malta-7.png',
+          ],
         },
         {
           id: 6,
           title: 'Bonapply - Web app',
           date: 'September 2020',
-          images: [],
+          images: [
+            'sc-bonapply-1.png',
+            'sc-bonapply-2.png',
+            'sc-bonapply-3.png',
+            'sc-bonapply-4.png',
+            'sc-bonapply-5.png',
+            'sc-bonapply-6.png',
+            'sc-bonapply-7.png',
+            'sc-bonapply-8.png',
+            'sc-bonapply-9.png',
+            'sc-bonapply-10.png',
+            'sc-bonapply-11.png',
+            'sc-bonapply-12.png',
+            'sc-bonapply-13.png',
+            'sc-bonapply-14.png',
+            'sc-bonapply-15.png',
+            'sc-bonapply-16.png',
+            'sc-bonapply-17.png',
+            'sc-bonapply-18.png',
+            'sc-bonapply-19.png',
+            'sc-bonapply-20.png',
+            'sc-bonapply-21.png',
+            'sc-bonapply-22.png',
+            'sc-bonapply-23.png',
+            'sc-bonapply-24.png',
+            'sc-bonapply-25.png',
+            'sc-bonapply-26.png',
+            'sc-bonapply-27.png',
+          ],
         },
         {
           id: 7,
-          title: 'Bontebox - Web app',
+          title: 'Bonproject - Web app',
           date: 'December 2020',
-          images: [],
+          images: [
+            'sc-bonproject-1.png',
+            'sc-bonproject-2.png',
+            'sc-bonproject-3.png',
+            'sc-bonproject-4.png',
+            'sc-bonproject-5.png',
+            'sc-bonproject-6.png',
+            'sc-bonproject-7.png',
+            'sc-bonproject-8.png',
+          ],
         },
         {
           id: 8,
           title: 'Şeffy - Mobile app',
           date: 'January 2020',
-          images: [],
+          images: [
+            'sc-seffy-1.png',
+            'sc-seffy-2.png',
+            'sc-seffy-3.png',
+            'sc-seffy-4.png',
+            'sc-seffy-5.png',
+            'sc-seffy-6.png',
+            'sc-seffy-7.png',
+          ],
         },
         {
           id: 9,
@@ -224,6 +277,8 @@ export default {
     }
 
     .images {
+      display: flex;
+      align-items: center;
       position: relative;
       padding: 0.5rem;
 
@@ -253,15 +308,17 @@ export default {
 
       .chevron {
         position: absolute;
-        top: 0;
+        top: 8px;
         width: 20%;
-        height: 100%;
+        height: 200px;
         z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgba(37, 37, 37, 0.106);
         color: rgb(218, 214, 214) !important;
+        background-color: rgba(37, 37, 37, 0.05);
+        backdrop-filter: blur(5px);
+        transition: backdrop-filter 0.25s ease;
 
         svg {
           width: 32px;
@@ -272,6 +329,7 @@ export default {
         &:hover {
           color: rgb(255, 255, 255) !important;
           background-color: rgba(37, 37, 37, 0.218);
+          backdrop-filter: blur(0px);
         }
 
         &.left {
