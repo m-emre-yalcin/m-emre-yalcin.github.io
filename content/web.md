@@ -25,7 +25,7 @@ Hi, I'm Emre
 
 I am 23 years old an autodidact software engineer. I have developed web apps since high school and toiled all through my college life. I usually worked with small teams and always aspired to be a helpful individual. I love programming and crave to make a difference in the world.
 
-### Showcase
+## Showcase
 
 <showcase></showcase>
 
@@ -81,7 +81,7 @@ I met with web technologies. Learned **HTML, CSS, Javascript, C#, PHP, and MSSQL
 
 > Developed more than **20 websites** for classmates' and other class students' vocational homework projects mostly using **HTML**, **CSS**, and **JS**. Earned a fair amount from each friend and **contributed to their grades**.
 
-## [Projects](#projects)
+<!-- ## [Projects](#projects)
 
 ### Lorinto - Social Network Project
 
@@ -92,7 +92,7 @@ I met with web technologies. Learned **HTML, CSS, Javascript, C#, PHP, and MSSQL
 Developing something that current social blog platforms don't have.
 
 <!-- > [Live page](https://lorinto.com/login) -->
-
+<!--
 ### Mavi - Open-source Project
 
 - 2021 November - Present
@@ -101,7 +101,7 @@ Developing something that current social blog platforms don't have.
 
 This module aims to lift repetitive development made every time building a server from scratch. It helps to create an **API** and **RDB** with zero coding.
 
-> Please visit [Github](https://github.com/m-emre-yalcin/mavi) to see the project.
+> Please visit [Github](https://github.com/m-emre-yalcin/mavi) to see the project. -->
 
 ## [Skill Details](#skill-details)
 

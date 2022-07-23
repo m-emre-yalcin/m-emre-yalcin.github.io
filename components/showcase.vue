@@ -4,17 +4,24 @@
       v-for="(item, i) in sc"
       :key="item.id"
       class="sc"
-      @click="setPreview(item)"
+      draggable="true"
+      @click.stop.prevent="setPreview(item)"
+      @dragend.stop.prevent
+      @mouseup.stop.prevent
+      @drag.stop.prevent
     >
       <header>
-        <h3>{{ item.title }}</h3>
-        <div class="btn">
+        <div class="text">
+          <h3>{{ item.title }}</h3>
+          <h4>{{ item.date }}</h4>
+        </div>
+        <div class="btn-fullscreen">
           <icn-fullscreen />
         </div>
       </header>
 
-      <div class="images">
-        <ul ref="slider" class="slide-container" @click="setPreview">
+      <div class="images" vue-dragscroll>
+        <ul ref="slider" class="slide-container">
           <li v-for="img in item.images" :key="img" class="img-container">
             <img :src="img" :alt="item.title + ' screenshot'" />
           </li>
@@ -33,7 +40,7 @@
           <a
             v-if="
               $refs.slider[i].scrollLeft + $refs.slider[i].clientWidth <
-              $refs.slider[i].scrollWidth - 220
+              $refs.slider[i].scrollWidth
             "
             href="#"
             class="chevron right"
@@ -54,32 +61,6 @@ export default {
     return {
       sc: [
         {
-          id: 1,
-          title: 'Lorinto - Social blog web app',
-          date: 'May 2022',
-          images: [
-            'sc-lorinto-1.png',
-            'sc-lorinto-2.png',
-            'sc-lorinto-3.png',
-            'sc-lorinto-4.png',
-            'sc-lorinto-5.png',
-            'sc-lorinto-6.png',
-            'sc-lorinto-7.png',
-            'sc-lorinto-8.png',
-            'sc-lorinto-9.png',
-            'sc-lorinto-10.png',
-            'sc-lorinto-11.png',
-            'sc-lorinto-12.png',
-            'sc-lorinto-13.png',
-            'sc-lorinto-14.png',
-            'sc-lorinto-15.png',
-            'sc-lorinto-16.png',
-            'sc-lorinto-17.png',
-            'sc-lorinto-18.png',
-            'sc-lorinto-19.png',
-          ],
-        },
-        {
           id: 2,
           title: 'Estefulya - Business website',
           date: 'September 2021',
@@ -95,35 +76,13 @@ export default {
           ],
         },
         {
-          id: 3,
-          title: 'Economy dictionary - Mobile app',
-          date: 'February 2021',
-          images: [
-            'sc-ekonomi-0.png',
-            'sc-ekonomi-1.webp',
-            'sc-ekonomi-2.webp',
-            'sc-ekonomi-3.webp',
-            'sc-ekonomi-4.webp',
-          ],
-        },
-        {
-          id: 4,
-          title: 'Carbon Calculator',
-          date: 'April 2021',
-          images: [
-            'sc-calculator-1.png',
-            'sc-calculator-2.png',
-            'sc-calculator-3.png',
-          ],
-        },
-        {
           id: 5,
-          title: 'Blog Project - CMS',
+          title: 'Malta Blog Project - CMS',
           date: 'August 2021',
           images: [
-            'sc-malta-1.png',
             'sc-malta-2.png',
             'sc-malta-3.png',
+            'sc-malta-1.png',
             'sc-malta-4.png',
             'sc-malta-5.png',
             'sc-malta-6.png',
@@ -169,20 +128,20 @@ export default {
           title: 'Bonproject - Web app',
           date: 'December 2020',
           images: [
-            'sc-bonproject-1.png',
+            'sc-bonproject-4.png',
             'sc-bonproject-2.png',
             'sc-bonproject-3.png',
-            'sc-bonproject-4.png',
             'sc-bonproject-5.png',
             'sc-bonproject-6.png',
             'sc-bonproject-7.png',
             'sc-bonproject-8.png',
+            'sc-bonproject-1.png',
           ],
         },
         {
           id: 8,
           title: 'Şeffy - Mobile app',
-          date: 'January 2020',
+          date: 'January 2021',
           images: [
             'sc-seffy-1.png',
             'sc-seffy-2.png',
@@ -194,8 +153,31 @@ export default {
           ],
         },
         {
+          id: 3,
+          title: 'Economy dictionary - Mobile app',
+          date: 'February 2021',
+          images: [
+            'sc-ekonomi-0.png',
+            'sc-ekonomi-1.webp',
+            'sc-ekonomi-2.webp',
+            'sc-ekonomi-3.webp',
+            'sc-ekonomi-4.webp',
+            'sc-ekonomi-5.webp',
+          ],
+        },
+        {
+          id: 4,
+          title: 'Carbon Calculator - Web app',
+          date: 'April 2021',
+          images: [
+            'sc-calculator-1.png',
+            'sc-calculator-2.png',
+            'sc-calculator-3.png',
+          ],
+        },
+        {
           id: 9,
-          title: 'BSM web page',
+          title: 'BSM - Web page',
           date: 'August 2019',
           images: [
             'sc-bsmweb-1.png',
@@ -209,7 +191,7 @@ export default {
         },
         {
           id: 10,
-          title: 'BSM Admin Panel',
+          title: 'BSM Admin panel - Web app',
           date: 'October 2019',
           images: [
             'sc-bsm-1.png',
@@ -219,6 +201,39 @@ export default {
             'sc-bsm-5.png',
             'sc-bsm-6.png',
           ],
+        },
+        {
+          id: 1,
+          title: 'Lorinto - Social blog web app',
+          date: 'May 2022',
+          images: [
+            'sc-lorinto-1.png',
+            'sc-lorinto-2.png',
+            'sc-lorinto-3.png',
+            'sc-lorinto-4.png',
+            'sc-lorinto-5.png',
+            'sc-lorinto-6.png',
+            'sc-lorinto-7.png',
+            'sc-lorinto-8.png',
+            'sc-lorinto-9.png',
+            'sc-lorinto-10.png',
+            'sc-lorinto-11.png',
+            'sc-lorinto-12.png',
+            'sc-lorinto-13.png',
+            'sc-lorinto-14.png',
+            'sc-lorinto-15.png',
+            'sc-lorinto-16.png',
+            'sc-lorinto-17.png',
+            'sc-lorinto-18.png',
+            'sc-lorinto-19.png',
+          ],
+        },
+        {
+          id: 11,
+          title: 'Mavi - Open source project',
+          date: 'May 2022',
+          redirect: 'https://github.com/mavi-server/mavi#readme',
+          images: ['mavi.png'],
         },
       ],
       renderChevrons: false,
@@ -231,6 +246,11 @@ export default {
   },
   methods: {
     setPreview(payload) {
+      if (payload.redirect) {
+        window.open(payload.redirect, '_blank')
+        return
+      }
+
       this.$store.commit('setPreview', payload)
     },
     slide(i, direction) {
@@ -254,8 +274,21 @@ export default {
 .sc-container {
   .sc {
     margin: 1rem 0;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 8px;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.214);
+
+      .btn-fullscreen {
+        transform: scale(1.25);
+      }
+    }
+    &:active {
+      svg {
+        transform: scale(1);
+      }
+    }
 
     header {
       display: flex;
@@ -263,11 +296,19 @@ export default {
       align-items: center;
       padding: 0.5rem 0.5rem 0 0.5rem;
 
-      h3 {
-        font-size: 1em;
+      .text {
+        h3 {
+          font-size: 1em;
+        }
+        h4 {
+          font-size: 0.5em;
+          opacity: 0.8;
+        }
       }
 
-      .btn {
+      .btn-fullscreen {
+        transition: transform 0.15s ease;
+
         svg {
           width: 24px;
           height: 24px;
@@ -287,21 +328,17 @@ export default {
         display: flex;
         overflow: hidden;
         gap: 0.25rem;
-        scroll-snap-type: x mandatory;
+        scroll-snap-type: x aproximately;
         scroll-behavior: smooth;
 
         li.img-container {
           scroll-snap-align: start;
-          // opacity: 0.7;
+          opacity: 0.85;
 
           img {
             width: auto;
             max-height: 200px;
             border-radius: 4px;
-          }
-
-          &:hover {
-            opacity: 1;
           }
         }
       }
@@ -315,21 +352,27 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: rgb(218, 214, 214) !important;
-        background-color: rgba(37, 37, 37, 0.05);
-        backdrop-filter: blur(5px);
-        transition: backdrop-filter 0.25s ease;
+        color: rgb(203, 199, 199) !important;
 
         svg {
           width: 32px;
           height: 32px;
           fill: white !important;
+          transition: transform 0.15s ease;
         }
 
         &:hover {
           color: rgb(255, 255, 255) !important;
           background-color: rgba(37, 37, 37, 0.218);
-          backdrop-filter: blur(0px);
+
+          svg {
+            transform: scale(1.25);
+          }
+        }
+        &:active {
+          svg {
+            transform: scale(1);
+          }
         }
 
         &.left {

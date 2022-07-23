@@ -37,7 +37,7 @@ export default {
   css: ['~/assets/fonts', '~/assets/scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/dragscroll'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [

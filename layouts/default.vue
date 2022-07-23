@@ -64,7 +64,7 @@ export default Vue.extend({
     border-radius: 50%;
     transition: transform 0.2s ease;
     background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(113, 113, 113, 0.389);
     font-weight: 100;
     font-size: 24px;
     z-index: 9999;
