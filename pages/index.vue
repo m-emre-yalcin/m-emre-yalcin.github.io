@@ -350,7 +350,7 @@ export default Vue.extend({
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: var(--shadow-lg);
-    //backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     transition: backdrop-filter 0.5s ease;
     border: 1px solid var(--bg);
 
