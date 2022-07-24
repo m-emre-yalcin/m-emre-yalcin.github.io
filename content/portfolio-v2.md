@@ -34,7 +34,8 @@ Created software products for international and local companies as a freelancer.
 
 >
 
-- Formed and programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities. Designed the layout, implemented the company's calculation formulas. Used **Vue** and **SCSS**.
+- Formed and programmed a [carbon calculator](http://calculator.sour.studio) that calculates the greenhouse gas impacts of construction activities.
+  Designed the layout, implemented the company's calculation formulas. Used **Vue** and **SCSS**.
 - Designed and built a [clinic website](https://www.estefulya.com), got **100% scores** on various **SEO** analyses. They were able to find new patients by appearing in relevant search results. Used **Nuxt**, and **modern CSS** without a UI library.
   - Also used **PWA** and client caching strategies, **image compressor**, **structured data**, **sitemap generator** to make SEO perfect.
 - Created an [economics dictionary app](https://play.google.com/store/apps/details?id=com.demirkentegitimvakfi.ekonomisozlugu) and published on **Google Play** and **App Store**, established a **CMS**. Executed the requirements in two weeks as promised. Used **Vue**, **Strapi** and **Capacitor**.
@@ -80,7 +81,7 @@ Created software products for international and local companies as a freelancer.
 - August 2019 - Present
 - Turkey - Istanbul/Acıbadem
 
-Grasped the software engineering fundamentals and used various languages (**C++, Java, Python, PHP, JS, R...**), still a student in the 3rh grade.
+Grasped the software engineering fundamentals and used various languages (**C++, Java, Python, PHP, JS, R...**).
 
 After high school, haven't had many of the fundamentals of mathematics and science because of my vocational background. Spared two years and learned a good degree from all and after the exam, was admitted here.
 
@@ -97,11 +98,13 @@ Developed more than **20 websites** for classmates' and other class students' vo
 
 ## [Projects](#projects)
 
+> Screenshots of [some completed works](https://m-emre-yalcin.github.io/#showcase)
+
 ### [![lorinto logo](https://m-emre-yalcin.github.io/lorinto-black.svg) - Social Network Project](https://lorinto.com/login)
 
 - 2019 November - Present
 
-Developing something that current social blog platforms don't have.
+I want it to be a social blog platform where important issues of the world are discussed.
 
 ### [![mavi logo](https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg) - Open-source Project](https://github.com/m-emre-yalcin/mavi)
 
@@ -111,7 +114,7 @@ This module aims to lift repetitive development made every time building an **AP
 
 ## [Skills](#skills)
 
-Doesn't feel confined by tools, welcomes using various languages, frameworks, programs, and modules, and looks forward to growing skills through purposeful projects.
+Doesn't feel limited by tools, welcomes using various languages, frameworks, programs, and modules, and looks forward to growing skills through purposeful projects.
 
 <skill-details-v2></skill-details-v2>
 

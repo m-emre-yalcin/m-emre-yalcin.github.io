@@ -233,7 +233,7 @@ I developed the interface design and wrote the entire interface from scratch in 
           id: 1,
           title: 'Lorinto - Social blog web app',
           date: 'May 2022',
-          description: `It's my personal project. I took a break because I'm still developing my idea. I just want it to be a social blog platform where important issues for the world are discussed.`,
+          description: `It's my personal project. I took a break because I'm still developing my idea. I want it to be a social blog platform where important issues of the world are discussed.`,
           roles: ['front-end', 'back-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-lorinto-1.png',

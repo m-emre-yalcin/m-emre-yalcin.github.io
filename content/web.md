@@ -105,7 +105,7 @@ This module aims to lift repetitive development made every time building a serve
 
 ## [Skill Details](#skill-details)
 
-I dont't feel confined by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
+I dont't feel limited by tools and welcome using various languages, frameworks, programs, and modules. I am a fast learner and look forward to growing my skills through projects that are purposeful.
 
 <skill-details></skill-details>
 

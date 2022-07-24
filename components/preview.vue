@@ -11,7 +11,7 @@
       </h1>
       <p v-html="previewProps.description" />
 
-      <div class="slider-container">
+      <div class="slider-container" autofocus>
         <div ref="slider" class="images" vue-dragscroll @click.stop.prevent>
           <img
             v-for="img in previewProps.images"
