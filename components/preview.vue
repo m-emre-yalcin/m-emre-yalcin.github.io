@@ -1,7 +1,15 @@
 <template>
   <div class="preview-container" @click="close()">
     <main class="content">
-      <h1>{{ previewProps.title }}</h1>
+      <h1 class="header">
+        <div>{{ previewProps.title }}</div>
+        <div class="badges">
+          <span v-for="role in previewProps.roles" :key="role" class="badge">
+            {{ role }}
+          </span>
+        </div>
+      </h1>
+      <p v-html="previewProps.description" />
 
       <div class="slider-container">
         <div ref="slider" class="images" vue-dragscroll @click.stop.prevent>
@@ -62,6 +70,7 @@ export default {
 
 <style lang="scss" scoped>
 .preview-container {
+  overscroll-behavior: contain;
   position: fixed;
   box-sizing: border-box;
   top: 0;
@@ -72,7 +81,7 @@ export default {
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0.908000700280112) 0%,
-    rgba(0, 0, 0, 0.8743872549019608) 86%,
+    rgb(0, 0, 0) 75%,
     rgba(255, 255, 255, 0) 100%
   );
   z-index: 2;
@@ -82,7 +91,9 @@ export default {
   flex-direction: column;
   padding: 1rem;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
 
   main.content {
     display: flex;
@@ -91,6 +102,26 @@ export default {
     padding: 0 calc(10% + 400px);
     font-size: 1rem;
     position: relative;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .badges {
+      font-size: 0.4em;
+      margin-left: 2rem;
+      display: flex;
+      text-transform: capitalize;
+      gap: 4px;
+
+      .badge {
+        border: 1px solid rgba(255, 255, 255, 0.614);
+        border-radius: 4px;
+        background-color: rgb(98, 98, 98);
+        padding: 6px;
+      }
+    }
   }
 
   .slider-container {

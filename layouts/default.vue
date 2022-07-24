@@ -7,7 +7,9 @@
   >
     <div class="cursor" ref="cursor"></div>
 
-    <preview v-if="$store.state.previewProps" />
+    <transition name="fade">
+      <preview v-if="$store.state.previewProps" />
+    </transition>
     <nuxt />
   </div>
 </template>
@@ -117,5 +119,13 @@ export default Vue.extend({
     opacity: 0.9;
     z-index: 0;
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

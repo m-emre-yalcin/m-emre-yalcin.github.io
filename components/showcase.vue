@@ -12,8 +12,16 @@
     >
       <header>
         <div class="text">
-          <h3>{{ item.title }}</h3>
-          <h4>{{ item.date }}</h4>
+          <div>
+            <h3>{{ item.title }}</h3>
+            <h4>{{ item.date }}</h4>
+          </div>
+
+          <div class="badges">
+            <span v-for="role in item.roles" :key="role" class="badge">
+              {{ role }}
+            </span>
+          </div>
         </div>
         <div class="btn-fullscreen">
           <icn-fullscreen />
@@ -64,6 +72,8 @@ export default {
           id: 2,
           title: 'Estefulya - Business website',
           date: 'September 2021',
+          description: `Business site of a hair transplant center.`,
+          roles: ['back-end', 'front-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-estefulya-0.png',
             'sc-estefulya-1.png',
@@ -79,6 +89,8 @@ export default {
           id: 5,
           title: 'Malta Blog Project - CMS',
           date: 'August 2021',
+          description: `A CMS that can do similar tasks to Wordpress, with its own usability features. It is linked to a blog site. The site is rendered with SSR and can have many SEO features including AMP.`,
+          roles: ['back-end', 'front-end'],
           images: [
             'sc-malta-2.png',
             'sc-malta-3.png',
@@ -93,6 +105,9 @@ export default {
           id: 6,
           title: 'Bonapply - Web app',
           date: 'September 2020',
+          description: `Companies using this application can share surveys with users and evaluate incoming data. Limited memberships may be opened to some users, and these individuals may be assigned to some evaluations as a jury.
+I developed the interface design and wrote the entire interface from scratch in Vue without using a component library, used Strapi in the back-end, provided real-time evaluations with Socket.io.`,
+          roles: ['back-end', 'front-end', 'UI Design'],
           images: [
             'sc-bonapply-1.png',
             'sc-bonapply-2.png',
@@ -127,6 +142,8 @@ export default {
           id: 7,
           title: 'Bonproject - Web app',
           date: 'December 2020',
+          description: `A simple project management application. Real-time collaboration is possible. It was an app like a simplified version of Asana.`,
+          roles: ['back-end', 'front-end'],
           images: [
             'sc-bonproject-4.png',
             'sc-bonproject-2.png',
@@ -142,6 +159,8 @@ export default {
           id: 8,
           title: 'Şeffy - Mobile app',
           date: 'January 2021',
+          description: `A mobile application where learning recipes is gamified.`,
+          roles: ['back-end', 'front-end'],
           images: [
             'sc-seffy-1.png',
             'sc-seffy-2.png',
@@ -156,6 +175,8 @@ export default {
           id: 3,
           title: 'Economy dictionary - Mobile app',
           date: 'February 2021',
+          description: `Mobile application of a dictionary containing thousands of economic terms.`,
+          roles: ['back-end', 'front-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-ekonomi-0.png',
             'sc-ekonomi-1.webp',
@@ -169,6 +190,8 @@ export default {
           id: 4,
           title: 'Carbon Calculator - Web app',
           date: 'April 2021',
+          description: `An application that calculates how much carbon a building will emit to the atmosphere.`,
+          roles: ['front-end', 'UI Design'],
           images: [
             'sc-calculator-1.png',
             'sc-calculator-2.png',
@@ -179,6 +202,8 @@ export default {
           id: 9,
           title: 'BSM - Web page',
           date: 'August 2019',
+          description: `I designed and developed the company's website, wrote the content as much as I could and put it into production.`,
+          roles: ['front-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-bsmweb-1.png',
             'sc-bsmweb-7.png',
@@ -193,6 +218,8 @@ export default {
           id: 10,
           title: 'BSM Admin panel - Web app',
           date: 'October 2019',
+          description: `I developed an admin panel for the company. The panel performed important tasks for the company, such as sending offers and converting approved offers into invoices.`,
+          roles: ['front-end', 'back-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-bsm-1.png',
             'sc-bsm-2.png',
@@ -206,6 +233,8 @@ export default {
           id: 1,
           title: 'Lorinto - Social blog web app',
           date: 'May 2022',
+          description: `It's my personal project. I took a break because I'm still developing my idea. I just want it to be a social blog platform where important issues for the world are discussed.`,
+          roles: ['front-end', 'back-end', 'UI Design', 'dev-ops'],
           images: [
             'sc-lorinto-1.png',
             'sc-lorinto-2.png',
@@ -232,6 +261,7 @@ export default {
           id: 11,
           title: 'Mavi - Open source project',
           date: 'May 2022',
+          roles: ['back-end'],
           redirect: 'https://github.com/mavi-server/mavi#readme',
           images: ['mavi.png'],
         },
@@ -297,12 +327,31 @@ export default {
       padding: 0.5rem 0.5rem 0 0.5rem;
 
       .text {
+        display: flex;
+        align-items: flex-start;
+
         h3 {
           font-size: 1em;
         }
         h4 {
           font-size: 0.5em;
           opacity: 0.8;
+        }
+
+        .badges {
+          font-size: 0.4em;
+          margin-left: 1rem;
+          margin-top: 1px;
+          display: flex;
+          text-transform: capitalize;
+          gap: 4px;
+
+          .badge {
+            border: 1px solid rgba(255, 255, 255, 0.614);
+            border-radius: 4px;
+            background-color: rgb(0, 0, 0);
+            padding: 6px;
+          }
         }
       }
 
