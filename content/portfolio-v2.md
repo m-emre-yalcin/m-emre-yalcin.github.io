@@ -104,7 +104,7 @@ Developed more than **20 websites** for classmates' and other class students' vo
 
 - 2019 November - Present
 
-I want it to be a social blog platform where important issues of the world are discussed.
+Want it to be a social blog platform where essential issues of the world are discussed.
 
 ### [![mavi logo](https://raw.githubusercontent.com/mavi-server/mavi/main/public/mavi.svg) - Open-source Project](https://github.com/m-emre-yalcin/mavi)
 
