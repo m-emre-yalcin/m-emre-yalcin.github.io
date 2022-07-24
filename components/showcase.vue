@@ -89,7 +89,7 @@ export default {
           id: 5,
           title: 'Malta Blog Project - CMS',
           date: 'August 2021',
-          description: `A CMS that can do similar tasks to Wordpress, with its own usability features. It is linked to a blog site. The site is rendered with SSR and can have many SEO features including AMP.`,
+          description: `A CMS that can do similar tasks WordPress does, with its own usability features. It is linked to a blog site. The site is rendered with SSR and can have many SEO features including AMP.`,
           roles: ['back-end', 'front-end'],
           images: [
             'sc-malta-2.png',
@@ -106,7 +106,7 @@ export default {
           title: 'Bonapply - Web app',
           date: 'September 2020',
           description: `Companies using this application can share surveys with users and evaluate incoming data. Limited memberships may be opened to some users, and these individuals may be assigned to some evaluations as a jury.
-I developed the interface design and wrote the entire interface from scratch in Vue without using a component library, used Strapi in the back-end, provided real-time evaluations with Socket.io.`,
+I developed the interface design and wrote the entire interface from scratch in Vue without using a component library, used Strapi in the back-end, provided real-time evaluations for juries with Socket.io.`,
           roles: ['back-end', 'front-end', 'UI Design'],
           images: [
             'sc-bonapply-1.png',
@@ -142,7 +142,7 @@ I developed the interface design and wrote the entire interface from scratch in 
           id: 7,
           title: 'Bonproject - Web app',
           date: 'December 2020',
-          description: `A simple project management application. Real-time collaboration is possible. It was an app like a simplified version of Asana.`,
+          description: `A simple project management application. Real-time collaboration is possible. It is an app like a simplified version of Asana.`,
           roles: ['back-end', 'front-end'],
           images: [
             'sc-bonproject-4.png',
